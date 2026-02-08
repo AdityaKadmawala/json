@@ -1,0 +1,1662 @@
+{
+  "title": "LinkedIn Advertising API - Complete Documentation",
+  "source": "https://learn.microsoft.com/en-in/linkedin/marketing/?view=li-lms-2026-01",
+  "version": "li-lms-2026-01",
+  "lastUpdated": "2026-02-08",
+  "baseUrl": "https://api.linkedin.com/rest",
+  "authentication": {
+    "type": "OAuth 2.0",
+    "flows": ["Authorization Code Flow (3-legged)"],
+    "tokenHeader": "Authorization: Bearer {ACCESS_TOKEN}",
+    "requiredHeaders": {
+      "X-Restli-Protocol-Version": "2.0.0",
+      "Linkedin-Version": "{YYYYMM}",
+      "Content-Type": "application/json"
+    },
+    "scopes": {
+      "r_ads": "Read an authenticated member's ad accounts",
+      "rw_ads": "Read and manage an authenticated member's ad accounts",
+      "r_ads_reporting": "Retrieve reporting for advertising accounts",
+      "rw_dmp_segments": "Access and manage DMP Segments (Audiences program)",
+      "rw_conversions": "Create/retrieve conversion rules, stream conversion events",
+      "r_marketing_leadgen_automation": "Access forms and form responses (leads)",
+      "r_liteprofile": "Retrieve name and photo of authenticated user"
+    },
+    "adAccountRoles": [
+      "ACCOUNT_BILLING_ADMIN",
+      "ACCOUNT_MANAGER",
+      "CAMPAIGN_MANAGER",
+      "CREATIVE_MANAGER",
+      "VIEWER"
+    ]
+  },
+  "apis": {
+    "1_campaign_management": {
+      "title": "Campaign Management APIs",
+      "description": "Build and manage ad campaigns on LinkedIn including accounts, campaign groups, campaigns, and creatives.",
+      "requiredScope": "rw_ads",
+      "sections": {
+        "1_1_ad_accounts": {
+          "title": "Ad Accounts API",
+          "description": "Create and manage Ad Accounts for advertising campaigns. Maximum 5,000 campaigns and 15,000 creatives per account.",
+          "endpoints": {
+            "createAdAccount": {
+              "method": "POST",
+              "url": "/adAccounts",
+              "description": "Create a new ad account",
+              "requestBody": {
+                "currency": "USD",
+                "name": "Company ABC",
+                "notifiedOnCampaignOptimization": true,
+                "notifiedOnCreativeApproval": true,
+                "notifiedOnCreativeRejection": true,
+                "notifiedOnEndOfCampaign": true,
+                "reference": "urn:li:organization:101202303",
+                "type": "BUSINESS"
+              },
+              "response": {
+                "status": 201,
+                "headers": {
+                  "x-restli-id": "{adAccountId}"
+                }
+              }
+            },
+            "getAdAccount": {
+              "method": "GET",
+              "url": "/adAccounts/{adAccountID}",
+              "description": "Fetch a single ad account by ID",
+              "responseExample": {
+                "test": false,
+                "currency": "USD",
+                "id": 123456,
+                "name": "Company A",
+                "notifiedOnCampaignOptimization": true,
+                "notifiedOnCreativeApproval": true,
+                "notifiedOnCreativeRejection": true,
+                "notifiedOnEndOfCampaign": true,
+                "reference": "urn:li:organization:2414183",
+                "servingStatuses": ["RUNNABLE"],
+                "status": "ACTIVE",
+                "type": "BUSINESS",
+                "version": {
+                  "versionTag": "10"
+                }
+              }
+            },
+            "updateAdAccount": {
+              "method": "POST",
+              "url": "/adAccounts/{adAccountID}",
+              "description": "Partial update of an ad account",
+              "requestBody": {
+                "patch": {
+                  "$set": {
+                    "name": "New account name"
+                  }
+                }
+              },
+              "response": {
+                "status": 204
+              }
+            },
+            "deleteAdAccount": {
+              "method": "DELETE",
+              "url": "/adAccounts/{adAccountID}",
+              "description": "Delete a DRAFT ad account. For non-DRAFT, set status to PENDING_DELETION via partial update.",
+              "note": "Only billing admin can delete accounts"
+            },
+            "searchAdAccounts": {
+              "method": "GET",
+              "url": "/adAccounts?q=search&search=(...)",
+              "description": "Search for ad accounts with cursor-based pagination",
+              "searchParameters": {
+                "status": "ACTIVE, CANCELED, DRAFT, PENDING_DELETION, REMOVED",
+                "reference": "Organization or person URN",
+                "name": "Account name",
+                "id": "Account ID",
+                "type": "BUSINESS, ENTERPRISE",
+                "test": "true/false",
+                "pageSize": "1-1000 (default: 100)",
+                "pageToken": "Cursor for pagination"
+              },
+              "responseExample": {
+                "elements": [
+                  {
+                    "id": 507404993,
+                    "name": "Dunder Mifflin Account",
+                    "currency": "USD",
+                    "status": "ACTIVE",
+                    "type": "BUSINESS",
+                    "servingStatuses": ["BILLING_HOLD"],
+                    "reference": "urn:li:organization:2414183"
+                  }
+                ],
+                "metadata": {
+                  "nextPageToken": "DgGerr1iVQreCJVjZDOW_grcp63nueBDipsS4DJpvJo"
+                }
+              }
+            },
+            "batchCreateAdAccounts": {
+              "method": "POST",
+              "url": "/adAccounts",
+              "headers": {
+                "X-RestLi-Method": "BATCH_CREATE"
+              },
+              "description": "Create multiple ad accounts in a single request"
+            }
+          },
+          "schema": {
+            "id": {"type": "Long", "readOnly": true, "description": "Unique internal ID"},
+            "name": {"type": "String", "required": true, "description": "Account label"},
+            "currency": {"type": "String", "description": "3-char ISO currency code (default: USD)"},
+            "type": {"type": "String", "required": true, "enum": ["BUSINESS", "ENTERPRISE"]},
+            "status": {"type": "String", "enum": ["ACTIVE", "DRAFT", "CANCELED", "PENDING_DELETION", "REMOVED"], "default": "ACTIVE"},
+            "reference": {"type": "URN", "description": "urn:li:person:{id} or urn:li:organization:{id}"},
+            "test": {"type": "Boolean", "immutable": true, "default": false},
+            "servingStatuses": {"type": "String[]", "readOnly": true, "enum": ["RUNNABLE", "STOPPED", "BILLING_HOLD", "ACCOUNT_TOTAL_BUDGET_HOLD", "ACCOUNT_END_DATE_HOLD", "RESTRICTED_HOLD", "INTERNAL_HOLD"]},
+            "notifiedOnCampaignOptimization": {"type": "Boolean", "default": false},
+            "notifiedOnCreativeApproval": {"type": "Boolean", "default": false},
+            "notifiedOnCreativeRejection": {"type": "Boolean", "default": false},
+            "notifiedOnEndOfCampaign": {"type": "Boolean", "default": false}
+          },
+          "testAccounts": {
+            "description": "Test Ad Accounts for development without serving real ads",
+            "constraints": [
+              "Only BUSINESS type (not ENTERPRISE)",
+              "Maximum 1 test account per developer application",
+              "Cannot convert existing account to test",
+              "Child objects inherit test flag",
+              "No audience segment upload support",
+              "No reporting data from /adAnalytics"
+            ],
+            "createExample": {
+              "currency": "USD",
+              "name": "NAME_OF_T_ACCOUNT",
+              "reference": "urn:li:organization:2414183",
+              "type": "BUSINESS",
+              "test": true
+            }
+          }
+        },
+        "1_2_campaign_groups": {
+          "title": "Campaign Groups API",
+          "description": "Manage status, budget, and performance across multiple related campaigns. A default campaign group is auto-created with each Ad Account.",
+          "constraints": {
+            "maxCampaignGroupsPerAccount": "No limit",
+            "maxCampaignsPerAccount": 5000,
+            "maxCampaignsPerNonDefaultGroup": 2000
+          },
+          "endpoints": {
+            "createCampaignGroup": {
+              "method": "POST",
+              "url": "/adAccounts/{adAccountId}/adCampaignGroups",
+              "requestExample": {
+                "account": "urn:li:sponsoredAccount:512352200",
+                "name": "CampaignGroup1",
+                "runSchedule": {
+                  "start": 1234567890987,
+                  "end": 9876543210123
+                },
+                "status": "ACTIVE",
+                "totalBudget": {
+                  "amount": "60000.00",
+                  "currencyCode": "USD"
+                }
+              }
+            },
+            "getCampaignGroup": {
+              "method": "GET",
+              "url": "/adAccounts/{adAccountId}/adCampaignGroups/{adCampaignGroupsId}"
+            },
+            "searchCampaignGroups": {
+              "method": "GET",
+              "url": "/adAccounts/{adAccountId}/adCampaignGroups?q=search",
+              "searchParameters": {
+                "search.id.values": "Campaign group ID URN",
+                "search.status.values": "ACTIVE, ARCHIVED, CANCELED, DRAFT, PAUSED, PENDING_DELETION, REMOVED",
+                "search.name.values": "Campaign group name",
+                "search.test": "true/false",
+                "sortOrder": "ASCENDING (default) or DESCENDING",
+                "pageSize": "Default 100, max 1000",
+                "pageToken": "Cursor for pagination"
+              }
+            },
+            "updateCampaignGroup": {
+              "method": "POST",
+              "url": "/adAccounts/{adAccountId}/adCampaignGroups/{adCampaignGroupId}",
+              "headers": {"X-RestLi-Method": "PARTIAL_UPDATE"}
+            },
+            "deleteCampaignGroup": {
+              "method": "DELETE",
+              "url": "/adAccounts/{adAccountId}/adCampaignGroups/{adCampaignGroupId}",
+              "note": "Only DRAFT groups can be hard deleted. Others: set status to PENDING_DELETION."
+            },
+            "batchCreateCampaignGroups": {
+              "method": "POST",
+              "url": "/adAccounts/{adAccountId}/adCampaignGroups",
+              "headers": {"X-RestLi-Method": "BATCH_CREATE"},
+              "note": "Not supported for ENTERPRISE accounts"
+            },
+            "batchGetCampaignGroups": {
+              "method": "GET",
+              "url": "/adAccounts/{adAccountId}/adCampaignGroups?ids=List(...)"
+            },
+            "batchUpdateCampaignGroups": {
+              "method": "POST",
+              "url": "/adAccounts/{adAccountId}/adCampaignGroups?ids=List(...)",
+              "headers": {"X-RestLi-Method": "BATCH_PARTIAL_UPDATE"}
+            }
+          },
+          "schema": {
+            "account": {"type": "SponsoredAccountUrn", "immutable": true},
+            "id": {"type": "Long", "readOnly": true},
+            "name": {"type": "String", "maxLength": 100, "mutable": true},
+            "status": {"type": "String", "enum": ["ACTIVE", "ARCHIVED", "CANCELLED", "DRAFT", "PAUSED", "PENDING_DELETION", "REMOVED"], "mutable": true},
+            "runSchedule.start": {"type": "Long", "description": "Inclusive start date timestamp"},
+            "runSchedule.end": {"type": "Long", "description": "Exclusive end date timestamp (optional)"},
+            "totalBudget.amount": {"type": "BigDecimal"},
+            "totalBudget.currencyCode": {"type": "String"},
+            "servingStatuses": {"type": "String[]", "readOnly": true},
+            "backfilled": {"type": "Boolean", "readOnly": true},
+            "test": {"type": "Boolean", "immutable": true},
+            "objectiveType": {"type": "String", "immutable": true, "enum": ["BRAND_AWARENESS", "ENGAGEMENT", "JOB_APPLICANTS", "LEAD_GENERATION", "WEBSITE_CONVERSIONS", "WEBSITE_VISITS", "VIDEO_VIEWS"]},
+            "budgetOptimization.bidStrategy": {"type": "String", "enum": ["MAXIMUM_DELIVERY", "MANUAL", "COST_CAP"]},
+            "dailyBudget": {"type": "BigDecimal", "note": "Only with DYNAMIC budgetOptimizationStrategy, v202504+"}
+          }
+        },
+        "1_3_campaigns": {
+          "title": "Campaigns API",
+          "description": "Create and manage advertising campaigns that define ad schedule, budget, targeting, and creative delivery.",
+          "constraints": {
+            "maxCampaignsPerAccount": 5000,
+            "maxActiveCampaigns": 1000,
+            "maxCreativesPerCampaign": "15 active, 85 inactive"
+          },
+          "campaignTypes": {
+            "TEXT_AD": "Text-based ads in right column or page top",
+            "SPONSORED_UPDATES": "Native ads in LinkedIn feed (Carousel, Video, Lead Gen)",
+            "SPONSORED_INMAILS": "Personalized inbox messages with CTA button",
+            "DYNAMIC": "Personalized ads using member profile data (Follower, Spotlight, Jobs)",
+            "EVENT_AD": "Sponsored Content promoting LinkedIn events (v202501+)"
+          },
+          "objectiveTypes": {
+            "BRAND_AWARENESS": {
+              "allowedFormats": ["STANDARD_UPDATE", "CAROUSEL", "SINGLE_VIDEO", "TEXT", "SPOTLIGHT", "FOLLOW_COMPANY", "SPONSORED_MESSAGE"],
+              "frequencyCapSupported": true
+            },
+            "VIDEO_VIEWS": {
+              "allowedFormats": ["SINGLE_VIDEO"],
+              "costType": "CPV"
+            },
+            "LEAD_GENERATION": {
+              "allowedFormats": ["STANDARD_UPDATE", "SINGLE_VIDEO", "CAROUSEL", "SPONSORED_INMAIL", "SPONSORED_MESSAGE"],
+              "linkedInAudienceNetwork": "Disallowed"
+            },
+            "WEBSITE_CONVERSIONS": {
+              "allowedFormats": ["STANDARD_UPDATE", "SINGLE_VIDEO", "CAROUSEL", "TEXT", "SPOTLIGHT", "SPONSORED_INMAIL", "SPONSORED_MESSAGE"],
+              "conversionTracking": "REQUIRED"
+            },
+            "WEBSITE_VISITS": {
+              "allowedFormats": "Most formats"
+            },
+            "ENGAGEMENT": {
+              "allowedFormats": ["STANDARD_UPDATE", "CAROUSEL", "SINGLE_VIDEO", "FOLLOW_COMPANY", "SPONSORED_MESSAGE"]
+            },
+            "JOB_APPLICANTS": {
+              "allowedFormats": ["STANDARD_UPDATE", "SPOTLIGHT", "JOBS"]
+            }
+          },
+          "endpoints": {
+            "createCampaign": {
+              "method": "POST",
+              "url": "/adAccounts/{adAccountId}/adCampaigns",
+              "requestExample": {
+                "account": "urn:li:sponsoredAccount:518121035",
+                "campaignGroup": "urn:li:sponsoredCampaignGroup:635137195",
+                "name": "Campaign Sponsored update B",
+                "type": "SPONSORED_UPDATES",
+                "costType": "CPC",
+                "status": "ACTIVE",
+                "locale": {"country": "US", "language": "en"},
+                "dailyBudget": {"amount": "18", "currencyCode": "USD"},
+                "unitCost": {"amount": "15", "currencyCode": "USD"},
+                "targetingCriteria": {
+                  "include": {
+                    "and": [
+                      {
+                        "or": {
+                          "urn:li:adTargetingFacet:locations": ["urn:li:geo:103644278"]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "runSchedule": {"start": 1234567890987, "end": 9876543210123}
+              },
+              "response": {"status": 201}
+            },
+            "getCampaign": {
+              "method": "GET",
+              "url": "/adAccounts/{adAccountId}/adCampaigns/{campaignID}"
+            },
+            "searchCampaigns": {
+              "method": "GET",
+              "url": "/adAccounts/{adAccountId}/adCampaigns?q=search&search=(...)",
+              "searchParameters": {
+                "search.campaignGroup.values": "List of campaign group URNs",
+                "search.associatedEntity.values": "Associated entity URN",
+                "search.id.values": "Campaign URN list",
+                "search.status.values": "ACTIVE, PAUSED, ARCHIVED, COMPLETED, CANCELED, DRAFT, PENDING_DELETION, REMOVED",
+                "search.type.values": "TEXT_AD, SPONSORED_UPDATES, SPONSORED_INMAILS, DYNAMIC",
+                "search.name.values": "Campaign name",
+                "search.test": "true/false",
+                "sortOrder": "ASCENDING or DESCENDING",
+                "pageSize": "1-1000 (default: 100)",
+                "pageToken": "Cursor for pagination"
+              }
+            },
+            "updateCampaign": {
+              "method": "POST",
+              "url": "/adAccounts/{adAccountId}/adCampaigns/{campaignID}",
+              "headers": {"X-RestLi-Method": "PARTIAL_UPDATE"}
+            },
+            "archiveCampaign": {
+              "method": "POST",
+              "url": "/adAccounts/{adAccountId}/adCampaigns/{campaignID}",
+              "requestBody": {
+                "patch": {"$set": {"status": "ARCHIVED"}}
+              }
+            }
+          },
+          "biddingStrategies": {
+            "manual": {
+              "optimizationTargetType": "NONE",
+              "costType": "CPC or CPM",
+              "unitCostRequired": true
+            },
+            "autoBidding": {
+              "optimizationTargetType": "MAX_IMPRESSION | MAX_CLICK | MAX_CONVERSION | MAX_VIDEO_VIEW | MAX_LEAD | MAX_REACH",
+              "costType": "CPM",
+              "unitCost": "0"
+            },
+            "targetCost": {
+              "optimizationTargetType": "TARGET_COST_PER_CLICK | TARGET_COST_PER_IMPRESSION | TARGET_COST_PER_VIDEO_VIEW",
+              "costType": "CPC | CPM | CPV"
+            },
+            "costCap": {
+              "optimizationTargetType": "CAP_COST_AND_MAXIMIZE_CLICKS | CAP_COST_AND_MAXIMIZE_IMPRESSIONS | CAP_COST_AND_MAXIMIZE_VIDEO_VIEWS | CAP_COST_AND_MAXIMIZE_LEADS",
+              "costType": "CPM"
+            }
+          },
+          "statusValues": {
+            "ACTIVE": "Fully servable",
+            "PAUSED": "Meets requirements but temporarily stopped",
+            "ARCHIVED": "Inactive, hidden in UI until un-archived",
+            "COMPLETED": "Reached budgetary or chronological limit",
+            "CANCELED": "Permanently canceled",
+            "DRAFT": "Still being edited, not eligible to serve",
+            "PENDING_DELETION": "Requested for deletion",
+            "REMOVED": "Deleted but remains fetchable"
+          },
+          "servingStatuses": [
+            "RUNNABLE", "STOPPED", "ACCOUNT_TOTAL_BUDGET_HOLD", "ACCOUNT_END_DATE_HOLD",
+            "CAMPAIGN_START_DATE_HOLD", "CAMPAIGN_END_DATE_HOLD", "CAMPAIGN_TOTAL_BUDGET_HOLD",
+            "CAMPAIGN_AUDIENCE_COUNT_HOLD", "CAMPAIGN_GROUP_START_DATE_HOLD",
+            "CAMPAIGN_GROUP_END_DATE_HOLD", "CAMPAIGN_GROUP_TOTAL_BUDGET_HOLD",
+            "CAMPAIGN_GROUP_STATUS_HOLD", "ACCOUNT_SERVING_HOLD"
+          ]
+        },
+        "1_4_creatives": {
+          "title": "Ad Creatives API",
+          "description": "Create, manage, retrieve, update, and delete ad creatives. Supports multiple ad formats including text ads, sponsored content, message ads, dynamic ads, event ads, and video ads.",
+          "constraints": {
+            "maxCreativesPerAccount": 15000,
+            "maxCreativesPerCampaign": 100,
+            "videoLength": "3 seconds to 30 minutes",
+            "videoFileSize": "75KB to 500MB",
+            "videoFormat": "MP4"
+          },
+          "endpoints": {
+            "createCreative": {
+              "method": "POST",
+              "url": "/adAccounts/{adAccountId}/creatives",
+              "requestExample": {
+                "content": {"reference": "urn:li:share:6778045555198214144"},
+                "campaign": "urn:li:sponsoredCampaign:360035215",
+                "intendedStatus": "ACTIVE"
+              },
+              "response": {"status": 201, "headers": {"x-restli-id": "urn:li:sponsoredCreative:120491345"}}
+            },
+            "createInlineCreative": {
+              "method": "POST",
+              "url": "/adAccounts/{adAccountId}/creatives?action=createInline",
+              "description": "Create creative with inline content (e.g., Direct Sponsored Content)"
+            },
+            "getCreative": {
+              "method": "GET",
+              "url": "/adAccounts/{adAccountId}/creatives/{creativeUrn}"
+            },
+            "searchCreatives": {
+              "method": "GET",
+              "url": "/adAccounts/{adAccountId}/creatives?q=criteria",
+              "parameters": {
+                "campaigns": "Filter by campaign URNs",
+                "contentReferences": "Filter by content reference URNs",
+                "creatives": "Filter by creative URNs",
+                "intendedStatuses": "Filter by status",
+                "isTestAccount": "Filter by test account flag",
+                "sortOrder": "ASCENDING or DESCENDING",
+                "pageSize": "Default 100, max 100",
+                "pageToken": "Cursor for pagination"
+              }
+            },
+            "updateCreative": {
+              "method": "POST",
+              "url": "/adAccounts/{adAccountId}/creatives/{creativeId}",
+              "headers": {"X-RestLi-Method": "PARTIAL_UPDATE"},
+              "editableFields": ["intendedStatus", "leadgenCallToAction", "name", "content/eventAd/hidePreviewVideo"]
+            },
+            "deleteCreative": {
+              "method": "DELETE",
+              "url": "/adAccounts/{adAccountId}/creatives/{creativeId}",
+              "note": "Only DRAFT creatives can be hard deleted. Others: set intendedStatus to PENDING_DELETION."
+            },
+            "batchCreateCreatives": {
+              "method": "POST",
+              "url": "/adAccounts/{adAccountId}/creatives",
+              "headers": {"X-RestLi-Method": "BATCH_CREATE"}
+            },
+            "batchGetCreatives": {
+              "method": "GET",
+              "url": "/adAccounts/{adAccountId}/creatives?ids=List(...)",
+              "headers": {"X-RestLi-Method": "BATCH_GET"}
+            },
+            "batchUpdateCreatives": {
+              "method": "POST",
+              "url": "/adAccounts/{adAccountId}/creatives?ids=List(...)",
+              "headers": {"X-RestLi-Method": "BATCH_PARTIAL_UPDATE"}
+            },
+            "batchDeleteCreatives": {
+              "method": "DELETE",
+              "url": "/adAccounts/{adAccountId}/creatives?ids=List(...)"
+            }
+          },
+          "schema": {
+            "account": {"type": "SponsoredAccountUrn", "readOnly": true},
+            "campaign": {"type": "SponsoredCampaignUrn", "required": true},
+            "content": {"type": "Object", "description": "URN reference or inline content"},
+            "createdAt": {"type": "Timestamp", "readOnly": true},
+            "createdBy": {"type": "PersonUrn", "readOnly": true},
+            "id": {"type": "SponsoredCreativeUrn", "readOnly": true},
+            "intendedStatus": {"type": "String", "enum": ["ACTIVE", "PAUSED", "DRAFT", "ARCHIVED", "CANCELED", "PENDING_DELETION", "REMOVED"]},
+            "isServing": {"type": "Boolean", "readOnly": true},
+            "lastModifiedAt": {"type": "Timestamp", "readOnly": true},
+            "lastModifiedBy": {"type": "PersonUrn", "readOnly": true},
+            "leadgenCallToAction": {"type": "Object", "description": "Required for LEAD_GENERATION campaigns"},
+            "name": {"type": "String", "description": "Creative name for reference"},
+            "review": {"type": "Object", "readOnly": true, "description": "Review status: PENDING, APPROVED, REJECTED, NEEDS_REVIEW"},
+            "servingHoldReasons": {"type": "String[]", "readOnly": true}
+          },
+          "servingHoldReasons": [
+            "STOPPED", "UNDER_REVIEW", "REJECTED", "FORM_HOLD", "PROCESSING",
+            "PROCESSING_FAILED", "REFERRED_CONTENT_QUALITY_HOLD", "JOB_POSTING_ON_HOLD",
+            "JOB_POSTING_INVALID", "CAMPAIGN_STOPPED", "ACCOUNT_TOTAL_BUDGET_HOLD",
+            "ACCOUNT_END_DATE_HOLD", "CAMPAIGN_START_DATE_HOLD", "CAMPAIGN_END_DATE_HOLD",
+            "CAMPAIGN_TOTAL_BUDGET_HOLD", "CAMPAIGN_AUDIENCE_COUNT_HOLD",
+            "CAMPAIGN_GROUP_START_DATE_HOLD", "CAMPAIGN_GROUP_END_DATE_HOLD",
+            "CAMPAIGN_GROUP_TOTAL_BUDGET_HOLD", "CAMPAIGN_GROUP_STATUS_HOLD",
+            "ACCOUNT_SERVING_HOLD"
+          ],
+          "supportedAdFormats": [
+            "Text Ads",
+            "Sponsored Content (images, videos, carousels, articles, text)",
+            "Message Ads",
+            "Conversation Ads",
+            "Dynamic Ads (Spotlight, Follower, Jobs)",
+            "Event Ads",
+            "VAST Tag Video Ads"
+          ]
+        },
+        "1_5_account_access_controls": {
+          "title": "Account Access Controls API",
+          "description": "Assign roles and functions to users for campaign and creative data access.",
+          "endpoints": {
+            "grantUserAccess": {
+              "method": "PUT",
+              "url": "/adAccountUsers/(account=urn:li:sponsoredAccount:{accountId},user=urn:li:person:{userId})",
+              "requestExample": {
+                "account": "urn:li:sponsoredAccount:12345",
+                "role": "VIEWER",
+                "user": "urn:li:person:56789"
+              }
+            },
+            "removeUserAccess": {
+              "method": "DELETE",
+              "url": "/adAccountUsers/(account=urn:li:sponsoredAccount:{accountId},user=urn:li:person:{userId})"
+            },
+            "fetchAllUsers": {
+              "method": "GET",
+              "url": "/adAccountUsers?accounts=urn:li:sponsoredAccount:{accountId}&q=accounts"
+            },
+            "fetchSpecificUser": {
+              "method": "GET",
+              "url": "/adAccountUsers/(account=urn:li:sponsoredAccount:{accountId},user=urn:li:person:{userId})"
+            },
+            "verifyVideoAdPermission": {
+              "method": "GET",
+              "url": "/organizationalEntityCreateShareAuthorizations/owner=urn:li:company:{companyId}&loggedInMember=urn:li:person:{userId}&agent=urn:li:sponsoredAccount:{accountId}"
+            }
+          },
+          "roles": {
+            "VIEWER": "View campaign data and reports only",
+            "CREATIVE_MANAGER": "View data/reports, create/edit ads",
+            "CAMPAIGN_MANAGER": "View data/reports, create/edit campaigns and ads",
+            "ACCOUNT_MANAGER": "View data/reports, create/edit campaigns and ads, manage user access",
+            "ACCOUNT_BILLING_ADMIN": "Full permissions including billing. Must be exactly one per account."
+          }
+        }
+      }
+    },
+    "2_ad_targeting": {
+      "title": "Ad Targeting APIs",
+      "description": "Control which audiences see ads using professional demographic targeting. Targeting is set at campaign level.",
+      "requiredScope": "No additional OAuth permissions needed (requires Marketing API Program approval)",
+      "sections": {
+        "2_1_targeting_facets_and_entities": {
+          "title": "Ad Targeting Facets & Entities",
+          "endpoints": {
+            "getTargetingFacets": {
+              "method": "GET",
+              "url": "/adTargetingFacets",
+              "description": "Get available targeting categories",
+              "responseExample": {
+                "elements": [
+                  {
+                    "facetName": "industries",
+                    "availableEntityFinders": ["AD_TARGETING_FACET", "TYPEAHEAD", "SIMILAR_ENTITIES"],
+                    "entityTypes": ["INDUSTRY"],
+                    "adTargetingFacetUrn": "urn:li:adTargetingFacet:industries"
+                  }
+                ]
+              }
+            },
+            "getEntitiesByFacet": {
+              "method": "GET",
+              "url": "/adTargetingEntities?q=adTargetingFacet&facet={facetURN}",
+              "description": "Get specific targeting values within a facet",
+              "parameters": {
+                "q": "adTargetingFacet (required)",
+                "facet": "adTargetingFacet URN (required)",
+                "locale.language": "ISO-639 code (default: en)",
+                "locale.country": "ISO-3166 code (default: US)",
+                "queryVersion": "QUERY_USES_URNS"
+              }
+            },
+            "getEntitiesByTypeahead": {
+              "method": "GET",
+              "url": "/adTargetingEntities?q=typeahead&facet={facetURN}&query={searchQuery}",
+              "description": "Search targeting entities by partial text match",
+              "parameters": {
+                "q": "typeahead (required)",
+                "facet": "adTargetingFacet URN (required)",
+                "query": "Partial text for matching (required)",
+                "entityType": "AGE, COMPANY, FIELD_OF_STUDY, INDUSTRY, SCHOOL, SKILL, TITLE, etc.",
+                "useCase": "CONNECTED_TELEVISION_ONLY_CAMPAIGN (API v202503+)"
+              }
+            },
+            "getSimilarEntities": {
+              "method": "GET",
+              "url": "/adTargetingEntities?q=similarEntities&facet={facetURN}&entities=List({URN1},{URN2})",
+              "description": "Find targeting entities similar to provided URNs",
+              "entityLimits": "100 per facet (200 for employers, geos)"
+            },
+            "getEntitiesByURNs": {
+              "method": "GET",
+              "url": "/adTargetingEntities?q=urns&urns=List({URN1},{URN2})",
+              "description": "Get metadata for specific entity URNs"
+            }
+          },
+          "availableFacets": {
+            "urn:li:adTargetingFacet:genders": {"finder": "adTargetingFacet"},
+            "urn:li:adTargetingFacet:ageRanges": {"finder": "adTargetingFacet"},
+            "urn:li:adTargetingFacet:locations": {"finder": "typeahead"},
+            "urn:li:adTargetingFacet:profileLocations": {"finder": "typeahead"},
+            "urn:li:adTargetingFacet:industries": {"finder": "typeahead"},
+            "urn:li:adTargetingFacet:jobFunctions": {"finder": "adTargetingFacet"},
+            "urn:li:adTargetingFacet:seniorities": {"finder": "adTargetingFacet"},
+            "urn:li:adTargetingFacet:titles": {"finder": "typeahead"},
+            "urn:li:adTargetingFacet:titlesPast": {"finder": "typeahead"},
+            "urn:li:adTargetingFacet:titlesAll": {"finder": "typeahead"},
+            "urn:li:adTargetingFacet:staffCountRanges": {"finder": "adTargetingFacet"},
+            "urn:li:adTargetingFacet:employers": {"finder": "typeahead"},
+            "urn:li:adTargetingFacet:employersPast": {"finder": "typeahead"},
+            "urn:li:adTargetingFacet:employersAll": {"finder": "typeahead"},
+            "urn:li:adTargetingFacet:skills": {"finder": "typeahead"},
+            "urn:li:adTargetingFacet:schools": {"finder": "typeahead"},
+            "urn:li:adTargetingFacet:degrees": {"finder": "typeahead"},
+            "urn:li:adTargetingFacet:fieldsOfStudy": {"finder": "typeahead"},
+            "urn:li:adTargetingFacet:groups": {"finder": "typeahead"},
+            "urn:li:adTargetingFacet:interfaceLocales": {"finder": "adTargetingFacet"},
+            "urn:li:adTargetingFacet:followedCompanies": {"finder": "typeahead"},
+            "urn:li:adTargetingFacet:yearsOfExperienceRanges": {"finder": "adTargetingFacet"},
+            "urn:li:adTargetingFacet:firstDegreeConnectionCompanies": {"finder": "typeahead"},
+            "urn:li:adTargetingFacet:audienceMatchingSegments": {"finder": "N/A"},
+            "urn:li:adTargetingFacet:dynamicSegments": {"finder": "N/A"},
+            "urn:li:adTargetingFacet:interests": {"finder": "typeahead"},
+            "urn:li:adTargetingFacet:memberBehaviors": {"finder": "adTargetingFacet"},
+            "urn:li:adTargetingFacet:companyCategory": {"finder": "adTargetingFacet"},
+            "urn:li:adTargetingFacet:growthRate": {"finder": "adTargetingFacet"},
+            "urn:li:adTargetingFacet:revenue": {"finder": "adTargetingFacet"}
+          }
+        },
+        "2_2_audience_counts": {
+          "title": "Audience Counts API",
+          "description": "Get the number of member accounts matching targeting criteria. Minimum 300 members required for campaigns.",
+          "endpoint": {
+            "method": "GET",
+            "url": "/audienceCounts?q=targetingCriteriaV2&targetingCriteria={criteria}",
+            "parameters": {
+              "q": "targetingCriteriaV2 (required)",
+              "targetingCriteria": "Boolean expression of targeting facets (required)"
+            },
+            "curlExample": "curl -X GET 'https://api.linkedin.com/rest/audienceCounts?q=targetingCriteriaV2&targetingCriteria=(include:(and:List((or:(urn%3Ali%3AadTargetingFacet%3Alocations:List(urn%3Ali%3Ageo%3A102221843))),(or:(urn%3Ali%3AadTargetingFacet%3Askills:List(urn%3Ali%3Askill%3A17))))))' -H 'X-Restli-Protocol-Version: 2.0.0' -H 'Authorization: Bearer {TOKEN}'",
+            "responseExample": {
+              "elements": [{"active": 0, "total": 25312600}],
+              "paging": {"count": 10, "links": [], "start": 0}
+            }
+          },
+          "responseFields": {
+            "active": "Active member count (more likely to visit LinkedIn)",
+            "total": "Total member count (0 if audience < 300 for privacy)"
+          }
+        },
+        "2_3_ad_budget_pricing": {
+          "title": "Ad Budget Pricing API",
+          "description": "Get pricing metrics (minimum, maximum, and suggested bids) based on targeting criteria.",
+          "endpoint": {
+            "method": "GET",
+            "url": "/adBudgetPricing?q=criteriaV2&account={URN}&bidType={type}&campaignType={type}&matchType={type}&targetingCriteria=(...)",
+            "parameters": {
+              "q": "criteriaV2 (required)",
+              "account": "Sponsored account URN (required)",
+              "campaignType": "TEXT_AD, SPONSORED_UPDATES, SPONSORED_INMAILS (required)",
+              "bidType": "CPM, CPC, CPV (required)",
+              "matchType": "EXACT, AUDIENCE_EXPANDED (required)",
+              "targetingCriteria": "Boolean expression (required)",
+              "optimizationTargetType": "NONE, MAX_IMPRESSION, MAX_CLICK, etc.",
+              "objectiveType": "VIDEO_VIEW, LEAD_GENERATION, BRAND_AWARENESS, etc.",
+              "currency": "ISO-4217 code (default: USD)",
+              "dailyBudget": "Daily budget for suggested bid calculation"
+            },
+            "responseExample": {
+              "elements": [{
+                "bidLimits": {"max": {"amount": "100.0", "currencyCode": "USD"}, "min": {"amount": "4.0", "currencyCode": "USD"}},
+                "dailyBudgetLimits": {"default": {"amount": "25.00", "currencyCode": "USD"}, "max": {"amount": "1000000.00", "currencyCode": "USD"}, "min": {"amount": "10.00", "currencyCode": "USD"}},
+                "suggestedBid": {"default": {"amount": "7.10", "currencyCode": "USD"}, "max": {"amount": "11.14", "currencyCode": "USD"}, "min": {"amount": "7.10", "currencyCode": "USD"}}
+              }]
+            }
+          }
+        },
+        "2_4_ad_supply_forecasts": {
+          "title": "Ad Supply Forecasts API",
+          "description": "Forecast impressions, spending, clicks and other metrics based on targeting criteria, campaign settings, and time periods.",
+          "endpoint": {
+            "method": "GET",
+            "url": "/adSupplyForecasts?q=criteriaV2&account={URN}&campaignType={type}&timeRange=(start:{ts},end:{ts})&targetingCriteria=(...)",
+            "requiredParameters": {
+              "q": "criteriaV2",
+              "account": "Sponsored account URN",
+              "campaignType": "SPONSORED_UPDATES, SPONSORED_INMAILS, DYNAMIC",
+              "timeRange.start": "Epoch milliseconds (must be future)",
+              "timeRange.end": "Epoch milliseconds (must be after start)",
+              "targetingCriteria": "Boolean targeting expression",
+              "dailyBudget_or_totalBudget": "At least one budget required"
+            },
+            "optionalParameters": {
+              "campaign": "Campaign URN for better forecasts",
+              "competingBid.bidType": "CPM, CPC, CPV",
+              "competingBid.bidPrice.amount": "Bid amount",
+              "competingBid.bidPrice.currencyCode": "ISO currency code",
+              "optimizationTarget": "Auto-bidding optimization type",
+              "enableAudienceNetwork": "Include LAN inventory (default: false)",
+              "enableAudienceExpansion": "Include Audience Expansion (default: false)",
+              "connectedTelevisionOnly": "CTV forecasting (v202408+)"
+            }
+          },
+          "metricTypes": [
+            "IMPRESSION", "CLICK", "VIDEO_VIEW", "SPENDING", "LEAD", "REACH",
+            "MAX_POTENTIAL_BUDGET", "SPONSORED_INMAIL_SEND", "CONVERSION",
+            "CLICK_PER_MILLION_IMPRESSIONS", "VIDEO_VIEW_PER_MILLION_IMPRESSIONS",
+            "COST_PER_MILLION_IMPRESSIONS", "COST_PER_MILLION_CLICKS",
+            "COST_PER_MILLION_VIEWS", "COST_PER_MILLION_LEADS",
+            "COST_PER_MILLION_REACHES", "COST_PER_MILLION_MESSAGE_SENDS"
+          ],
+          "responseExample": {
+            "elements": [{
+              "metricType": "IMPRESSION",
+              "granularity": "DAILY",
+              "timeSeries": [{
+                "timestamp": 1566259200000,
+                "value": 180,
+                "adForecastRange": {"lowEnd": 38, "highEnd": 210}
+              }]
+            }]
+          }
+        }
+      }
+    },
+    "3_reporting_and_analytics": {
+      "title": "Reporting and Analytics APIs",
+      "description": "Performance insights including clicks, impressions, ad spend, and professional demographic information at account, campaign, and creative levels.",
+      "requiredScope": "r_ads_reporting",
+      "sections": {
+        "3_1_ad_analytics": {
+          "title": "Ad Analytics API",
+          "description": "Core reporting API with three finder methods for different levels of analysis.",
+          "finders": {
+            "analytics": {
+              "description": "Single pivot grouping for performance data",
+              "method": "GET",
+              "url": "/adAnalytics?q=analytics&pivot={pivot}&timeGranularity={granularity}&dateRange=(start:(year:{y},month:{m},day:{d}))&{facet}=List({URN1})",
+              "parameters": {
+                "q": "analytics (required)",
+                "pivot.value": "ACCOUNT, CAMPAIGN, CREATIVE, MEMBER_JOB_TITLE, MEMBER_SENIORITY, MEMBER_INDUSTRY, MEMBER_COMPANY, MEMBER_COMPANY_SIZE, MEMBER_JOB_FUNCTION, MEMBER_COUNTRY_V2, MEMBER_REGION_V2, SERVING_LOCATION, CARD_INDEX, IMPRESSION_DEVICE_TYPE, etc.",
+                "dateRange.start": "Inclusive start date (required)",
+                "dateRange.end": "Inclusive end date (optional, defaults to today)",
+                "timeGranularity.value": "ALL, DAILY, MONTHLY, YEARLY (required)",
+                "accounts": "Account URN array",
+                "campaigns": "Campaign URN array",
+                "campaignGroups": "Campaign Group URN array",
+                "fields": "Comma-separated metrics, up to 20 (required)"
+              }
+            },
+            "statistics": {
+              "description": "Supports up to 3 pivots for multi-dimensional analysis",
+              "method": "GET",
+              "url": "/adAnalytics?q=statistics&pivots=List({pivot1},{pivot2},{pivot3})&timeGranularity={granularity}&dateRange=(...)"
+            },
+            "attributedRevenueMetrics": {
+              "description": "Revenue attribution data from CRM integrations",
+              "method": "GET",
+              "url": "/adAnalytics?q=attributedRevenueMetrics&pivots=List({pivot})&account={URN}&dateRange=(...)",
+              "prerequisites": ["Business Manager account", "Connected CRM (Salesforce, Dynamics 365, or HubSpot)", "72-hour initial sync period"],
+              "constraints": {
+                "supportedPivots": ["ACCOUNT", "CAMPAIGN_GROUP", "CAMPAIGN"],
+                "dateRange": "30-366 days within last 1 year"
+              }
+            }
+          },
+          "metrics": {
+            "performance": {
+              "impressions": "Ad impressions (sends for Sponsored Messaging)",
+              "clicks": "Chargeable clicks",
+              "landingPageClicks": "Clicks to landing page",
+              "costInUsd": "Cost in USD",
+              "costInLocalCurrency": "Cost in local currency",
+              "costPerQualifiedLead": "Cost per qualified lead"
+            },
+            "engagement": {
+              "likes": "Content likes",
+              "comments": "Comment count",
+              "commentLikes": "Likes on comments",
+              "shares": "Share count",
+              "follows": "Follow count",
+              "reactions": "Positive reactions",
+              "totalEngagements": "All user interactions"
+            },
+            "conversion": {
+              "externalWebsiteConversions": "Total conversions",
+              "externalWebsitePostClickConversions": "Post-click conversions",
+              "externalWebsitePostViewConversions": "Post-view conversions",
+              "conversionValueInLocalCurrency": "Conversion value"
+            },
+            "video": {
+              "videoStarts": "Video play starts",
+              "videoViews": "2+ second views at 50% in-view",
+              "videoFirstQuartileCompletions": "25% watch",
+              "videoMidpointCompletions": "50% watch",
+              "videoThirdQuartileCompletions": "75% watch",
+              "videoCompletions": "97-100% watch",
+              "videoWatchTime": "Total watch time (ms)",
+              "averageVideoWatchTime": "Average watch time (ms)"
+            },
+            "leadGeneration": {
+              "oneClickLeads": "One Click Lead Gen leads",
+              "oneClickLeadFormOpens": "Lead form opens",
+              "qualifiedLeads": "Qualified leads count",
+              "validWorkEmailLeads": "Leads with valid work emails"
+            },
+            "messaging": {
+              "opens": "Message opens",
+              "sends": "Message sends",
+              "actionClicks": "Action button clicks",
+              "adUnitClicks": "Ad unit clicks",
+              "textUrlClicks": "Text link clicks"
+            },
+            "viral": {
+              "viralImpressions": "User-shared impressions",
+              "viralClicks": "Clicks from viral impressions",
+              "viralLikes": "Likes on viral content",
+              "viralComments": "Comments on viral content",
+              "viralShares": "Shares of viral content"
+            },
+            "reachAndFrequency": {
+              "approximateMemberReach": "Unique members (≤92 days only)",
+              "audiencePenetration": "Reach / target audience size"
+            },
+            "revenueAttribution": {
+              "revenueWonInUsd": "CRM revenue attributed to LinkedIn ads",
+              "returnOnAdSpend": "Revenue / Cost ratio",
+              "closedWonOpportunities": "Closed-won deals count",
+              "opportunityAmountInUsd": "Open opportunities value",
+              "openOpportunities": "In-progress deals count",
+              "opportunityWinRate": "Closed-won / total closed rate",
+              "averageDealSizeInUsd": "Average closed deal value",
+              "averageDaysToClose": "Average sales cycle length"
+            }
+          },
+          "dataRetention": {
+            "performance": "10 years",
+            "professionalDemographics": "2 years",
+            "dailyData": "6 months"
+          },
+          "limitations": {
+            "noPagination": "Response limited to 15,000 elements",
+            "demographicTopValues": "Top 100 values per creative per day",
+            "minimumThreshold": "3 events required for demographic values",
+            "fieldProjections": "Request specific metrics to avoid throttling",
+            "dataLimit": "45 million metric values per 5-minute window"
+          }
+        },
+        "3_2_utm_tracking": {
+          "title": "UTM Tracking Parameters API",
+          "description": "Retroactively modify URLs in shares to include UTM parameters for tracking marketing success.",
+          "endpoint": {
+            "method": "POST",
+            "url": "/sharesUrl/{shareURN}",
+            "description": "Update share URL with UTM parameters"
+          }
+        },
+        "3_3_social_actions": {
+          "title": "Share & Social Action Insights",
+          "endpoints": {
+            "findShareByUrn": {
+              "method": "GET",
+              "url": "/shares/{share URN}"
+            },
+            "findComments": {
+              "method": "GET",
+              "url": "/socialActions/{share URN}/comments"
+            },
+            "findLikes": {
+              "method": "GET",
+              "url": "/socialActions/{share URN}/likes"
+            }
+          }
+        }
+      }
+    },
+    "4_matched_audiences": {
+      "title": "Matched Audiences APIs",
+      "description": "LinkedIn's centralized Data Management Platform (DMP) for identifying and reaching target audiences. Generates mappings between advertiser data and LinkedIn member profiles.",
+      "requiredScope": "rw_dmp_segments (requires separate LinkedIn approval)",
+      "accessNote": "Restricted to vetted, approved LinkedIn developers. Apply via interest form.",
+      "sections": {
+        "4_1_dmp_segments": {
+          "title": "DMP Segments API",
+          "description": "Staging entities that accept user information, map to LinkedIn profiles, and output Ad Segments.",
+          "endpoints": {
+            "createSegment": {
+              "method": "POST",
+              "url": "/dmpSegments",
+              "requestExample": {
+                "name": "DMP Segment 1",
+                "sourcePlatform": "DMP_PARTNER_PLATFORM",
+                "account": "urn:li:sponsoredAccount:516848833",
+                "type": "USER",
+                "destinations": [{"destination": "LINKEDIN"}]
+              },
+              "response": {"status": 201}
+            },
+            "getSegment": {
+              "method": "GET",
+              "url": "/dmpSegments/{segmentId}"
+            },
+            "getMultipleSegments": {
+              "method": "GET",
+              "url": "/dmpSegments?ids=List(id1,id2)"
+            },
+            "updateSegment": {
+              "method": "POST",
+              "url": "/dmpSegments/{segmentId}",
+              "editableFields": ["name", "description", "sourceSegmentId"]
+            },
+            "findByAccount": {
+              "method": "GET",
+              "url": "/dmpSegments?q=account&account={accountUrn}"
+            },
+            "deleteSegment": {
+              "method": "DELETE",
+              "url": "/dmpSegments/{segmentId}"
+            },
+            "batchDelete": {
+              "method": "DELETE",
+              "url": "/dmpSegments?ids=List(id1,id2)"
+            }
+          },
+          "schema": {
+            "id": {"type": "Long", "readOnly": true},
+            "name": {"type": "String", "required": true},
+            "account": {"type": "SponsoredAccountUrn", "required": true},
+            "type": {"type": "String", "required": true, "enum": ["USER", "COMPANY", "LIST_UPLOAD"]},
+            "sourcePlatform": {"type": "String", "required": true},
+            "destinations": {"type": "Array", "required": true},
+            "accessPolicy": {"type": "String", "default": "PRIVATE"},
+            "inputCount": {"type": "Long", "description": "Number of input entities pushed"}
+          },
+          "segmentStates": {
+            "valid": ["BUILDING", "UPDATING", "READY", "ARCHIVED"],
+            "invalid": ["EXPIRED", "FAILED", "ERROR"],
+            "transitions": [
+              "BUILDING → READY: Segment fully available",
+              "READY → UPDATING: New data added",
+              "UPDATING → READY: Updates complete",
+              "READY → ARCHIVED: Unused for 30 days",
+              "ARCHIVED → BUILDING: Updated or added to active campaign",
+              "ARCHIVED → EXPIRED: Unused for 90 days total",
+              "BUILDING → FAILED: Upload failure"
+            ]
+          }
+        },
+        "4_2_dmp_segment_users": {
+          "title": "DMP Segment Users API",
+          "description": "Add or remove users from a DMP Segment. Wait 5 seconds after creating a segment before adding users.",
+          "rateLimits": "600 requests per user per minute",
+          "endpoints": {
+            "addRemoveSingleUser": {
+              "method": "POST",
+              "url": "/dmpSegments/{dmpSegmentId}/users",
+              "requestExample": {
+                "action": "ADD",
+                "userIds": [
+                  {"idType": "SHA256_EMAIL", "idValue": "09d118a78b69261bc191d915ac70c496cf7a9e0502ba8c2d016f2f134ade"},
+                  {"idType": "GOOGLE_AID", "idValue": "cdda802e-fb9c-47ad-0794d394c912"}
+                ],
+                "firstName": "mike",
+                "lastName": "smith",
+                "title": "software engineer",
+                "company": "microsoft",
+                "country": "us"
+              }
+            },
+            "batchAddRemoveUsers": {
+              "method": "POST",
+              "url": "/dmpSegments/{dmpSegmentId}/users",
+              "headers": {"X-RestLi-Method": "BATCH_CREATE"},
+              "maxBatchSize": 5000
+            }
+          },
+          "supportedIdTypes": {
+            "SHA256_EMAIL": "HEX encoded, max 64 chars",
+            "SHA512_EMAIL": "HEX encoded, max 128 chars",
+            "GOOGLE_AID": "Plain text, max 32 chars, lowercase"
+          },
+          "validationRules": "Must provide at least one valid ID OR valid firstName AND lastName"
+        },
+        "4_3_dmp_segment_companies": {
+          "title": "DMP Segment Companies API",
+          "description": "Add or remove companies from a DMP Segment. Wait 5 seconds after creating a segment before adding companies.",
+          "rateLimits": "300 requests per user per minute",
+          "endpoints": {
+            "addRemoveSingleCompany": {
+              "method": "POST",
+              "url": "/dmpSegments/{segmentId}/companies",
+              "requestExample": {
+                "action": "ADD",
+                "companyName": "LinkedIn",
+                "companyWebsiteDomain": "linkedin.com",
+                "companyPageUrl": "www.linkedin.com/company/linkedin",
+                "stockSymbol": "MSFT",
+                "industries": ["information technology", "software"],
+                "city": "Seattle",
+                "state": "WA",
+                "country": "US"
+              }
+            },
+            "batchAddRemoveCompanies": {
+              "method": "POST",
+              "url": "/dmpSegments/{segmentId}/companies",
+              "headers": {"X-RestLi-Method": "BATCH_CREATE"},
+              "maxBatchSize": 5000
+            }
+          },
+          "requiredFields": "At least ONE of: companyName, organizationUrn, companyWebsiteDomain/companyEmailDomain, companyPageUrl"
+        },
+        "4_4_dmp_segment_destinations": {
+          "title": "DMP Segment Destinations API",
+          "description": "Add destinations (ad exchanges) to a DMP Segment.",
+          "endpoints": {
+            "createDestination": {
+              "method": "POST",
+              "url": "/dmpSegments/{segmentId}/destinations",
+              "requestExample": {"destination": "LINKEDIN"}
+            },
+            "getDestination": {
+              "method": "GET",
+              "url": "/dmpSegments/{segmentId}/destinations/{destination}"
+            },
+            "getAllDestinations": {
+              "method": "GET",
+              "url": "/dmpSegments/{segmentId}/destinations"
+            }
+          },
+          "responseFields": {
+            "status": "BUILDING, UPDATING, READY, FAILED, ARCHIVED, EXPIRED",
+            "destinationSegmentId": "URN format (urn:li:adSegment:XXXXX)",
+            "audienceSize": "Approximate output entities (when READY)",
+            "matchedCount": "Matched input entities from last 7 days (when READY)"
+          }
+        },
+        "4_5_dmp_list_uploads": {
+          "title": "DMP Segment List Uploads API",
+          "description": "Upload first-party data as CSV files to create targeting segments.",
+          "requiredScope": "rw_ads",
+          "workflow": {
+            "step1_createListFile": {
+              "description": "Create a CSV file with company or contact data",
+              "accountListHeaders": ["companyname", "companydomain", "companywebsite", "linkedincompanypageurl", "stocksymbol", "city", "state", "companycountry", "zipcode", "industry"],
+              "contactListHeaders": ["email (SHA256)", "googleaid", "googleuid", "firstname", "lastname", "employeecompany", "title", "country"],
+              "limits": {
+                "accountLists": {"min": "1,000 recommended", "max": "300,000 rows"},
+                "contactLists": {"min": "10,000 rows", "max": "300,000 rows"},
+                "minimumAudience": "300 matched members"
+              }
+            },
+            "step2_generateUploadUrl": {
+              "method": "POST",
+              "url": "/dmpSegments?action=generateUploadUrl",
+              "requestBody": {"owner": "urn:li:sponsoredAccount:506303764"}
+            },
+            "step3_uploadFile": {
+              "method": "POST",
+              "url": "{generated_upload_url}",
+              "contentType": "binary (CSV file)"
+            },
+            "step4_createSegment": {
+              "method": "POST",
+              "url": "/dmpSegments",
+              "requestExample": {
+                "account": "urn:li:sponsoredAccount:506303764",
+                "destinations": [{"destination": "LINKEDIN"}],
+                "name": "DMP segment for CSV uploads",
+                "sourcePlatform": "LIST_UPLOAD",
+                "type": "COMPANY_LIST_UPLOAD"
+              },
+              "note": "Wait 5 seconds before attaching lists"
+            },
+            "step5_attachList": {
+              "method": "POST",
+              "url": "/dmpSegments/{dmpSegmentId}/listUploads",
+              "requestBody": {"inputFile": "urn:li:media:/{mediaId}"},
+              "note": "Only one list upload per DMP segment"
+            },
+            "step6_monitorStatus": {
+              "method": "GET",
+              "url": "/dmpSegments/{dmpSegmentId}",
+              "processingTime": "Up to 48 hours"
+            }
+          }
+        },
+        "4_6_ad_segments": {
+          "title": "Ad Segments API",
+          "description": "Collections of entities (members or companies) for ad targeting, auto-created after DMP matching.",
+          "endpoints": {
+            "getAdSegment": {
+              "method": "GET",
+              "url": "/adSegments/{id}"
+            },
+            "updateAdSegment": {
+              "method": "POST",
+              "url": "/adSegments/{id}",
+              "headers": {"X-Restli-Method": "PARTIAL_UPDATE"},
+              "editableFields": ["name", "status"]
+            },
+            "findByAccount": {
+              "method": "GET",
+              "url": "/adSegments?q=accounts&accounts=List({accountURN})&start=0&count=5",
+              "optionalFilters": {
+                "statuses": "BUILDING, UPDATING, READY, FAILED, ARCHIVED, EXPIRED",
+                "types": "BULK, RETARGETING, MARKET_AUTOMATION"
+              }
+            }
+          },
+          "schema": {
+            "id": {"type": "Long", "readOnly": true},
+            "name": {"type": "String"},
+            "account": {"type": "SponsoredAccountUrn", "immutable": true},
+            "type": {"type": "String", "enum": ["BULK", "RETARGETING", "MARKET_AUTOMATION"]},
+            "status": {"type": "String", "enum": ["BUILDING", "UPDATING", "READY", "FAILED", "ARCHIVED", "EXPIRED"]},
+            "approximateMemberCount": {"type": "Long", "readOnly": true}
+          }
+        },
+        "4_7_website_retargeting": {
+          "title": "Website Visitors Retargeting API",
+          "description": "Retarget website visitors using the LinkedIn Insight Tag.",
+          "prerequisites": ["Deployed and live Insight Tag", "Working conversion tracking"],
+          "requiredScopes": ["rw_ads", "rw_dmp_segments"],
+          "workflow": {
+            "step1_createPageSet": {
+              "method": "POST",
+              "url": "/adPageSets",
+              "requestExample": {
+                "account": "urn:li:sponsoredAccount:$accountId",
+                "matchRules": [{"matchType": "EXACT", "matchValue": "foo.com"}],
+                "name": "TestPageSet"
+              }
+            },
+            "step2_createAdSegment": {
+              "description": "Create via adSegmentsV2 API"
+            },
+            "step3_updateSegmentSource": {
+              "method": "PUT",
+              "url": "/adSegmentSources/source=urn:li:adPageSet:{id}&segment=urn:li:adSegment:{id}",
+              "requestExample": {
+                "account": "urn:li:sponsoredAccount:511910281",
+                "segment": "urn:li:adSegment:10001",
+                "source": "urn:li:adPageSet:10001"
+              }
+            },
+            "step4_applyToCampaign": {
+              "description": "Update campaign targetingCriteria with dynamicSegments facet",
+              "targetingExample": {
+                "include": {
+                  "and": [
+                    {"or": {"urn:li:adTargetingFacet:dynamicSegments": ["urn:li:adSegment:208133"]}},
+                    {"or": {"urn:li:adTargetingFacet:locations": ["urn:li:geo:103644278"]}},
+                    {"or": {"urn:li:adTargetingFacet:interfaceLocales": ["urn:li:locale:en_US"]}}
+                  ]
+                }
+              }
+            },
+            "step5_deleteSegmentSource": {
+              "method": "DELETE",
+              "url": "/adSegmentSources/source=urn:li:adPageSet:{id}&segment=urn:li:adSegment:{id}"
+            }
+          }
+        },
+        "4_8_predictive_audiences": {
+          "title": "Predictive Audiences API",
+          "description": "Combine first/third-party data with LinkedIn's predictive AI to build high-intent audiences.",
+          "requiredScope": "rw_dmp_segments",
+          "note": "Geo filter must be present in targeting criteria",
+          "endpoints": {
+            "createPredictiveAudience": {
+              "method": "POST",
+              "url": "/dmpSegments/{dmpSegmentId}/businessObjectiveBasedAudiences",
+              "requestExample": {
+                "targetingFilter": {
+                  "include": {
+                    "and": [{"or": {"urn:li:adTargetingFacet:locations": ["urn:li:countryGroup:AS"]}}]
+                  },
+                  "exclude": {
+                    "or": {"urn:li:adTargetingFacet:skills": ["urn:li:skill:200"]}
+                  }
+                },
+                "desiredAudienceCount": 100,
+                "seeds": ["urn:li:dmpSegment:12345"]
+              }
+            },
+            "getPredictiveAudience": {
+              "method": "GET",
+              "url": "/dmpSegments/{dmpSegmentId}/businessObjectiveBasedAudiences/{predictiveAudienceId}"
+            },
+            "updatePredictiveAudience": {
+              "method": "POST",
+              "url": "/dmpSegments/{dmpSegmentId}/businessObjectiveBasedAudiences/{predictiveAudienceId}",
+              "headers": {"X-RestLi-Method": "partial_update"}
+            },
+            "deletePredictiveAudience": {
+              "method": "DELETE",
+              "url": "/dmpSegments/{dmpSegmentId}/businessObjectiveBasedAudiences/{predictiveAudienceId}"
+            }
+          },
+          "schema": {
+            "dmpSegmentId": {"type": "Long", "readOnly": true, "required": true},
+            "seeds": {"type": "Array[URN]", "required": true, "description": "Conversions, matched audience segments, or ad leadgen forms"},
+            "desiredAudienceCount": {"type": "Long", "description": "Target audience size"},
+            "recommendedAudienceCount": {"type": "Long", "readOnly": true},
+            "targetingFilter": {"type": "TargetingCriteria", "required": true},
+            "companyExpansionMultiplier": {"type": "Integer", "description": "For company-based seeds only"}
+          }
+        }
+      }
+    },
+    "5_audience_insights": {
+      "title": "Audience Insights APIs",
+      "description": "Discover, analyze, and understand target audiences using LinkedIn's professional data.",
+      "requiredScope": "r_ads (minimum)",
+      "accessNote": "Private API - requires special approval via application survey",
+      "endpoint": {
+        "method": "POST",
+        "url": "/targetingAudienceInsights?action=audienceInsights",
+        "requestExample": {
+          "request": {
+            "requestMetaData": {"sponsoredAccount": "urn:li:sponsoredAccount:123"},
+            "targetingCriteria": {
+              "include": {
+                "and": [
+                  {"or": {"urn:li:adTargetingFacet:locations": ["urn:li:geo:105080838"]}},
+                  {"or": {"urn:li:adTargetingFacet:interfaceLocales": ["urn:li:locale:en_US"]}},
+                  {"or": {"urn:li:adTargetingFacet:skills": ["urn:li:skill:236", "urn:li:skill:242"]}}
+                ]
+              }
+            },
+            "groupBy": "urn:li:adTargetingFacet:jobFunctions",
+            "maxReturnCount": 5
+          }
+        },
+        "responseExample": {
+          "value": {
+            "audienceInsight": {
+              "segmentations": [
+                {"entityCount": 96000, "entityPercentage": 23, "value": "urn:li:function:4"},
+                {"entityCount": 61000, "entityPercentage": 15, "value": "urn:li:function:20"}
+              ],
+              "groupedBy": "urn:li:adTargetingFacet:jobFunctions"
+            },
+            "totalAudienceCount": 420000
+          }
+        }
+      },
+      "supportedGroupByFacets": [
+        "urn:li:adTargetingFacet:jobFunctions",
+        "urn:li:adTargetingFacet:seniorities",
+        "urn:li:adTargetingFacet:titles",
+        "urn:li:adTargetingFacet:yearsOfExperienceRanges",
+        "urn:li:adTargetingFacet:interests",
+        "urn:li:adTargetingFacet:productInterests",
+        "urn:li:adTargetingFacet:skills",
+        "urn:li:adTargetingFacet:industries",
+        "urn:li:adTargetingFacet:staffCountRanges",
+        "urn:li:adTargetingFacet:growthRate",
+        "urn:li:adTargetingFacet:employers",
+        "urn:li:adTargetingFacet:bingContinent",
+        "urn:li:adTargetingFacet:bingCountry",
+        "urn:li:adTargetingFacet:bingCity",
+        "urn:li:adTargetingFacet:bingState"
+      ],
+      "requirements": {
+        "minimumAudienceSize": 300,
+        "maximumAudienceSize": "100M",
+        "targetingMustInclude": "geo or profileGeo + one additional targeting attribute",
+        "segmentMinimum": "Won't return if audience count < 30"
+      }
+    },
+    "6_media_planning": {
+      "title": "Media Planning APIs",
+      "description": "Forecast reach, impressions, and leads over budget for informed budget allocation before spending.",
+      "requiredScope": "r_ads (minimum)",
+      "accessNote": "Private API requiring qualified developer access",
+      "endpoint": {
+        "method": "POST",
+        "url": "/mediaPlanning?action={action}",
+        "actions": {
+          "forecastReaches": "Generate Reach/Reach Percentage curve",
+          "forecastImpressions": "Generate Impression/Average Lifetime Frequency curve",
+          "forecastLeads": "Generate Lead Generation curve"
+        }
+      },
+      "requestSchema": {
+        "sponsoredAccountUrn": {"type": "URN", "required": true},
+        "targetingCriteria": {"type": "Object", "required": true},
+        "objectiveType": {"type": "String", "required": true, "enum": ["BRAND_AWARENESS", "VIDEO_VIEW", "LEAD_GENERATION"]},
+        "optimizationType": {"type": "String", "enum": ["MAX_REACH", "MAX_IMPRESSION", "MAX_VIDEO_VIEW", "MAX_LEAD"]},
+        "currencyCode": {"type": "String", "default": "USD"},
+        "startDate": {"type": "Date", "default": "Today (UTC)"},
+        "endDate": {"type": "Date", "default": "90 days from today"},
+        "targetBudgetMicros": {"type": "Long", "description": "$1 USD = 1,000,000 micros"},
+        "enableAudienceNetwork": {"type": "Boolean", "default": true},
+        "enableAudienceExpansion": {"type": "Boolean", "default": true},
+        "ctvOnly": {"type": "Boolean", "default": false}
+      },
+      "responseFields": {
+        "reachCurve": "Array of reach curve points",
+        "reachPercentageCurve": "Reach percentage (when enableAudienceExpansion=false)",
+        "impressionCurve": "Array of impression curve points",
+        "averageFrequency": "Single point value (with targetBudgetMicros)",
+        "leadCurve": "Array of lead generation curve points",
+        "costPerReach": "Cost per reach (v202502+)",
+        "costPerThousandImpressions": "CPM calculation (v202502+)",
+        "costPerLead": "Cost per lead (v202502+)"
+      },
+      "validation": {
+        "minimumBudget": "$100 USD",
+        "minimumAudience": "300 members",
+        "targetingMustInclude": "geo or profileGeo criteria",
+        "maxDateRange": "90 days",
+        "datesMustBeFuture": true
+      }
+    },
+    "7_conversions": {
+      "title": "Conversions APIs",
+      "description": "Server-to-server connection for conversion tracking and campaign optimization across online, offline, and custom touchpoints.",
+      "requiredScope": "rw_conversions",
+      "accessMethods": {
+        "directAccess": "Generate tokens from Campaign Manager (no developer app needed)",
+        "partnerAccess": "Apply via Developer Portal with OAuth"
+      },
+      "endpoints": {
+        "createConversionRule": {
+          "method": "POST",
+          "url": "/conversions?autoAssociationType=ALL_CAMPAIGNS",
+          "requestExample": {
+            "name": "Conversion API Segment 1",
+            "account": "urn:li:sponsoredAccount:5123456",
+            "conversionMethod": "CONVERSIONS_API",
+            "postClickAttributionWindowSize": 30,
+            "viewThroughAttributionWindowSize": 7,
+            "attributionType": "LAST_TOUCH_BY_CAMPAIGN",
+            "type": "LEAD"
+          },
+          "supportedConversionTypes": [
+            "ADD_TO_CART", "DOWNLOAD", "INSTALL", "KEY_PAGE_VIEW", "LEAD", "PURCHASE",
+            "SIGN_UP", "OTHER", "SAVE", "START_CHECKOUT", "SCHEDULE", "VIEW_CONTENT",
+            "VIEW_VIDEO", "ADD_BILLING_INFO", "BOOK_APPOINTMENT", "REQUEST_QUOTE",
+            "SEARCH", "SUBSCRIBE", "AD_CLICK", "AD_VIEW", "COMPLETE_SIGNUP",
+            "SUBMIT_APPLICATION", "PHONE_CALL", "INVITE", "LOGIN", "SHARE",
+            "DONATE", "ADD_TO_LIST", "START_TRIAL", "OUTBOUND_CLICK", "CONTACT",
+            "QUALIFIED_LEAD"
+          ]
+        },
+        "findConversionRules": {
+          "method": "GET",
+          "url": "/conversions?q=account&account={sponsoredAccountUrn}"
+        },
+        "associateCampaignToConversion": {
+          "method": "PUT",
+          "url": "/campaignConversions/(campaign:{campaignURN},conversion:{conversionURN})",
+          "requestExample": {
+            "campaign": "urn:li:sponsoredCampaign:337643194",
+            "conversion": "urn:lla:llaPartnerConversion:70203"
+          }
+        },
+        "batchAssociateCampaigns": {
+          "method": "PUT",
+          "url": "/campaignConversions?ids=List(...)",
+          "headers": {"X-RestLi-Method": "BATCH_UPDATE"}
+        },
+        "streamSingleConversionEvent": {
+          "method": "POST",
+          "url": "/conversionEvents",
+          "requestExample": {
+            "conversion": "urn:lla:llaPartnerConversion:123",
+            "conversionHappenedAt": 1590739275000,
+            "conversionValue": {"currencyCode": "USD", "amount": "50.0"},
+            "user": {
+              "userIds": [
+                {"idType": "SHA256_EMAIL", "idValue": "bad8677b6c86f5d308ee82786c183482a5995f066694246c58c4df37b0cc41f1"},
+                {"idType": "LINKEDIN_FIRST_PARTY_ADS_TRACKING_UUID", "idValue": "df5gf5-gh6t7-ph4j7h-fgf6n1"}
+              ],
+              "userInfo": {
+                "firstName": "mike",
+                "lastName": "smith",
+                "title": "software engineer",
+                "companyName": "microsoft",
+                "countryCode": "US"
+              }
+            },
+            "eventId": "abc12345"
+          }
+        },
+        "batchStreamConversionEvents": {
+          "method": "POST",
+          "url": "/conversionEvents",
+          "headers": {"X-RestLi-Method": "BATCH_CREATE"},
+          "maxBatchSize": 5000
+        }
+      },
+      "userIdTypes": {
+        "SHA256_EMAIL": "SHA256 hash of lowercase email without whitespace",
+        "LINKEDIN_FIRST_PARTY_ADS_TRACKING_UUID": "First-party cookie / Click ID",
+        "ACXIOM_ID": "LiveRamp identity",
+        "ORACLE_MOAT_ID": "Oracle MOAT identity"
+      },
+      "rateLimits": {
+        "perMinute": 600,
+        "perDay": 300000,
+        "recommendation": "Use batch requests to avoid throttling"
+      },
+      "validation": {
+        "timestampLimit": "Within past 90 days",
+        "userIdRequirement": "At least ONE valid user identifier required",
+        "userInfoRequirement": "If included, must contain both firstName AND lastName"
+      }
+    },
+    "8_lead_sync": {
+      "title": "Lead Sync APIs",
+      "description": "Automatically collect and sync leads from LinkedIn Lead Gen Forms to customer platforms.",
+      "requiredScope": "r_marketing_leadgen_automation",
+      "leadTypes": ["SPONSORED", "EVENT", "COMPANY", "ORGANIZATION_PRODUCT"],
+      "coreApis": {
+        "leadForms": "Get or find Lead Forms",
+        "leadFormResponses": "Fetch Lead Form responses",
+        "leadNotifications": "Create webhook subscriptions for Lead Form responses"
+      },
+      "endpoints": {
+        "getLeadFormsByOwner": {
+          "method": "GET",
+          "url": "/leadForms?q=owner&owner=(...)"
+        },
+        "getLeadForm": {
+          "method": "GET",
+          "url": "/leadForms/{formId}"
+        },
+        "createLeadForm": {
+          "method": "POST",
+          "url": "/leadForms",
+          "requestExample": {
+            "owner": {"sponsoredAccount": "urn:li:sponsoredAccount:507857085"},
+            "creationLocale": {"country": "US", "language": "en"},
+            "name": "LeadGen Form Creation Testing",
+            "state": "DRAFT",
+            "content": {
+              "headline": {"localized": {"en_US": "Contact us about Nimbus 2000"}},
+              "questions": [
+                {
+                  "question": {"localized": {"en_US": "First Name"}},
+                  "name": "firstName",
+                  "predefinedField": "FIRST_NAME",
+                  "questionDetails": {"textQuestionDetails": {}}
+                }
+              ],
+              "legalInfo": {
+                "consents": [],
+                "privacyPolicyUrl": "http://example.com/privacy"
+              }
+            }
+          }
+        },
+        "updateLeadForm": {
+          "method": "POST",
+          "url": "/leadForms/{formId}",
+          "headers": {"X-RestLi-Method": "PARTIAL_UPDATE"}
+        },
+        "getLeadFormResponses": {
+          "method": "GET",
+          "url": "/leadFormResponses?q=owner&owner=(...)",
+          "parameters": {
+            "owner": "SponsoredAccountUrn or OrganizationUrn (required)",
+            "leadType": "LeadType (required)",
+            "versionedLeadGenFormUrn": "Optional form filter",
+            "associatedEntity": "Optional entity filter",
+            "submittedAtTimeRange": "Optional time range filter",
+            "limitedToTestLeads": "Boolean (default: false)"
+          }
+        },
+        "createLeadNotification": {
+          "method": "POST",
+          "url": "/leadNotifications",
+          "requestExample": {
+            "webhook": "https://example.com/webhook",
+            "owner": {"sponsoredAccount": "urn:li:sponsoredAccount:520866471"},
+            "leadType": "SPONSORED"
+          }
+        },
+        "deleteLeadNotification": {
+          "method": "DELETE",
+          "url": "/leadNotifications/{subscriptionId}"
+        }
+      },
+      "predefinedFields": [
+        "FIRST_NAME", "LAST_NAME", "PHONE_NUMBER", "EMAIL", "CITY", "STATE",
+        "COUNTRY", "ZIP_CODE", "JOB_TITLE", "JOB_FUNCTION", "SENIORITY",
+        "COMPANY_NAME", "COMPANY_SIZE", "INDUSTRY", "DEGREE", "FIELD_OF_STUDY",
+        "SCHOOL", "START_DATE", "GRADUATION_DATE", "GENDER", "WORK_EMAIL",
+        "LINKEDIN_PROFILE_LINK", "WORK_PHONE_NUMBER"
+      ],
+      "formStates": {
+        "DRAFT": "Form still being edited",
+        "PUBLISHED": "Form approved and ready",
+        "ARCHIVED": "Form no longer in use"
+      },
+      "webhookPayload": {
+        "type": "LEAD_ACTION",
+        "leadGenFormResponse": "urn:li:leadGenFormResponse:1a2b3c-4",
+        "leadGenForm": "urn:li:versionedLeadGenForm:(urn:li:leadGenForm:1, 1)",
+        "leadAction": "CREATED | DELETED",
+        "occurredAt": 123456789
+      }
+    },
+    "9_company_intelligence": {
+      "title": "Company Intelligence API",
+      "description": "Company-level engagement data for all companies engaged through LinkedIn, including engagement score, impressions, clicks, and leads.",
+      "requiredScope": "r_ads_reporting",
+      "accessNote": "Private API requiring special access request",
+      "endpoint": {
+        "method": "GET",
+        "url": "/accountIntelligence?q=account&account={sponsoredAccountUrn}&filterCriteria=(...)",
+        "parameters": {
+          "q": "account (required)",
+          "account": "Sponsored Account URN (required)",
+          "filterCriteria.lookbackWindow": "LAST_90_DAYS, LAST_60_DAYS, LAST_30_DAYS, LAST_7_DAYS",
+          "filterCriteria.adSegments": "Array of Ad Segment URNs",
+          "filterCriteria.campaign": "Single campaign URN",
+          "skipCompanyDecoration": "Boolean (skip companyName fetch)",
+          "start": "Pagination start (default: 0)",
+          "count": "Page size, max 1000 (recommended: 500)"
+        },
+        "responseExample": {
+          "elements": [{
+            "companyPageUrl": "https://www.linkedin.com/company/microsoft",
+            "companyWebsite": "http://www.microsoft.com",
+            "paidClicks": 20,
+            "organicEngagements": 50,
+            "companyName": "Microsoft",
+            "paidLeads": 40,
+            "paidEngagements": 300,
+            "paidImpressions": 133,
+            "organicImpressions": 50,
+            "engagementLevel": "VERY_LOW"
+          }]
+        }
+      },
+      "responseFields": {
+        "companyName": "Target company name",
+        "companyPageUrl": "LinkedIn company page URL",
+        "companyWebsite": "Company website domain",
+        "engagementLevel": "LOW, VERY_LOW, MEDIUM, HIGH, VERY_HIGH",
+        "organicImpressions": "Page visits and feed impressions",
+        "organicEngagements": "Interactions with page/product posts",
+        "paidImpressions": "Sponsored ad impressions",
+        "paidClicks": "Sponsored ad clicks",
+        "paidEngagements": "Social actions + clicks (chargeable and free)",
+        "paidLeads": "Leads collected"
+      },
+      "limits": {
+        "maxResults": 100000,
+        "maxPageSize": 1000,
+        "recommendedPageSize": 500,
+        "sortOrder": "paidImpressions descending"
+      }
+    }
+  },
+  "commonPatterns": {
+    "pagination": {
+      "nonSearchAPIs": {
+        "parameters": ["start", "count"],
+        "maxCount": 1000
+      },
+      "searchAPIs": {
+        "type": "Cursor-based (v202401+)",
+        "parameters": ["pageSize", "pageToken"],
+        "maxPageSize": 1000,
+        "nextPageField": "metadata.nextPageToken"
+      }
+    },
+    "partialUpdate": {
+      "method": "POST",
+      "header": "X-RestLi-Method: PARTIAL_UPDATE",
+      "bodyFormat": {
+        "patch": {
+          "$set": {"field": "newValue"},
+          "$delete": ["fieldToRemove"]
+        }
+      }
+    },
+    "batchOperations": {
+      "batchCreate": {"header": "X-RestLi-Method: BATCH_CREATE", "bodyFormat": {"elements": []}},
+      "batchGet": {"header": "X-RestLi-Method: BATCH_GET", "urlFormat": "?ids=List(...)"},
+      "batchUpdate": {"header": "X-RestLi-Method: BATCH_PARTIAL_UPDATE"},
+      "batchDelete": {"urlFormat": "?ids=List(...)"}
+    },
+    "urnEncoding": {
+      "description": "URNs in query parameters must be URL encoded",
+      "example": "urn:li:skill:17 → urn%3Ali%3Askill%3A17"
+    },
+    "targetingCriteriaFormat": {
+      "include": {
+        "and": [
+          {"or": {"urn:li:adTargetingFacet:{facet}": ["value1", "value2"]}},
+          {"or": {"urn:li:adTargetingFacet:{facet2}": ["value3"]}}
+        ]
+      },
+      "exclude": {
+        "or": {"urn:li:adTargetingFacet:{facet3}": ["value4"]}
+      }
+    }
+  },
+  "rateLimits": {
+    "dmpSegmentUsers": "600 requests/user/minute",
+    "dmpSegmentCompanies": "300 requests/user/minute",
+    "conversionEvents": "600 requests/minute per token, 300,000/day",
+    "adAnalytics": "45 million metric values per 5-minute window",
+    "http429Response": {
+      "serviceErrorCode": 101,
+      "message": "Too Many Requests",
+      "status": 429
+    },
+    "retryStrategy": "Exponential backoff (start seconds, double each retry, max 5 minutes)"
+  },
+  "deprecationNotice": {
+    "version": "Marketing Version 202501 (January 2025)",
+    "status": "SUNSET",
+    "action": "Migrate to latest versioned APIs",
+    "migrationGuide": "https://learn.microsoft.com/en-in/linkedin/marketing/integrations/migrations?view=li-lms-2026-01",
+    "versioningDocs": "https://learn.microsoft.com/en-in/linkedin/marketing/versioning?view=li-lms-2026-01"
+  },
+  "developerResources": {
+    "developerPortal": "https://developer.linkedin.com/product-catalog/marketing",
+    "postmanCollections": {
+      "accountManagement": "https://www.postman.com/linkedin-developer-apis/linkedin-marketing-solutions-versioned-apis/folder/48oliw9/account-management",
+      "audienceCounts": "https://www.postman.com/linkedin-developer-apis/linkedin-marketing-solutions-versioned-apis/folder/e90003l/audience-counts",
+      "adsForecasting": "https://www.postman.com/linkedin-developer-apis/linkedin-marketing-solutions-versioned-apis/folder/a0ttyoi/ads-forecasting",
+      "adAnalytics": "https://www.postman.com/linkedin-developer-apis/linkedin-marketing-solutions-versioned-apis/folder/jtuxa8c/ad-analytics",
+      "audiences": "https://www.postman.com/linkedin-developer-apis/linkedin-marketing-solutions-versioned-apis/collection/6yc1z1m/audiences",
+      "audienceInsights": "https://www.postman.com/linkedin-developer-apis/linkedin-marketing-solutions-versioned-apis/collection/eitvsd9/audience-insights",
+      "conversions": "https://www.postman.com/linkedin-developer-apis/linkedin-marketing-solutions-versioned-apis/collection/15771290-cff35009-91ec-4af6-bf8e-20cf6d358f99",
+      "streamingUsers": "https://www.postman.com/linkedin-developer-apis/linkedin-marketing-solutions-versioned-apis/folder/uqiiwf2/streaming-users-contact-targeting"
+    },
+    "supportPortal": "https://linkedin.zendesk.com/hc/en-us",
+    "developerBlog": "https://www.linkedin.com/content/developers/news",
+    "payloadBuilder": "https://www.linkedin.com/developers/payload-builder"
+  }
+}
