@@ -1,0 +1,582 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json"
+  ],
+  "id": "hotosm_phl_health_facilities-osm",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          117.4321522,
+          4.6411481
+        ],
+        [
+          126.5643001,
+          4.6411481
+        ],
+        [
+          126.5643001,
+          20.7870397
+        ],
+        [
+          117.4321522,
+          20.7870397
+        ],
+        [
+          117.4321522,
+          4.6411481
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    117.4321522,
+    4.6411481,
+    126.5643001,
+    20.7870397
+  ],
+  "properties": {
+    "oex:category": "health_facilities",
+    "oex:source": "osm",
+    "oex:dataset_source": "OpenStreetMap (Geofabrik PHL 2026-10-12)",
+    "oex:snapshot": "2026-10-12",
+    "oex:boundary": "geoBoundaries gbOpen ADM0",
+    "oex:version": "0.4.16",
+    "oex:pcode_source_date": "2025-07-29",
+    "oex:geometry_types": {
+      "POINT": 13471,
+      "POLYGON": 5645,
+      "MULTIPOLYGON": 12,
+      "LINESTRING": 1
+    },
+    "title": "Health Facilities of Philippines",
+    "description": "19,129 features: 13,471 points, 5,645 polygons, 12 multipolygons, 1 line. 4 of 13 attributes are filled for at least half of the features.",
+    "license": "ODbL-1.0",
+    "created": "2026-10-13T01:59:14Z",
+    "keywords": [
+      "geodata",
+      "health",
+      "health facilities"
+    ],
+    "providers": [
+      {
+        "name": "OpenStreetMap (Geofabrik PHL 2026-10-12)",
+        "roles": [
+          "producer",
+          "licensor"
+        ]
+      }
+    ],
+    "proj:code": "EPSG:4326",
+    "table:row_count": 19129,
+    "table:primary_geometry": "geom",
+    "table:columns": [
+      {
+        "name": "id",
+        "type": "VARCHAR",
+        "oex:null_count": 0,
+        "oex:null_percent": 0.0,
+        "oex:distinct_count": 18521,
+        "oex:top_values": []
+      },
+      {
+        "name": "name",
+        "type": "VARCHAR",
+        "oex:null_count": 1132,
+        "oex:null_percent": 5.92,
+        "oex:distinct_count": 12706,
+        "oex:top_values": []
+      },
+      {
+        "name": "name_en",
+        "type": "VARCHAR",
+        "oex:null_count": 18553,
+        "oex:null_percent": 96.99,
+        "oex:distinct_count": 440,
+        "oex:top_values": [
+          {
+            "value": "Mercury Drug",
+            "count": 26
+          },
+          {
+            "value": "The Generics Pharmacy",
+            "count": 18
+          },
+          {
+            "value": "Rose Pharmacy",
+            "count": 17
+          },
+          {
+            "value": "TGP",
+            "count": 16
+          },
+          {
+            "value": "South Star Drug",
+            "count": 13
+          }
+        ]
+      },
+      {
+        "name": "name_fil",
+        "type": "VARCHAR",
+        "oex:null_count": 19126,
+        "oex:null_percent": 99.98,
+        "oex:distinct_count": 3,
+        "oex:top_values": [
+          {
+            "value": "Ospital Heneral ng Pilipinas",
+            "count": 1
+          },
+          {
+            "value": "Ospital ng Palawan",
+            "count": 1
+          },
+          {
+            "value": "Bahay Pamahalaan ng Barangay Wawa",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "name": "amenity",
+        "type": "VARCHAR",
+        "oex:null_count": 1959,
+        "oex:null_percent": 10.24,
+        "oex:distinct_count": 19,
+        "oex:top_values": [
+          {
+            "value": "pharmacy",
+            "count": 7100
+          },
+          {
+            "value": "clinic",
+            "count": 2921
+          },
+          {
+            "value": "hospital",
+            "count": 2026
+          },
+          {
+            "value": "dentist",
+            "count": 1910
+          },
+          {
+            "value": "doctors",
+            "count": 1566
+          }
+        ]
+      },
+      {
+        "name": "building",
+        "type": "VARCHAR",
+        "oex:null_count": 15190,
+        "oex:null_percent": 79.41,
+        "oex:distinct_count": 28,
+        "oex:top_values": [
+          {
+            "value": "yes",
+            "count": 1601
+          },
+          {
+            "value": "civic",
+            "count": 1442
+          },
+          {
+            "value": "hospital",
+            "count": 237
+          },
+          {
+            "value": "clinic",
+            "count": 230
+          },
+          {
+            "value": "public",
+            "count": 131
+          }
+        ]
+      },
+      {
+        "name": "healthcare",
+        "type": "VARCHAR",
+        "oex:null_count": 5763,
+        "oex:null_percent": 30.13,
+        "oex:distinct_count": 109,
+        "oex:top_values": [
+          {
+            "value": "pharmacy",
+            "count": 4812
+          },
+          {
+            "value": "clinic",
+            "count": 1349
+          },
+          {
+            "value": "hospital",
+            "count": 1319
+          },
+          {
+            "value": "dentist",
+            "count": 1233
+          },
+          {
+            "value": "community_health_worker",
+            "count": 758
+          }
+        ]
+      },
+      {
+        "name": "healthcare_speciality",
+        "type": "VARCHAR",
+        "oex:null_count": 16809,
+        "oex:null_percent": 87.87,
+        "oex:distinct_count": 303,
+        "oex:top_values": [
+          {
+            "value": "counseling;wellness_education;immunization;family_planning;prenatal_care;antenatal_care;first_aid;nutrition_counselling",
+            "count": 520
+          },
+          {
+            "value": "general",
+            "count": 252
+          },
+          {
+            "value": "dentistry",
+            "count": 205
+          },
+          {
+            "value": "wellness;counselling;immunization;family_planning;prenatal_care;antenatal_care;first_aid;",
+            "count": 199
+          },
+          {
+            "value": "maternity",
+            "count": 191
+          }
+        ]
+      },
+      {
+        "name": "operator_type",
+        "type": "VARCHAR",
+        "oex:null_count": 15708,
+        "oex:null_percent": 82.12,
+        "oex:distinct_count": 26,
+        "oex:top_values": [
+          {
+            "value": "public",
+            "count": 1294
+          },
+          {
+            "value": "private",
+            "count": 967
+          },
+          {
+            "value": "government",
+            "count": 780
+          },
+          {
+            "value": "barangay_government",
+            "count": 277
+          },
+          {
+            "value": "ngo",
+            "count": 29
+          }
+        ]
+      },
+      {
+        "name": "capacity_persons",
+        "type": "VARCHAR",
+        "oex:null_count": 18233,
+        "oex:null_percent": 95.32,
+        "oex:distinct_count": 25,
+        "oex:top_values": [
+          {
+            "value": "<50",
+            "count": 832
+          },
+          {
+            "value": "50-100",
+            "count": 20
+          },
+          {
+            "value": ">500",
+            "count": 8
+          },
+          {
+            "value": "100-250",
+            "count": 8
+          },
+          {
+            "value": "250-500",
+            "count": 4
+          }
+        ]
+      },
+      {
+        "name": "addr_full",
+        "type": "VARCHAR",
+        "oex:null_count": 18993,
+        "oex:null_percent": 99.29,
+        "oex:distinct_count": 127,
+        "oex:top_values": [
+          {
+            "value": "Dr. Peralta Street, Guinhawa Subdivision, Malolos, Bulacan",
+            "count": 3
+          },
+          {
+            "value": "Panganiban Drive, Concepcion Pequeña, Naga City, Camarines Sur",
+            "count": 2
+          },
+          {
+            "value": "Seton Road, Triangulo, Naga City, Camarines Sur",
+            "count": 2
+          },
+          {
+            "value": "Naga City Subd., Triangulo, Naga City, Camarines Sur",
+            "count": 2
+          },
+          {
+            "value": "Ateneo de Naga University, Ateneo Avenue, Naga City",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "name": "addr_city",
+        "type": "VARCHAR",
+        "oex:null_count": 14332,
+        "oex:null_percent": 74.92,
+        "oex:distinct_count": 723,
+        "oex:top_values": [
+          {
+            "value": "Quezon City",
+            "count": 239
+          },
+          {
+            "value": "Davao City",
+            "count": 183
+          },
+          {
+            "value": "Manila",
+            "count": 173
+          },
+          {
+            "value": "Imus",
+            "count": 164
+          },
+          {
+            "value": "Guagua",
+            "count": 118
+          }
+        ]
+      },
+      {
+        "name": "source",
+        "type": "VARCHAR",
+        "oex:null_count": 19129,
+        "oex:null_percent": 100.0,
+        "oex:distinct_count": 0,
+        "oex:top_values": []
+      },
+      {
+        "name": "adm0_pcode",
+        "type": "VARCHAR",
+        "oex:null_count": 0,
+        "oex:null_percent": 0.0,
+        "oex:distinct_count": 1,
+        "oex:top_values": [
+          {
+            "value": "PHL",
+            "count": 19129
+          }
+        ]
+      },
+      {
+        "name": "adm0_name",
+        "type": "VARCHAR",
+        "oex:null_count": 0,
+        "oex:null_percent": 0.0,
+        "oex:distinct_count": 1,
+        "oex:top_values": [
+          {
+            "value": "Philippines",
+            "count": 19129
+          }
+        ]
+      },
+      {
+        "name": "adm1_pcode",
+        "type": "VARCHAR",
+        "oex:null_count": 11,
+        "oex:null_percent": 0.06,
+        "oex:distinct_count": 17,
+        "oex:top_values": [
+          {
+            "value": "PH13",
+            "count": 4022
+          },
+          {
+            "value": "PH03",
+            "count": 3034
+          },
+          {
+            "value": "PH04",
+            "count": 2684
+          },
+          {
+            "value": "PH07",
+            "count": 1363
+          },
+          {
+            "value": "PH05",
+            "count": 1018
+          }
+        ]
+      },
+      {
+        "name": "adm1_name",
+        "type": "VARCHAR",
+        "oex:null_count": 11,
+        "oex:null_percent": 0.06,
+        "oex:distinct_count": 17,
+        "oex:top_values": [
+          {
+            "value": "National Capital Region (NCR)",
+            "count": 4022
+          },
+          {
+            "value": "Region III (Central Luzon)",
+            "count": 3034
+          },
+          {
+            "value": "Region IV-A (Calabarzon)",
+            "count": 2684
+          },
+          {
+            "value": "Region VII (Central Visayas)",
+            "count": 1363
+          },
+          {
+            "value": "Region V (Bicol Region)",
+            "count": 1018
+          }
+        ]
+      },
+      {
+        "name": "adm2_pcode",
+        "type": "VARCHAR",
+        "oex:null_count": 11,
+        "oex:null_percent": 0.06,
+        "oex:distinct_count": 88,
+        "oex:top_values": [
+          {
+            "value": "PH13074",
+            "count": 1735
+          },
+          {
+            "value": "PH03054",
+            "count": 1405
+          },
+          {
+            "value": "PH13076",
+            "count": 1184
+          },
+          {
+            "value": "PH07022",
+            "count": 933
+          },
+          {
+            "value": "PH04021",
+            "count": 853
+          }
+        ]
+      },
+      {
+        "name": "adm2_name",
+        "type": "VARCHAR",
+        "oex:null_count": 11,
+        "oex:null_percent": 0.06,
+        "oex:distinct_count": 88,
+        "oex:top_values": [
+          {
+            "value": "Metropolitan Manila Second District",
+            "count": 1735
+          },
+          {
+            "value": "Pampanga",
+            "count": 1405
+          },
+          {
+            "value": "Metropolitan Manila Fourth District",
+            "count": 1184
+          },
+          {
+            "value": "Cebu",
+            "count": 933
+          },
+          {
+            "value": "Cavite",
+            "count": 853
+          }
+        ]
+      },
+      {
+        "name": "adm3_pcode",
+        "type": "VARCHAR",
+        "oex:null_count": 11,
+        "oex:null_percent": 0.06,
+        "oex:distinct_count": 1245,
+        "oex:top_values": []
+      },
+      {
+        "name": "adm3_name",
+        "type": "VARCHAR",
+        "oex:null_count": 11,
+        "oex:null_percent": 0.06,
+        "oex:distinct_count": 1117,
+        "oex:top_values": []
+      },
+      {
+        "name": "adm4_pcode",
+        "type": "VARCHAR",
+        "oex:null_count": 11,
+        "oex:null_percent": 0.06,
+        "oex:distinct_count": 3711,
+        "oex:top_values": []
+      },
+      {
+        "name": "adm4_name",
+        "type": "VARCHAR",
+        "oex:null_count": 11,
+        "oex:null_percent": 0.06,
+        "oex:distinct_count": 2926,
+        "oex:top_values": []
+      },
+      {
+        "name": "name_latin",
+        "type": "VARCHAR",
+        "oex:null_count": 1121,
+        "oex:null_percent": 5.86,
+        "oex:distinct_count": 12714,
+        "oex:top_values": []
+      }
+    ],
+    "datetime": "2026-10-12T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "license",
+      "href": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "title": "Open Database License (ODC-ODbL)"
+    },
+    {
+      "rel": "root",
+      "href": "https://production-raw-data-api.s3.amazonaws.com/ISO3/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {}
+}

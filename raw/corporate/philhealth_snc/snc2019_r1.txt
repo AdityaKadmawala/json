@@ -1,0 +1,648 @@
+Stats and Charts
+            2019
+2019 Stats and Charts
+PhilHealth’s approach to achieving Universal Health Care follows the UHC framework. The Corporation
+positions, monitors and assesses its programs relative to how it contributes in achieving the three
+dimensions of the UHC cube. As such, the 2019 performance figures shall also be reported following
+this context.
+
+
+
+
+Dimension:        Population Coverage          Service Coverage           Financial Coverage
+
+                    “Who are covered?”     “What services are covered?”   “How much is covered?”
+Population Coverage
+          Who are Covered?
+    Registered Members and Dependents
+                                                                                                                 Beneficiaries
+             Membership Category                           Members                    Dependents
+                                                                                                                   (Total)
+
+     Direct Contributors*                                30,282,610                  28,380,254                  58,662,864
+         Employed: Private                               14,342,431                  11,366,233                  25,708,664                                 All Filipinos Covered
+                                                                                                                                                 In recent years, PhilHealth has
+         Employed: Government                             2,333,730                   3,726,641                   6,060,371                      primarily reported “coverage rate” or
+         Informal / Self-Earning                          8,442,963                   8,962,161                  17,405,124                      the entitlement of members based on
+                                                                                                                                                 premium payments. But with the
+         OFWs / Migrant Workers                           3,628,196                   3,163,923                   6,792,119                      signing of the UHC Act (RA11223), all
+         Lifetime Members                                 1,319,377                     978,819                   2,298,196                      Filipinos are already automatically***
+                                                                                                                                                 included under the National Health
+         Organized Group / Group                                                                                                                 Insurance Program (NHIP) – making
+                                                           138,932                      127,844                    266,776
+         Enrolment                                                                                                                               PhilHealth’s coverage rate at 100%.
+         Kasambahay, Family
+                                                            72,830                       52,434                    125,264                       The term “Registered” used here
+         Drivers, Enterprise Owners
+                                                                                                                                                 refers to beneficiaries already listed in
+         Others**                                            4,151                        2,199                      6,350                       the PhilHealth database.
+     Indirect Contributors*                              23,059,023                  16,028,686                  39,087,709
+                                                                                                                                                 PhilHealth Beneficiaries
+         Indigents / NHTS-PR                             12,834,955                  11,348,233                  24,183,188                       PhilHealth Beneficiaries are referred
+         Senior Citizens                                  8,070,076                   2,159,799                  10,229,875                        to as Members plus their respective
+                                                                                                                                                   qualified Dependents
+         Sponsored Program                                2,153,992                   2,520,654                   4,674,646
+                                          Total          53,341,633                   44,408,940                 97,750,573                               Members + Dependents =
+                                                                                                                                                              Beneficiaries
+Note/s:
+*Modified categories based on Republic Act No.11223 (UHC Act)
+**Filipinos w/ Dual Citizenship, Naturalized Filipino Citizens, PRA Foreign Retirees, Citizens of Other Countries working / residing / studying in the Philippines
+***PhilHealth Circular No.2019-0010 (Re: Guidelines on the Granting of Immediate Eligiblity to Members): https://www.philhealth.gov.ph/circulars/2019/circ2019-0010.pdf
+ Indigent count of members and dependents were based on DSWD LisTahanan database and are subject for further validation.
+ 2019 Projected Population is 108,099,455 estimated from the August 2015 PopCen by PSA with a 1.72 Growth Rate.
+   Registered Members and Dependents
+   Distribution by Membership Sectors
+
+    Distribution by Members only                                Distribution by Dependents
+
+                                                                                 Lifetime
+           Sponsored                                                                2%                                   Dependents*:
+              4%                                                 Sponsored                                                Legal spouse/s who is/are not an active
+                 Lifetime                                           6%     Senior                                          member;
+        OFWs
+                    3%                                                     Citizens                                       Unmarried and unemployed legitimate,
+         7%
+                                                                             5%                                            illegitimate children, and legally adopted or
+                                   Employed                     OFWs                                                       stepchildren below 21 years of age;
+                                                                 7%                            Employed
+ Senior                           (Priv & Govt)                                               (Priv & Govt)               Foster children as defined in Republic Act
+ Citizens                              31%                                                         34%
+                                                                                                                           10165 (Foster Care Act of 2012); and
+ 15%                                                                                                                      Parents who are 60 years old and above, not
+                                                                                                                           otherwise an enrolled member.
+                                                                  Informal
+                                                                    21%                                                  Important:
+      Informal                                                                        Indigents                           Qualified dependents must be declared by the
+        16%                Indigents                                                                                        principal member. Their names must be listed
+                                                                                        25%
+                             24%                                                                                            under the principal member's Member Data
+                                                                                                                            Record (MDR) to ensure hassle-free benefits
+                                                                                                                            availment
+
+
+
+
+Note/s:
+* Definition per Section 8 of UHC IRR (RA11223): https://www.philhealth.gov.ph/about_us/UHC-IRR_Signed.pdf
+ Informal / Self-Earning Sector also includes: Kasambahay Members, Family Drivers, Enterprise Owners; Organized Group / Group Enrolment; Filipinos w/
+   Dual Citizenship, Naturalized Filipino Citizens, PRA Foreign Retirees, Citizens of Other Countries working / residing / studying in the Philippines
+     Premium Contributions
+                  Membership Category                                   Actual Collections
+
+     Direct Contributors*                                              Php 77,069,857,223                                  Distribution of Premium Contributions
+        Employed: Private                                                        50,461,085,141
+                                                                                                                                              Sponsored
+        Employed: Government                                                     18,403,701,820                                                Program
+                                                                                                                                     Informal     3%
+        Informal / Self-Earning                                                    6,357,212,182                                        6%
+        OFWs / Migrant Workers                                                     1,021,834,517
+                                                                                                                             Employed:
+                                                                                                                                                                     Employed:
+        Organized Group / Group Enrolment                                              126,652,756                          Government
+                                                                                                                                                                      Private
+                                                                                                                               13%
+                                                                                                                                                                       34%
+        Kasambahay, Family Drivers,
+                                                                                        62,214,879
+        Enterprise Owners
+        Others**                                                                       637,155,928                         Indigents /
+        Lifetime Members***                                                      ---                                        NHTS-PR
+                                                                                                                              21%
+                                                                                                                                                          Senior
+     Indirect Contributors*                                            Php 69,365,170,649                                                               Citizens &
+        Indigents / NHTS-PR                                                      30,407,378,400                                                          Lifetime
+                                                                                                                                                           23%
+        Senior Citizens                                                          33,868,279,600
+        Sponsored Program****                                                      5,089,512,649
+                                                    Total            Php 146,435,027,872
+Note/s:
+*Modified categories based on Republic Act No.11223 (UHC Act)
+**Filipinos w/ Dual Citizenship, Naturalized Filipino Citizens, PRA Foreign Retirees, Citizens of Other Countries working / residing / studying in the Philippines
+***Lifetime Members: premiums of retirees are free: https://www.philhealth.gov.ph/members/lifetime/member.html
+****Special Government Programs (PAMANA and Bangsamoro), NGAs, LGUs, POS, Private, etc.
+ Source: Financial Statements
+Service Coverage
+  What Services are Covered?
+Accreditation
+Health Care Providers - Institutions
+                                                                                60% of accredited
+             Category                   Government   Private    Total
+                                                                              hospitals are from the
+Hospitals                                 763        1,162     1,925             Private Sector
+  Level 1 Hospital                         334        482       816
+                                                                                 Distribution of Accredited
+  Level 2 Hospital                          43        297       340              Hospitals (Govt. & Private)
+  Level 3 Hospital                          54         61       115
+  Infirmary/Dispensary                     332        322       654                       Level 3
+Primary Care Benefit (PCB)                2,405      118       2,523                        6%
+                                                                                Level 2
+  PCB facilities                          2,242        -       2,242
+                                                                                 18%                 Level 1
+  PCB (Hospitals)                           78         -        78
+                                                                                                      42%
+  Expanded PCB                              85        118       203
+Others                                                                             Infirmary
+                                                                                      34%
+  Maternity Care Package Providers        1,340      1,649     2,989
+  DOTS Package                            1,948       107      2,055
+  Animal Bite Treatment Centers            429         30       459
+  Ambulatory Surgical Clinics               2         178       180
+                                                                                  Accredited Facilities
+  Drug Abuse Treatment
+                                            7           -        7      A list of Accredited Facilities may be
+  Rehabilitation Centers                                                downloaded from the PhilHealth website:
+  Free Standing Dialysis Clinics            5         389       394
+  Family Planning Providers                360        700      1,060    https://www.philhealth.gov.ph/partners/provi
+                                                                        ders/institutional/map/
+  Outpatient HIV/Aids Treatment             92         19       111
+  Outpatient Malaria Package               150          -       150
+                                Total     7,501      4,352     11,853
+  Accreditation
+  Health Care Providers - Institutions (3-in-1: PCB, MCP & TB-DOTS)
+
+
+                                                     Primary Care Maternity Care                             TB-DOTS
+                                                    Benefit Package Package                                  Package
+
+  Accredited Outpatient Clinics                             2,320                     2,989                     2,055
+
+  Number of Cities &
+  Municipalities with Accredited                            1,467                     1,190                     1,340
+  Outpatient Clinics*
+      % to Total Cities &
+      Municipalities
+      (Number of Cities &                                    90%                       73%                       82%
+      Municipalities nationwide:
+      1,634**)
+
+
+
+
+Note/s:
+* A city or municipality may have more than one outpatient clinic accredited by PhilHealth to provide NHIP benefits and services;
+Further, a single facility can also apply and be accredited either as a PCB provider, an MCP, a TB-DOTs facility or any combination
+thereof
+** Per Department of Interior and Local Government, there are 1,634 LGUs nationwide (as of December 31, 2019): https://bit.ly/39ntcJL
+ PhilHealth Benefits: https://www.philhealth.gov.ph/benefits/
+Accreditation
+Health Care Providers – Professionals
+
+
+                         Professionals                                              Count
+Physicians                                                                        39,019
+   General Practitioners                                                            9,781
+                                                                                                              Accredited Professionals
+   General Practitioners (with Training)                                            8,782             A list of accredited professionals may be
+                                                                                                      accessed from the PhilHealth website:
+   Medical Specialists                                                            20,456
+                                                                                                      https://www.philhealth.gov.ph/partners/pro
+Other Professionals                                                                 4,326             viders/professional/accredited/
+
+Dentists                                                                             858
+Nurses                                                                                37
+Midwives                                                                            3,431
+                                                              Total               43,345
+
+
+
+
+Note/s:
+ Accreditation process: https://www.philhealth.gov.ph/partners/providers/professional/process.html
+Claims Payment
+      Membership Category                                Amount***                      Claims***
+                                                                                                                             Distribution in Terms of Claims
+Direct Contributors*                                     45,528,538,400                     4,868,032
+                                                                                                                                           Lifetime
+                                                                                                                                              5%
+   Employed: Private                                     15,455,012,934                     1,526,545                               Govt
+                                                                                                                                     7%                   Informal
+                                                                                                                                                            21%
+   Employed: Government                                    6,524,793,348                       649,179
+                                                                                                                        Sponsored
+                                                                                                                           15%
+   Informal**                                            18,296,388,593                     2,148,857
+                                                                                                                                                              Indigent
+   Lifetime Members                                        5,252,343,525                       543,451                         Private                          19%
+                                                                                                                                15%
+                                                                                                                                                Senior
+Indirect Contributors*                                   51,862,061,894                     5,282,702                                          Citizens
+                                                                                                                                                 18%
+   Indigents / NHTS-PR                                   18,091,315,586                     1,960,244
+
+   Senior Citizens                                       19,254,196,054                     1,796,369
+
+   Sponsored Program                                     14,516,550,254                     1,526,089
+
+                                       Total             97,390,600,293                   10,150,734
+Note/s:
+*New categorization based on Republic Act No.11223 (UHC Act)
+**Informal covers Self-Earning; OFWs, Organized Group; Kasambahay; Filipinos w/ Dual Citizenship, Naturalized Filipino Citizens, PRA Foreign
+Retirees, Citizens of Other Countries working / residing / studying in the Philippines
+*** Paid in 2019
+Processed using PCD extracted April 18, 2020
+ Claims Processing
+  Distribution of Claims Paid by Patient Type
+                                                                    Percentage to
+                             Total Amount of     Total Number of
+     Patient Type                                                  Total Number of
+                               Claims Paid         Claims Paid
+                                                                     Claims Paid
+
+   Members                    62,882,853,416          6,246,833         62%            The average Turn-
+   Dependents                 34,507,746,878          3,903,901         38%          Around-Time for Claims
+               Total          97,390,600,293         10,150,734         100%          Processing in 2019 is
+  Distribution of Claims Paid by Sex                                                       19 Days
+                                                                    Percentage to
+                             Total Amount of     Total Number of
+     Patient Sex                                                   Total Number of
+                               Claims Paid         Claims Paid
+                                                                     Claims Paid
+
+  Female                      55,354,586,643          5,714,137         56%
+  Male                        42,036,013,650          4,436,597         44%
+              Total           97,390,600,293        10,150,734         100%
+
+
+Note/s:
+ Claims Paid in 2019
+ Processed using PCD extracted April 18, 2020
+ Claims Processing
+ Distribution of Claims Paid by Age Group
+                                    Total Amount of     Total Number of     Percentage to Total
+   Patient Age Group
+                                      Claims Paid         Claims Paid      Number of Claims Paid
+
+     60 and above                      26,032,460,374          2,454,804           24%
+          <1                            8,889,985,237          1,393,159           14%
+         1-4                            7,070,466,143            695,932            7%
+        25 - 29                         6,911,434,540            695,905           6.9%
+        30 - 34                         6,327,045,150            623,616           6.1%
+        20 - 24                         5,763,250,723            604,991           6.0%
+        55 - 59                         5,605,449,790            582,742           5.7%
+        35 - 39                         5,538,329,198            541,809           5.3%
+        50 - 54                         5,153,944,741            529,361           5.2%
+        45 - 49                         4,684,948,737            470,403           4.6%
+        40 - 44                         4,596,872,114            456,086           4.5%
+        15 - 19                         3,911,640,236            416,422           4.1%
+         5-9                            4,193,205,895            415,492          4.09%
+        10 - 14                         2,711,567,414            270,012           2.7%
+                Total                  97,390,600,293         10,150,734          100%
+
+Note/s:
+ Claims Paid in 2019
+ Processed using PCD extracted April 18, 2020
+ Claims Processing
+ Distribution of Claims Paid by Sector
+                                   Total Amount of            Total Number of    Percentage to Total
+         Sector
+                                     Claims Paid                Claims Paid     Number of Claims Paid
+
+  Private                               55,157,742,619              5,931,553           58%
+
+  Government                            42,185,025,169              4,216,703           42%
+
+  International                                  47,832,505             2,478          0.02%
+
+                  Total                 97,390,600,293            10,150,734           100%
+
+ Distribution of Claims Paid by Illness Type
+                                   Total Amount of            Total Number of    Percentage to Total
+      Illness Type
+                                     Claims Paid                Claims Paid     Number of Claims Paid
+
+  Procedural                            47,996,778,779              5,863,870           58%
+
+  Medical                               48,388,033,025              4,259,503           42%
+
+
+
+Note/s:
+ Claims Paid in 2019
+ Processed using PCD extracted April 18, 2020
+ Claims Processing
+ Distribution of Claims Paid by Facility Class
+                                                         Total Amount of      Total Number of         Percentage to Total
+                     Institution Class
+                                                           Claims Paid          Claims Paid          Number of Claims Paid
+
+   Level 1 Hospital                                          27,856,856,148            2,819,892             28%
+   Level 2 Hospital                                          26,600,755,909            2,753,938             27%
+   Level 3 Hospital                                          29,522,131,240            2,615,165             26%
+   Free Standing Dialysis Clinic                              4,798,226,552             586,942              5.8%
+   MCP Provider                                               3,009,888,430             582,474             5.74%
+   Infirmary / Dispensary                                     3,667,091,957             577,801             5.69%
+   Ambulatory Surgical Clinic                                 1,578,598,183             119,539               1%
+   Animal Bite Package Provider                                 155,953,450              50,349              0.5%
+   TB Dots Package Provider                                     148,338,140              41,267              0.4%
+   Primary Health Clinic                                          2,630,700                 570             0.01%
+   HIV Treatment Hub                                              1,462,500                 195             0.002%
+   Drug Abuse Treatment And Rehabilitation
+                                                                  1,370,000                 137             0.001%
+   Center
+   Family Planning Clinic                                            32,000                     11         0.0001%
+                                                 Total       97,343,335,208          10,148,280             100%
+
+
+
+Note/s:
+ Claims Paid in 2019
+ Processed using PCD extracted April 18, 2020
+    Claims Processing
+    Utilization related to SDGs*
+                                  SDG-Related Packages                                Total Number of Claims    Total Amount of Claims Paid
+    Maternal Benefits
+    Caesarean Delivery                                                                               302,586                5,756,989,000
+    Normal Spontaneous Delivery                                                                      837,693                5,755,150,380
+    Undelivered Cases (Baby Delivered In Referral Facility) In Non-hospital
+                                                                                                           44                    28,600.00
+    Facilities
+    Breech Extraction                                                                                   6,763                  81,967,560
+    Maternal Comorbidities Conditions                                                                 74,857                  506,244,360
+    Subtotal Or Total Hysterectomy After Cesarean Delivery                                                718                  21,540,000
+    Newborn Care
+    Newborn Care Package                                                                             823,305                2,115,271,150
+    Infectious Diseases**
+    Pulmonary Tuberculosis                                                                            36,831                  348,778,080
+    Outpatient HIV / Aids Packages                                                                    78,932                  591,990,000
+    Family Planning
+    Bilateral Tubal Ligation                                                                            1,278                    5,112,000
+    Vasectomy, Unilateral Or Bilateral                                                                     35                      140,000
+    Insertion of Intrauterine Device (IUD)                                                              2,965                    5,930,000
+    Subdermal Contraceptive Implant                                                                   15,828                   47,484,000
+Note/s:
+*SDGs: https://sustainabledevelopment.un.org/sdgs
+**Zero claims for Outpatient Malaria Package
+ Extracted from PCD based on admission year and paid claims (as of March 10, 2020)
+    Claims Processing
+    Top 10 Medical Cases (ranked by count)*
+
+      Rank                                   Illness Description                                       Total Number of Claims              Total Amount of Claims
+
+        1          Pneumonia Moderate Risk                                                                                 737,659              10,638,106,500
+        2          Dengue Fever                                                                                            393,068               3,798,524,000
+        3          Acute Gastroenteritis                                                                                   260,002               1,475,094,000
+        4          Urinary Tract Infection Admissible                                                                      249,102               1,726,572,000
+        5          Hypertensive Emergency Urgency                                                                          227,889               1,960,051,500
+        6          Peptic Ulcer Disease Without Hemorrhage                                                                 147,931                 841,648,990
+        7          Asthma in Acute Exacerbation                                                                            137,491               1,131,117,300
+        8          Upper Respiratory Tract Infection                                                                       129,504                 490,656,000
+        9          Stroke Infarction                                                                                         88,790              2,486,120,000
+       10          Maternal Comorbidities Conditions                                                                         74,857                506,244,360
+
+
+
+
+Note/s:
+*Case rate category that covers groups of medical conditions reimbursed by the Corporation. These are based on International Statistical
+Classification of Diseases and Related Health Problems, 10th Revision (ICD 10)
+ Extracted from PCD based on admission year and paid claims (as of March 4, 2020)
+   Claims Processing
+   Top 10 Procedures (ranked by count)*
+         Rank                                   Procedure Description                                     Total Number of Claims            Total Amount of Claims
+            1         Hemodialysis Procedure                                                                              2,187,846              10,637,239,600
+            2         Expanded Newborn Care Package                                                                         630,242               1,796,333,700
+                      Routine Obstetric Care Including Antepartum Care,                                                     477,643               2,467,323,500
+            3         Vaginal Delivery and/or Postpartum Care (Normal
+                      Spontaneous Delivery Package) for Hospitals
+                      Routine Obstetric Care Including Prenatal, Delivery                                                   295,459               2,336,986,000
+            4         And Newborn Services Of Non-hospital Facilities
+                      (Maternity Care Package), 1st Claim
+            5         Normal Newborn Care Package                                                                           193,063                 318,937,450
+            6         Caesarian Section, Primary                                                                            185,096               3,516,805,000
+            7         Vaginal Delivery Only (W/ Episiotomy)                                                                 143,049               1,387,575,300
+            8         Chemotherapy Administration                                                                           137,582               1,001,524,160
+            9         Caesarian Delivery                                                                                    116,072               2,205,344,000
+                      Extracapsular Cataract Removal W/ Insertion Of                                                        105,683               1,690,832,000
+           10         Intraocular Lens Prosthesis (One Stage Procedure)
+                      (e.g. Phacoemulsification)
+
+Note/s:
+*Case rate category that covers procedures or surgical interventions reimbursed by the Corporation, which are based on the Relative Value
+Scale (RVS)
+ Extracted from PCD based on admission year and paid claims (as of March 4, 2020)
+Financial Coverage
+      How Much is Covered?
+   Benefit Claims Expense
+                    Membership Category                                      Amount
+
+     Direct Contributors*                                                    66,431,375,174                              Distribution in Terms of Amount
+
+         Employed: Private                                                   20,365,233,511                                              Govt
+                                                                                                                                          6%
+         Employed: Government                                                  8,628,320,982                             Sponsored
+                                                                                                                            8%
+                                                                                                                                                Indigent
+         Informal**                                                          24,379,873,989                           Lifetime                    27%
+                                                                                                                         9%
+         Lifetime Members                                                    13,057,946,692
+
+     Indirect Contributors*                                                  70,528,470,712                           Private
+                                                                                                                       15%                      Informal
+         Indigents / NHTS-PR                                                 36,465,259,126                                                       18%
+                                                                                                                                      Senior
+         Senior Citizens                                                     23,144,595,748                                          Citizens
+                                                                                                                                       17%
+         Sponsored Program                                                   10,918,615,838
+
+                                                    Total                  136,959,845,886
+
+
+
+Note/s:
+*New categorization based on Republic Act No.11223 (UHC Act)
+**Informal covers Self-Earning; OFWs, Organized Group; Kasambahay; Filipinos w/ Dual Citizenship, Naturalized Filipino Citizens, PRA Foreign
+Retirees, Citizens of Other Countries working / residing / studying in the Philippines
+ Benefit Payments includes Primary Care Benefit (PCB) Package
+ Source: Financial Statements For the Period Ended December 31, 2019
+Benefits Payments
+ Primary Care Benefit
+
+
+                 Member Category                             Total Amount of Claims Paid
+
+   PCB 1 – NHTS                                                           4,916,372,328
+
+   EPCB - Formal Economy                                                     29,842,776
+
+   EPCB - Senior Citizen                                                     12,538,920
+
+   EPCB - Lifetime Member                                                      1,889,460
+
+                                               Total                      4,960,643,484
+
+
+
+
+Source: Financial Statements For the Period Ended December 31, 2019
+    Benefits Payments & Premium Income
+     (in Millions; Pesos)
+
+                                                        20,365
+            Employed: Private
+                                                                                                          50,461
+
+                  Employed:             8,628
+                 Government                          18,404
+
+                                                              24,380
+                     Informal*
+                                       8,205
+
+                                                            23,145
+               Senior Citizens
+                                                                              33,868
+
+                                                                                  36,465
+         Indigents / NHTS-PR
+                                                                        30,407
+
+                                          10,919                                                        Benefits Payment
+          Sponsored Program
+                                     5,090                                                              Premium Collection
+
+                                 0                            20,000                          40,000                            60,000
+
+
+
+
+Note/s:
+*Informal covers Self-Earning; OFWs, Organized Group; Kasambahay; Filipinos w/ Dual Citizenship, Naturalized Filipino Citizens, PRA Foreign Retirees,
+Citizens of Other Countries working / residing / studying in the Philippines
+ Source: Financial Statements For the Period Ended December 31, 2019
+  No-Balance-Billing (NBB) Program
+  Percentage of NBB Compliance in Government Facilities
+                                                                                                                                           NBB Program
+
+                                                                                                                         The NBB policy means no other fees or
+  In 2019, 8 out of 10 surveyed patients had                                                                             expenses shall be charged to or paid for by
+                                                                                                                         the patient-member above and beyond
+                                                                                                                         PhilHealth’s package rate. This also refers
+  Zero Out-of-Pocket Expenses (83.13%*)                                                                                  to as Zero “Out-of-Pocket” (Zero OOP)
+                                                                                                                         expenses.
+
+                                                                                                                         The NBB Program originally covered
+   For patients who were not able to completely benefit from this program, the survey                                    patients from the following membership
+   identified the three main reasons for Out-of-Pocket expenses**:                                                       sectors:
+   1. Medicines                                                                                                           Indigents / NHTS-PR***
+                                                                                                                            (including 4Ps: Pantawid Pamilyang
+   2. Medical Supplies
+                                                                                                                            Pilipino Program****)
+   3. Laboratory and Diagnostics                                                                                          Senior Citizens
+                                                                                                                          Lifetime Members
+                                                                                                                          Kasambahay Program
+                                                                                                                          Sponsored Program (LGU, Private,
+                                                                                                                            Point-of-Service, SP-Fortuitous Events,
+                                                                                                                            etc.)
+
+                                                                                                                         Further, the NBB program covers only
+                                                                                                                         confinements in basic or ward
+Note/s:                                                                                                                  accommodations.*****
+*PhilHealth’s 2019 NBB Survey
+**Other identified reasons include: Balance on Hospital Bill; Blood/Blood Products; Professional Fees; and Deposit
+***NHTS-PR: Department of Social Welfare and Development’s Listahanan or the National Household Targeting System for Poverty Reduction: https://listahanan.dswd.gov.ph/about-us/
+****4Ps: https://pantawid.dswd.gov.ph/
+***** Under the UHC Act, the NBB or the “No Co-payment Policy” will already cover all membership sectors
+     Support Value
+                       Indigent                                                             79.48%
+
+                     Sponsored                                                             78.80%
+
+          Informa (Self-Earning)                                                  68.40%
+                                                                                                       National
+                  Senior Citizen                                         57.91%                        Average:
+Formal (Private and Government)                                        55.53%                          65.89%
+                        Lifetime                                  50.39%
+
+                                   0%                25%                   50%                   75%                  100%
+
+   A support value of 65.89% means that for every
+   Php100 in hospitalization costs, PhilHealth shoulders
+   about Php66. Further, support value is higher in
+   Government (79.30%) compared to Private facilities
+   (57.32%).
+ Note/s:
+  Study conducted by the Foundation for the Advancement of Clinical Epidemiology, Inc. (FACE) in cooperation with the Institute of Health Policy
+    and Development Studies (IHPDS), National Institutes of Health (NIH), University of the Philippines Manila (December, 2019)
+Supplemental Information
+      Supplemental Info.
+                         6,688
+                                                                              Aside from the Head Office (709 Shaw Blvd., Pasig City), there
+                    PhilHealth
+                                                                              are more than 370 PhilHealth offices established nationwide**
+                     personnel
+                   nationwide*                                                      17 Regional and 5 Branch Offices
+                                                                                    113 Local Health Insurance Offices
+                                                                                    26 Satellite Offices / Business Centers
+                                                                                    70 PhilHealth Express
+                                                                                    78 Service Desks
+                                                                                    70 Malasakit Centers
+
+                                                                              Further, PhilHealth also has 510 PhilHealth CARES*** deployed
+                                                                              in 1,086 in healthcare facilities nationwide ready to cater to
+                                                                              members’ needs
+Note/s:
+*Filled positions as of December 31, 2019
+**Exact location of regional offices can be accessed online: https://www.philhealth.gov.ph/about_us/map/regional.htm
+***PCARES: PhilHealth Customer. Assistance, Relations and Empowerment Staff - https://www.philhealth.gov.ph/circulars/2016/circ2016-009.pdf
+ Local Health Insurance Offices (LHIOs): offices strategically located in high-traffic areas processing membership concerns (e.g. registration, updating of records, inquiries, etc.), receiving of
+     accreditation documents (healthcare facilities, professionals), claims processing (facilities and individual claims), and collections/cashiering functions (premium payments, employer
+     remittances)
+ Satellite Offices / Business Centers: smaller offices compared to LHIOs, these units are strategically located in high-traffic areas processing membership concerns, receiving of accreditation
+     documents, and claims processing; no collections/cashiering functions (except for SM Aura, Taguig and POEA, Mandaluyong)
+ PhilHealth Express: smaller offices or “booths” usually situated in high traffic areas (e.g. malls, markets, etc.) processing only membership concerns and receiving of individual claims; no
+     cashiering functions
+ Service Desks: “booths” or “desks” usually located in LGUs (e.g. municipal hall, city hall, etc.) processing only membership concerns; no cashiering functions; scheduled set-up (e.g. only
+     open a fixed number of days per week – 2 or 3 days out of 5); also set-up in far-flung and/or Geographically-Isolated and Disadvantaged Areas (GIDAs)
+ Malasakit Centers: situated in government hospitals, these centers are one-stop-shops intended to provide indigent patients access to various medical assistance funds of the government.
+     These centers house PhilHealth, Philippine Charity Sweepstakes Office, and the Department of Social Welfare and Development, among others.
+Contents
+UHC Framework as adopted in Republic Act No.11223 (UHC Act)*
+
+                                                                                     Financial
+The best and easiest way to appreciate Universal Health Care (UHC)
+is through the UHC Cube. The UHC Cube is a figure created by the                     Coverage
+World Health Organization to represent in an image the relationship
+between where the current state (smaller box) of the country’s
+health financing scheme relative to the “ideal” (larger box).
+
+The cube has 3 dimensions: Population (X axis), Financial (Y axis),
+and Service Coverage (Z axis):
+ Population Coverage refers to “who is covered” by the program -
+  the share of population that is currently enrolled in the program
+  and is eligible to avail of their benefits.
+ Services Coverage refers to “which services are covered” - the full                 Service
+  breadth of services being paid for by the program relative to the     Population   Coverage
+  identified services deemed essential to cover.                         Coverage
+ Financial Coverage refers to “how much is covered”. It illustrates
+  the difference between the cost of care and the share being
+  covered by the program.
+
+UHC is “achieved” when the smaller box (pooled funds managed by
+the program) approaches near the size of the larger box (ideal level
+of coverage as provided for in the law or as determined by the
+program).
+
+Source: https://www.who.int/health_financing/strategy/dimensions/en/
+*RA11223: https://www.philhealth.gov.ph/about_us/RA11223_UHC.pdf
+Prepared by the:
+Corporate Planning Department
+
+Sources/Inputs/Acknowledgements:
+
+Accreditation Department
+Area Offices
+Comptrollership Department
+Corporate Communications Department
+Human Resource Department
+Member Management Group
+Organization and Systems Development Office
+PhilHealth Regional Offices
+Program Management Team – Claims
+Standards Monitoring Department
+Task Force Informatics
+
+
+
+
+flaticon.com
+

@@ -1,0 +1,669 @@
+Stats and Charts
+2022
+      2022 Stats and Charts
+       (as of December 31, 2022)
+
+       PhilHealth positions, monitors and assesses its programs relative to how it contributes in achieving
+       the three dimensions of the UHC cube.
+
+
+
+
+                        Population Coverage                                   Service Coverage          Financial Coverage
+                           “Who are covered?”                            “What services are covered?”   “How much is covered?”
+
+
+
+
+www.philhealth.gov.ph     PhilHealthOfficial   teamphilhealth   actioncenter@philhealth.gov.ph
+Population Coverage
+Who are Covered?
+    Registered Members and Dependents
+     as of December 31, 2022
+
+           Membership Category                              Members                      Dependents                  Beneficiaries (Total)
+
+    Direct Contributors                                  35,305,072                    29,749,054                         65,054,126
+    Employed: Private                                      17,114,873                    12,434,149                         29,549,022
+    Employed: Government                                    2,861,807                     4,094,640                         6,956,447
+    Informal / Self-Earning                                10,527,770                     9,559,109                         20,086,879
+                                                                                                                                                                                         All Filipinos Covered
+    OFWs / Migrant Workers                                  3,300,824                     2,517,998                         5,818,822                               Prior to 2019, PhilHealth has primarily reported “coverage
+    Lifetime Members                                        1,416,433                     1,091,029                         2,507,462                               rate” or the entitlement of members based on premium
+                                                                                                                                                                    payments. But with the signing of the UHC Act (RA11223), all
+    Kasambahay                                                75,011                        48,286                            123,297                               Filipinos are already automatically included under the
+    Others*                                                    8,354                         3,843                             12,197                               National Health Insurance Program (NHIP) – making
+                                                                                                                                                                    PhilHealth’s coverage rate at 100%.
+    Indirect Contributors                                23,721,597                    15,322,860                         39,044,457
+                                                                                                                                                                    The term “Registered” used here refers to beneficiaries
+    Indigents / NHTS-PR**                                  13,674,602                    11,754,805                         25,429,407                              already listed in the PhilHealth database.
+    Senior Citizens                                         9,093,455                     2,658,203                         11,751,658
+                                                                                                                                                                    PhilHealth Beneficiaries
+    Sponsored Program                                        953,540                       909,852                          1,863,392
+                                                                                                                                                                     PhilHealth Beneficiaries are referred to as Members plus
+                                         Total           59,026,669                    45,071,914                        104,098,583                                  their respective qualified Dependents
+
+
+   Note/s:                                                                                                                                                                     Members + Dependents = Beneficiaries
+   * Includes Family Drivers. Filipinos w/ Dual Citizenship, Naturalized Filipino Citizens, PRA Foreign Retirees, Citizens of Other Countries
+   working / residing / studying in the Philippines
+   ** Indigent count of members and dependents are based on DSWD LisTahanan database and are subject for further validation.
+
+    2022 Projected Population is 111,572,254 updated estimation from the 2015 PopCen by PSA (https://psa.gov.ph/content/updated-projected-mid-year-population-philippines-2020-2025).
+
+
+www.philhealth.gov.ph                    PhilHealthOfficial          teamphilhealth           actioncenter@philhealth.gov.ph
+    Registered Members and Dependents
+     as of December 31, 2022
+
+    Distribution by Members and Dependents
+         Membership Category                           Members                      Dependents                 Beneficiaries (Total)
+    Direct Contributors                                    60%                           66%                              62%
+    Employed: Private                                      29%                            28%                             28%
+                                                                                                                                                                          Dependents:
+    Employed: Government                                    5%                             9%                              7%
+                                                                                                                                                                           Legal spouse/s who is/are not an active member;
+    Informal / Self-Earning                                18%                            21%                             19%                                              Unmarried and unemployed legitimate, illegitimate
+    OFWs / Migrant Workers                                  6%                             6%                              6%                                               children, and legally adopted or stepchildren below 21
+                                                                                                                                                                            years of age;
+    Lifetime Members                                        2%                             2%                              2%                                              Foster children as defined in Republic Act 10165 (Foster
+    Kasambahay                                            0.13%                         0.11%                            0.12%                                              Care Act of 2012); and
+                                                                                                                                                                           Parents who are 60 years old and above, not otherwise an
+    Others*                                               0.01%                         0.01%                           0.012%
+                                                                                                                                                                            enrolled member.
+    Indirect Contributors                                  40%                           34%                              38%
+                                                                                                                                                                          Important:
+    Indigents / NHTS-PR                                    23%                            26%                             24%                                              Qualified dependents shall be declared by the principal
+    Senior Citizens                                        15%                             6%                             11%                                               member. Their names shall be listed under the principal
+                                                                                                                                                                            member's Member Data Record (MDR) to ensure hassle-
+    Sponsored Program                                       2%                             2%                              2%
+                                                                                                                                                                            free benefit availment.
+                                    Total                100%                           100%                            100%
+
+
+   Note/s:
+   * Includes Family Drivers. Filipinos w/ Dual Citizenship, Naturalized Filipino Citizens, PRA Foreign Retirees, Citizens of Other Countries working / residing / studying in the Philippines.
+
+
+
+www.philhealth.gov.ph                     PhilHealthOfficial          teamphilhealth            actioncenter@philhealth.gov.ph
+    Premium Contributions
+     January 1 to December 31, 2022
+
+
+    Distribution by Membership Category
+                                                                                                             % Distribution by Membership Category
+                  Membership Category                                        Amount
+
+     Direct Contributors                                                   Php 136,715,403,725
+     Employed: Private                                                            92,446,533,786                    Sponsored            Private
+                                                                                                                      0.26%               43%
+     Employed: Government                                                         35,528,325,450
+                                                                                                                  Senior
+     Informal Economy                                                              8,740,544,489                 Citizens
+                                                                                                                   19%
+     Indirect Contributors                                                  Php 80,064,452,340                              Php 216.78B
+     Indigents / NHTS-PR                                                          38,237,655,000
+     Senior Citizens                                                              41,318,550,000                                         Government
+                                                                                                                      Indigents
+     Sponsored*                                                                       508,247,340                       18%     Informal    16%
+                                                                                                                                Economy
+                                                       Total               Php 216,779,856,065                                     4%
+
+
+    Note/s:
+    * Includes Special Government Programs (PAMANA and Bangsamoro), NGAs, POS, PWD-unemployed, LGU, etc.
+
+     Source: Financial Statements as of December 2022
+
+
+
+
+www.philhealth.gov.ph             PhilHealthOfficial      teamphilhealth    actioncenter@philhealth.gov.ph
+Service Coverage
+What Services are Covered?
+    Accreditation
+    Health Care Providers - Institutions
+     as of December 31, 2022
+                                                                                                             Other Accredited Facilities
+               Category                      Government                 Private            Total
+                                                                                                                                            Government                  Private
+      Hospitals                                    776                  1,096             1,872
+                                                  5,514                 3,511             9,025                            Animal Bite Ctrs                      438            40
+      Other Facilities
+                                                                                                                Ambulatory Surgical Clinics                                 3    180
+                      Total                       6,290                 4,607            10,897                           Drug Rehab Ctrs                                       10
+    Accredited Hospitals                                                                                                          TB-DOTS         1,426                         83
+                                                                                                              Free-Standing Dialysis Clinics                             16            543
+                                       Government             Private                                            Family Planning Providers                        273                   676
+
+            Level 1                                                                                                         MCP Providers             1,079                                      1,638
+                                332                                         468
+                                                                                                                         OP HIV/AIDS Ctrs                             131       44
+                                                                                                                               OP Malaria                                       43
+            Level 2                              49               304
+                                                                                 % Distribution of
+                                                                                Accredited Hospitals                    Konsulta Providers       1,497                           181
+            Level 3                              56 63
+                                                                                                                  SARS CoV2 Testing Labs                              130       104
+         Infirmary              339                            261                                              Community Isolation Units                       468             22
+                                                                            Infirmary
+                                                                               32%                 Level 1
+                                                                                       1,872        43%
+                                                                                      Hospitals
+                                                                            Level 3
+                                                                                                                                                 Accredited Facilities
+                                                                              6%                                     A list of Accredited Facilities may be downloaded from the PhilHealth website:
+                                                                                      Level 2
+  Source: Accreditation Department                                                     19%                                    www.philhealth.gov.ph/partners/providers/institutional/map/
+
+
+www.philhealth.gov.ph                 PhilHealthOfficial   teamphilhealth   actioncenter@philhealth.gov.ph
+    Accreditation
+    Health Care Providers – Institutions (Konsulta Providers, MCPs & TB-DOTS)
+     as of December 31, 2022
+
+
+                                                                                                                     Maternity Care                     TB-DOTS
+                                                                               Konsulta Providers
+                                                                                                                       Package                          Package
+      Accredited Outpatient Clinics                                                        1,678                             2,717                        1,509
+
+      Number of Cities & Municipalities with
+                                                                                             910                             1,041                         935
+      Accredited Outpatient Clinics*
+
+
+
+        % to Total Cities & Municipalities                                                  56%                               64%                          57%
+        (Number of Cities & Municipalities nationwide:
+        1,634**)                                                                     (910 / 1,634)                    (1,041 / 1,634)                  (935 / 1,634)
+
+
+
+
+ Note/s:
+ * A city or municipality may have more than one outpatient clinic accredited by PhilHealth to provide NHIP benefits and services; Further, a single
+ facility can also apply and be accredited either as MCP, a TB-DOTs facility or any combination thereof
+ ** Per Department of Interior and Local Government, there are 1,634 LGUs nationwide (as of June 30, 2021): bit.ly/39ntcJL
+  PhilHealth Benefits: www.philhealth.gov.ph/benefits/
+
+
+www.philhealth.gov.ph                     PhilHealthOfficial          teamphilhealth           actioncenter@philhealth.gov.ph
+    Accreditation
+   Health Care Professionals
+    as of December 31, 2022
+                                Professionals                                                 Count
+
+    Physicians                                                                              43,528
+    General Practitioners                                                                    10,920
+
+    General Practitioners (with Training)                                                     9,598
+
+    Medical Specialists                                                                      23,010                                           Accredited Professionals**
+                                                                                                                               A list of accredited professionals may be accessed from the
+    Other Professionals                                                                      3,723                                                  PhilHealth website:
+    Dentists                                                                                   695                            www.philhealth.gov.ph/partners/providers/professional/accredited/
+
+
+    Nurses*                                                                                    71*
+    Midwives                                                                                  2,957
+                                                                    Total                   47,251
+
+
+    Note/s:
+    * Accredited Nurses are those primarily assigned in Maternity Care Package (MCP) and/or Family Planning (FP) Providers.
+    ** Accreditation process: www.philhealth.gov.ph/partners/providers/professional/process.html
+
+
+www.philhealth.gov.ph            PhilHealthOfficial   teamphilhealth      actioncenter@philhealth.gov.ph
+    Claims Payment
+       January 1 to December 31, 2022
+
+          Membership Category                                  Claims Amount                                Claims Count
+       Direct Contributor                                      Php 71,268,128,643                                     7,977,744                                      % Distribution by Claims Count
+       Employed: Private                                                   22,816,805,794                                2,432,067
+       Employed: Government                                                10,603,194,624                                1,355,766                                             Sponsored           Private
+                                                                                                                                                                                  16%               17%
+       Informal/Self Earning                                               25,230,920,052                                2,991,645
+       OFWs/ Migrant Workers                                                 1,856,254,685                                 296,163
+       Lifetime Members                                                      9,473,522,147                                 724,513                                   Senior                             Government
+                                                                                                                                                                    Citizens              13.89M           10%
+       Kasambahay                                                                54,539,800                                    5,970                                  17%                 Claims
+       Others*                                                               1,232,891,541                                 171,620
+       Indirect Contributor                                    Php 58,361,491,582                                     5,916,112                                           Indigents                  Informal
+       Indigent/NHTS PR                                                    11,908,260,317                                1,453,929                                          10%             OFWs/      22%
+                                                                                                                                                             Others*                       Migrant
+       Senior Citizen                                                      28,544,845,131                                2,296,221
+                                                                                                                                                               1%                          Workers
+                                                                                                                                                                                   Lifetime
+       Sponsored                                                           17,908,386,135                                2,165,962                                                           2%
+                                                                                                                                                             Kasambahay            Members
+                                       Total                 Php 129,629,620,225                                   13,893,856                                   0.04%                 5%
+
+   Note/s:
+   *Includes Family Drivers. Filipinos w/ Dual Citizenship, Naturalized Filipino Citizens, PRA Foreign Retirees, Citizens of Other Countries working / residing / studying in the Philippines
+
+        Processed using PhilHealth Claims Dashboard extracted January 16, 2023.
+        Claims payment includes all claims paid from January 1 to December 31, 2022.
+
+
+
+www.philhealth.gov.ph                   PhilHealthOfficial        teamphilhealth          actioncenter@philhealth.gov.ph
+     Claims Payment: COVID-19 Related Claims
+     January 1 to December 31, 2022
+    Illness Code                                    Description                                                         Claims Amount                 Claims Count
+       Isolation                                                                                                          Php 736,830,423                    32,939
+         C19CI   Community Isolation Package                                                                                  734,066,586                    32,702
+                                                                                                                                                                       % Distribution by Claims AMOUNT
+                 Admissions Referred to the ICU from Higher Level Facilities for Step Down                                                                                         (Covid-19)
+        C19CIS                                                                                                                     1,858,536                     84
+                 Care
+                                                                                                                                                                                    Isolation
+         C19HI   COVID-19 Home Isolation Benefit Package                                                                          905,301                        153
+      Inpatient                                                                                                        Php 27,177,262,519                    130,136         Testing 2%
+        C19FRP   Full Financial Risk Protection - Health Workers                                                            1,082,497,250                      6,738          21%
+        C19IP1   Mild Pneumonia (Elderly or with Comorbidities)                                                             1,003,771,808                     23,753
+                                                                                                                                                                                    Php 35.36B
+        C19IP2   Moderate Pneumonia                                                                                         8,033,275,865                     60,398
+        C19IP3   Severe Pneumonia                                                                                           7,743,244,874                     25,190                       Inpatien
+        C19IP4   Critical Pneumonia                                                                                         9,297,063,822                     13,320                           t
+        IMP01    Intermediate Package - Moderate Pneumonia                                                                      9,420,080                        526                         77%
+        IMP02    Intermediate Package - Severe / Critical Pneumonia                                                             7,988,820                        211
+        Testing                                                                                                         Php 7,448,556,982                  3,097,588
+                 All Services and Supplies for the Testing are Provided by the Testing
+        C19T1                                                                                                                 5,512,754,983                1,792,569
+                 Laboratory                                                                                                                                             % Distribution by Claims COUNT
+        C19T2    Test Kits are Donated to the Testing Laboratory                                                              1,557,169,291                 937,921
+                                                                                                                                                                                   (Covid-19)
+                 Test Kits are Donated to the Testing Laboratory, Cost of Running the
+        C19T3    Laboratory and the RT-PCR Machine For Testing are Subsidized by the                                            202,649,005                 237,881
+                 Government                                                                                                                                                    Inpatient Isolation
+                 All Services and Supplies for Testing are Procured and Provided by the Testing                                                                                   4%        1%
+        C19X1                                                                                                                   109,410,274                  45,758
+                 Laboratory
+        C19X2    PCR Cartridges are Donated to the Testing Laboratory                                                            28,778,657                  34,270                    3.26M
+                 PCR Cartridges are Donated to the Testing Laboratory; Cost of Running the                                                                                             Claims
+        C19X3                                                                                                                    37,790,770                  49,181
+                 Cartridge-Based PCR Test is Subsidized by the Government
+        C1AT1    Facility Based COVID-19 Rapid Antigen Test                                                                             4,000                     8
+                                                                                                         Total      Php 35,362,649,924                    3,260,663                     Testing
+  Note/s:                                                                                                                                                                                95%
+   Processed using PhilHealth Claims Dashboard extracted January 16, 2023; Claims payment includes all claims paid from January 1 to December 31, 2022
+   Excludes Paid Testing Claims done by Philippine Red Cross (Interim Financing Mechanism)
+
+www.philhealth.gov.ph                   PhilHealthOfficial        teamphilhealth         actioncenter@philhealth.gov.ph
+     Claims Payment
+     Covid-19 and Non-Covid-19 Claims
+     January 1 to December 31, 2022
+
+
+
+                                                                                                                       % Distribution by Claims AMOUNT     % Distribution by Claims COUNT
+               Classification                        Claims Amount                      Claims Count                      (Non Covid-19 vs Covid-19)         (Non Covid-19 vs Covid-19)
+
+       Non-CoVid-19                             Php 94,226,970,302                        10,633,193                                                            Covid-19
+                                                                                                                               Covid-19
+                                                                                                                                                                  23%
+                                                                                                                                 27%
+       CoVid-19-Related                                35,362,649,924                       3,260,663                                                                  13.89M
+                                                                                                                                      Php 129.63B                      Claims
+                                Total         Php 129,629,620,225                         13,893,856                                            Non                          Non
+                                                                                                                                              Covid-19                     Covid-19
+                                                                                                                                                73%                          77%
+
+
+
+
+  Note/s:
+   Processed using PhilHealth Claims Dashboard extracted January 16, 2023; Claims payment includes all claims paid from January 1 to December 31, 2022.
+   Excludes Paid Testing Claims done by Philippine Red Cross (Interim Financing Mechanism)
+
+
+
+www.philhealth.gov.ph                   PhilHealthOfficial        teamphilhealth         actioncenter@philhealth.gov.ph
+    Claims Payment
+    January 1 to December 31, 2022
+
+                                                                                                            % Distribution by Claims COUNT
+    Distribution of Claims Paid by Patient Type                                                                      (Patient Type)
+    Patient Type                   Claims Amount                           Claims Count                             Depend                        29 Days
+    Member                         Php 103,086,905,000                             10,713,615                         ent
+                                                                                                                     23%                     Average Turn-Around-
+    Dependent                              26,542,715,226                           3,180,241                             13.89M                Time for Claims
+                Total              Php 129,629,620,225                             13,893,856                             Claims             Received/Re-filed and
+                                                                                                                              Member                   Paid
+                                                                                                                               77%           (Jan 1 to Dec 31, 2022)
+
+    Distribution of Claims Paid by Sex
+     Patient Sex                   Claims Amount                          Claims Count
+                                                                                                            % Distribution by Claims COUNT
+                                                                                                                          (Sex)
+   Female                           Php 70,783,331,303                              7,613,208
+   Male                                    58,846,288,922                           6,280,648
+                 Total            Php 129,629,620,225                              13,893,856
+                                                                                                                    Male   13.89M
+                                                                                                                    45%    Claims Female
+                                                                                                                                   55%
+  Note/s:
+   Processed using PhilHealth Claims Dashboard extracted January 16, 2023.
+   Claims payment includes all claims paid from January 1 to December 31, 2022.
+
+
+
+www.philhealth.gov.ph                PhilHealthOfficial       teamphilhealth       actioncenter@philhealth.gov.ph
+    Claims Payment
+    Distribution of Claims Paid by Age Group
+    January 1 to December 31, 2022
+                             Distribution by Claims AMOUNT
+                                            (in Million Pesos)                                                                        Distribution by Claims COUNT
+       ≥ 60                                                                                   40,883                     ≥ 60                                                            3,229,143
+    55 - 59                           10,577                                                                           55 - 59                 968,539
+    50 - 54                        9,415                                                                               50 - 54                 937,297
+    45 - 49                      8,053                                                                                 45 - 49                867,920
+    40 - 44                      8,098                               % Distribution by Age Group                       40 - 44                915,258               % Distribution by Age Group
+                                                                          (Claims Amount)                                                                                  (Claims Count)
+    35 - 39                      8,464                                                                                 35 - 39                  1,019,987
+    30 - 34                         9,950                                          < 1 to                              30 - 34                      1,275,756
+                                                                                     14                                                                                      < 1 to 14
+    25 - 29                        9,574                                                                               25 - 29                      1,279,616                  16%
+                                                                                    11%
+    20 - 24                   6,491                                                                                    20 - 24                870,735
+                                                                                                                                                                                 13.89M
+    15 - 19            3,174                                            > 60 Php129.63B                                15 - 19     377,795                            > 60
+                                                                                                   15 to 59                                                                      Claims
+    10 - 14          1,711                                              32%                                            10 - 14   191,345                              23%                     15 to 59
+                                                                                                     57%
+       5- 9          2,005                                                                                                5- 9   230,721                                                        61%
+       1- 4             3,643                                                                                             1- 4      409,682
+        <1                      7,591                                                                                     <1                            1,320,062
+
+  Note/s:
+   Processed using PhilHealth Claims Dashboard extracted January 16, 2023.
+   Claims payment includes all claims paid from January 1 to December 31, 2022.
+
+
+www.philhealth.gov.ph                 PhilHealthOfficial      teamphilhealth          actioncenter@philhealth.gov.ph
+    Claims Payment
+    January 1 to December 31, 2022
+
+    Distribution of Claims Paid by Sector                                                                                                              % Distribution by Sector
+                                                                                                                                                           (Claims Count)
+                Sector                           Claims Amount                              Claims Count
+                                                                                                                                                            Governm             International
+     Private                                       Php 78,707,196,914                                    7,518,182                                            ent                   0.01%
+     Government                                           50,906,261,713                                 6,374,965                                            46%
+                                                                                                                                                                     13.89M
+     International                                              16,161,599                                         709                                               Claims
+                              Total              Php 129,629,620,225                                   13,893,856                                                             Private
+                                                                                                                                                                               54%
+
+
+    Distribution of Claims Paid by Illness Type
+                                                                                                                                                      % Distribution by Illness Type
+             Illness Type                        Claims Amount                              Claims Count                                                     (Claims Count)
+
+     Procedural                                    Php 98,809,170,946                                  11,309,175
+                                                                                                                                                                           Procedura
+     Medical                                              29,934,090,085                                 2,542,945                                                             l
+                                                                                                                                                   Others                     82%
+     Others*                                                  886,359,194                                     41,736                                0.3%
+                                                                                                                                                                     13.89M
+                                                                                                                                                                     Claims
+                              Total              Php 129,629,620,225                                   13,893,856                                          Medical
+    Note/s:
+                                                                                                                                                            18%
+    *Includes Z Benefits
+    Processed using PhilHealth Claims Dashboard extracted January 16, 2023; Claims payment includes all claims paid from January 1 to December 31, 2022.
+
+
+www.philhealth.gov.ph                PhilHealthOfficial      teamphilhealth        actioncenter@philhealth.gov.ph
+    Claims Payment
+    January 1 to December 31, 2022
+   Distribution of Claims Paid by HCI Class
+                                                                                                                Percentage to Total
+                    HCI Class                                  Claims Amount                Claims Count
+                                                                                                                   Claims Count
+   Level 3 Hospital                                        Php 45,724,239,412                       4,599,592           33%
+   Level 2 Hospital                                            39,837,585,432                       3,649,624           26%
+   Level 1 Hospital                                            24,631,434,816                       2,625,141           19%
+   Free Standing Dialysis Clinic                                8,484,695,357                       1,066,127            8%
+   MCP Provider                                                 3,224,725,152                         598,978            4%
+                                                                                                                                                   In terms of Claims Count,
+   Diagnostic Service Provider                                  1,383,437,280                         579,612            4%
+                                                                                                                                                  Hospitals* comprise 81% of
+   Infirmary/Dispensary                                         2,134,857,134                         388,078            3%                       all paid claims by PhilHealth
+   Ambulatory Surgical Clinic                                   2,851,801,264                         203,448            1%                       from Jan 1 to Dec 31, 2022.
+   Animal Bite Package Provider                                   229,912,825                          79,925            1%                        As for Claims Amount, the
+   TB-DOTS Package Provider                                       251,741,344                          50,224          0.36%                     percent distribution is at 87%
+   Community Isolation Unit                                       735,987,131                          32,803          0.24%
+                                                                                                                                                 * Includes Levels 1 to 3 Hospitals and
+   HIV Treatment Hub                                              108,463,468                          15,191          0.11%                     Infirmaries/Dispensaries
+   Family Planning Clinic                                          12,118,800                           4,119          0.03%
+   Facility Confinements Abroad                                    16,195,268                             716          0.01%
+   Drug Abuse Treatment And Rehabilitation
+                                                                        2,310,042                        252         0.002%           Note/s:
+   Center                                                                                                                              Processed using PhilHealth Claims Dashboard extracted
+   Outpatient Malaria Provider                                        109,900                              23        0.0002%            January 16, 2023; Claims payment includes all claims paid
+                                                                                                                                        from January 1 to December 31, 2022
+   Primary Health Clinic                                                5,600                               3       0.00002%
+                                          Total           Php 129,629,620,225                      13,893,856         100%
+
+www.philhealth.gov.ph    PhilHealthOfficial   teamphilhealth      actioncenter@philhealth.gov.ph
+    Claims Payment
+    Top 10 Medical Cases (ranked by count)*
+    January 1 to December 31, 2022
+
+      Rank                                   Illness Description                                          Claims Amount                      Claims Count
+
+        1          Pneumonia Moderate And High Risk                                                       Php 4,969,675,781                     321,442
+        2          Dengue Fever (Mild / Severe)                                                                 1,928,575,318                   202,906
+        3          Acute Gastroenteritis                                                                           845,595,017                  156,531
+        4          Covid-19 Pneumonia Package                                                                  27,177,262,519                   130,136
+        5          Hypertensive Emergency Urgency                                                                  978,098,300                  118,871
+        6          Urinary Tract Infection Admissible                                                              765,689,750                  115,355
+        7          Stroke Infarction (Hemorrhagic / Non Hemorrhagic)                                            3,171,897,042                   110,504
+        8          Peptic Ulcer Disease with / without Hemorrhage                                                  698,569,051                  109,917
+        9          Newborn Sepsis                                                                                  750,128,168                   58,128
+        10         Asthma In Acute Exacerbation                                                                    437,589,529                   55,527
+
+    Note/s:
+    *Case rate category that covers medical cases reimbursed by the Corporation; Ranking was based on the Illness Grouping.
+    Processed using PhilHealth Claims Dashboard extracted January 16, 2023; Claims payment includes all claims paid from January 1 to December 31, 2022
+
+
+www.philhealth.gov.ph               PhilHealthOfficial      teamphilhealth        actioncenter@philhealth.gov.ph
+    Claims Payment
+   Top 10 RVS based Packages and Procedures (ranked by count)*
+    January 1 to December 31, 2022
+
+     Rank                                       Illness Description                                             Claims Amount                    Claims Count
+        1         Hemodialysis Procedure                                                                       Php 17,339,014,971                  3,625,328
+        2         Covid-19 Testing Package                                                                             7,448,556,982               3,097,588
+        3         Expanded Newborn Care Package                                                                        2,462,236,733                871,801
+        4         Normal Spontaneous Delivery                                                                          5,851,369,373                862,547
+        5         Caesarean Section                                                                                    6,463,780,418                328,410
+        6         Chemotherapy Administration                                                                          1,627,331,564                244,648
+                  Intensity Modulated Treatment Delivery, Single or Multiple
+        7         Fields/Arcs, via Narrow Spatially and Temporally Modulated                                           1,363,724,572                169,916
+                  Beams, Binary, Dynamic MLC per Session
+        8         Cataract Extraction                                                                                  2,050,611,152                128,693
+        9         Outpatient HIV / AIDS Packages                                                                          778,675,792               113,191
+       10         Radiation Treatment Delivery (Cobalt or Linear Accelerator)                                             506,780,347                98,317
+
+   Note/s:
+   *Case rate category that covers procedural cases reimbursed by the Corporation; Ranking was based on the Illness Grouping.
+   Processed using PhilHealth Claims Dashboard extracted January 16, 2023; Claims payment includes all claims paid from January 1 to December 31, 2022
+
+www.philhealth.gov.ph               PhilHealthOfficial       teamphilhealth        actioncenter@philhealth.gov.ph
+    Claims Payment
+    Utilization related to SDGs*
+    January 1 to December 31, 2022
+                          SDG-Related Packages                                       Claims Amount         Claims Count
+    Maternal Benefits                                                                 Php 8,410,781,367            841,114
+    Caesarean Delivery                                                                     4,041,995,441            205,964
+    Normal Delivery                                                                        3,871,629,689            572,063
+    Undelivered Cases (Baby Delivered In Referral Facility) In Non-
+                                                                                                  5,200                   8
+    Hospital Facilities
+    Breech Extraction                                                                        52,777,321              4,397
+    Maternal Comorbidities Conditions                                                        430,377,584             58,217
+    Subtotal or Total Hysterectomy After Cesarean Delivery                                    13,996,131                465
+    Newborn Care                                                                      Php 1,805,714,362            650,521
+    Newborn Care Package                                                                  1,805,714,362            650,521
+    Infectious Diseases                                                                Php 785,100,212             117,321
+    Pulmonary Tuberculosis                                                                  205,378,681             32,963
+    Outpatient HIV / Aids Packages                                                          579,721,532             84,538
+    Family Planning                                                                    Php 253,957,979              79,182
+    Bilateral Tubal Ligation                                                                154,265,759             39,362
+    Vasectomy, Unilateral Or Bilateral                                                          227,646                 59
+                                                                                                                              Note/s:
+    Insertion of Intrauterine Device (IUD)                                                   33,220,459             16,882
+                                                                                                                              *SDGs: https://sustainabledevelopment.un.org/sdgs
+    Subdermal Contraceptive Implant                                                          66,244,115             22,879    Processed using PhilHealth Claims Dashboard as of
+    Tropical Diseases                                                                       Php 192,800                 50    January 16, 2023. Claims payment only includes claims
+                                                                                                                              admitted and paid from January 1 to December 31, 2022.
+    Malaria                                                                                     192,800                 50
+                                                                  Total              Php 11,255,746,720          1,688,188
+www.philhealth.gov.ph      PhilHealthOfficial   teamphilhealth   actioncenter@philhealth.gov.ph
+Financial Coverage
+How Much is Covered?
+     Benefit Expense
+     January 1 to December 31, 2022
+
+
+     Distribution by Membership Category
+                       Membership Category                                             Amount
+                                                                                                                     % Distribution by Membership Category
+     Direct Contributors                                                                Php 86,970,165,112
+     Employed: Private                                                                           28,281,918,690                                Informal
+     Employed: Government                                                                        11,240,792,473
+                                                                                                                                                 25%
+                                                                                                                              Government
+     Informal                                                                                    36,034,807,436                   8%
+                                                                                                                                                            Lifetime
+     Lifetime Members                                                                            11,412,646,513
+                                                                                                                                                               8%
+     Indirect Contributors                                                              Php 56,092,416,694                   Private   Php 143.56B
+     Indigents / NHTS-PR                                                                         15,879,870,523               20%                           Indigents
+                                                                                                                                                              11%
+     Senior Citizens                                                                             28,695,167,678
+     Sponsored Program                                                                           11,517,378,492   Konsulta                       Senior
+                                                                                                                   0.2%            Sponsored     Citizens
+     Interim Financing Mechanism (IFM)*                                                     Php 269,004,561              IFM          8%           20%
+     Konsulta                                                                               Php 228,816,027              0.2%
+
+                                                            Total                     Php 143,560,402,394
+    Note/s:
+    *Payments to Philippine Red Cross (PRC) for COVID-19 tests
+    Source: Financial Statements as of December 31, 2022
+
+
+www.philhealth.gov.ph            PhilHealthOfficial     teamphilhealth   actioncenter@philhealth.gov.ph
+Supplemental Information
+       Client Awareness and Satisfaction Survey
+       2022 Results
+                                                                                              Health Care              Health Care
+                                           Individuals               Employers
+                                                                                              Institutions             Professionals                       Net Satisfaction: Individuals    93.8% = Excellent
+             Satisfaction                  94.28%*                    87.96%                   88.44%                    82.98%
+                                                                                                                                                     Aside from Individuals, PhilHealth’s Net Satisfaction Rating also increased most
+          Net Satisfaction                  93.77%                    86.34%                   86.82%                    79.83%
+                                                                                                                                                     notably in Health Care Institutions - a testament to the Corporation’s commitment
+        *Translates to 94 out of a 100 individuals are satisfied with PhilHealth and its services.
+                                                                                                                                                     in the improvement of partnership with facilities. Ratings for Employers and Health
+                                                                                                                                                     Care Professionals also remained “EXCELLENT” in 2022:
+                                                Satisfaction Rating by Type of Client
+                                                             (in Percent)                                                                                                       Net Satisfaction Rating: 2022 vs 2021
+                                                                                                                                                                                             (in Percent)
+                   Individuals                               53.46                                                40.79                        5.24 0.13                                                                   93.77
+                                                                                                                                                                            Individuals
+                                                                                                                                             0.37                                                                         90.19
+                   Employers                       36.61                                             51.32                             10.45    0.2
+                                                                                                                                            1.42                            Employers
+                                                                                                                                                                                                                        86.34
+                                                                                                                                                                                                                         90.26
+   Healthcare Institutions                       32.93                                             55.49                                9.96       0.81
+                                                                                                                                                 0.81          Health Care Institutions
+                                                                                                                                                                                                                       86.82
+ Healthcare Professionals                        32.77                                          50.21                               13.87           0.63                                                           77.14
+                                                                                                                                                2.52
+                                 0%                    20%                   40%                    60%                   80%                    100%        Health Care Professionals
+                                                                                                                                                                                                                    79.38
+                                                                                                                                                                                                                      83.63
+                       Very Satisfied             Satisfied          Undecided              Dissatisfied            Very Dissatisfied
+Notes:
+• Questionnaire by the Governance Commission for GOCCs (GCG)
+                                                                                                                                                                                              2022     2021
+• Survey conducted by Novotrends PH
+• Adjectival Equivalent of Numerical Rating based on Social Weather Stations’ (SWS) Scale: >70 = Excellent; 50 to 69 = Very Good; 30 to 49 =
+www.philhealth.gov.ph                        PhilHealthOfficial
+  Good; 10 to 29 = Moderate; 9 to -9 = Neutral;                             teamphilhealth
+                                                -10 to -29 = Poor; -30 to -49 = Bad; -50 to -69 = Veryactioncenter@philhealth.gov.ph
+                                                                                                       Bad; and -70 and Below = Execrable
+    Supplemental Info.
+               7,088 PhilHealth personnel nationwide*                                                     Aside from the Head Office (709 Shaw Blvd., Pasig City), there are more
+                                                                                                          than 360 PhilHealth stations established nationwide**
+                                  CONTACT INFORMATION
+                                 Call Center Hotline 84417442
+                                                                                                                17 Regional and 5 Branch Offices
+                                (Self-help only; agent assistance                                               114 Local Health Insurance Offices
+                                   temporarily not available)
+                                                                                                                69 PhilHealth Express
+                          Callback Channel: 0917-898-7442 (PHIC)                                                14 Satellite Offices
+                          Text "PHICcallback [space] Mobile No. or
+                               Metro Manila landline [space]                                                    19 Business Centers
+                           details of your concern" and PhilHealth                                              26 Service Desks
+                               will call you during office hours
+                                       (weekdays only).                                                         104 Malasakit Centers
+                                 actioncenter@philhealth.gov.ph
+                                 facebook.com/PhilHealthOfficial/                                         PhilHealth also has 545 PhilHealth CARES*** deployed in 961 healthcare
+                                   twitter.com/teamphilhealth/
+                                                                                                          facilities nationwide ready to cater to members’ needs. Further, there are
+                                                                                                          also 136 PhilHealth Malasakit personnel deployed in Malasakit Centers.
+  Note/s:
+  *Filled positions as of December 31, 2022
+  **Exact location of regional offices (and contact details) can be accessed online: www.philhealth.gov.ph/about_us/map/regional.htm; Further, due to the pandemic, the operating hours of smaller offices are subject to change (e.g. community quarantine statu s,
+  disinfection schedules, scheduled days / operating hours, etc.).
+  ***PCARES: PhilHealth Customer. Assistance, Relations and Empowerment Staff - www.philhealth.gov.ph/circulars/2016/circ2016-009.pdf
+   Local Health Insurance Offices (LHIOs): offices strategically located in high-traffic areas processing membership concerns (e.g. registration, updating of records, inquiries, etc.), receiving of accreditation documents (healthcare facilities, professionals), claims
+        processing (facilities and individual claims), and collections/cashiering functions (premium payments, employer remittances)
+   Satellite Offices / Business Centers: smaller offices compared to LHIOs, these units are strategically located in high-traffic areas processing membership concerns, receiving of accreditation documents, and claims processing; no collections/cashiering
+        functions (except for SM Aura, Taguig and POEA, Mandaluyong)
+   PhilHealth Express: smaller offices or “booths” usually situated in high traffic areas (e.g. malls, markets, etc.) processing only membership concerns and receiving of individual claims; no cashiering functions
+   Service Desks: “booths” or “desks” usually located in LGUs (e.g. municipal hall, city hall, etc.) processing only membership concerns; no cashiering functions; scheduled set-up (e.g. only open a fixed number of days per week); also set-up in far-flung and/or
+        Geographically-Isolated and Disadvantaged Areas (GIDAs)
+   Malasakit Centers: situated in government hospitals, these centers are one-stop-shops intended to provide indigent patients access to various medical assistance funds of the government. These centers house PhilHealth and the Department of Social Welfare
+        and Development, among others.
+www.philhealth.gov.ph                            PhilHealthOfficial           teamphilhealth          actioncenter@philhealth.gov.ph
+   Prepared by the:
+   Corporate Planning Department
+
+   Sources/Inputs/Acknowledgements:
+   Accreditation Department
+   Area Offices
+   Comptrollership Department
+   Corporate Communications Department
+   Health Finance Policy Sector
+   Human Resource Department
+   Information Technology and Management Department
+   Member Management Group
+   Organization and Systems Development Office
+   PhilHealth Regional Offices
+   Program Management Team – Claims
+   Program Management Team – PCARES
+   Standards Monitoring Department
+   Task Force Informatics
+
+
+
+   flaticon.com
+
+
+
+
+   Updated as of February 9, 2023
+
+
+www.philhealth.gov.ph          PhilHealthOfficial   teamphilhealth   actioncenter@philhealth.gov.ph
+
