@@ -7,10 +7,10 @@ Access date for everything: **2026-11-14**. The base list is `data/philhealth_fd
 | File | Rows | What it is |
 |---|---|---|
 | `data/corporate/entities.csv` | 1,012 | One row per PhilHealth FDC row. Gives the legal-form type, a guessed legal-entity name, the operator group, the ultimate owner, the basis and confidence of each group link, and notes (same-address duplicates, accreditations still in a seller's name). Built by `scripts/classify_entities.py`. |
-| `data/corporate/ownership.csv` | 61 | Entity-level ownership rows: operators, PH subsidiaries, parents and ultimate owners, registry IDs, incorporation dates, registered offices, shareholders and officers, former owners, and asset sellers. Built by `scripts/build_corporate_tables.py`. |
+| `data/corporate/ownership.csv` | 74 | Entity-level ownership rows: operators, PH subsidiaries, parents and ultimate owners, registry IDs, incorporation dates, registered offices, shareholders and officers, former owners, and asset sellers. Built by `scripts/build_corporate_tables.py`. |
 | `data/corporate/financials_volume.csv` | 181 | Entity- and site-level revenue, PhilHealth payments, deal values, clinic, station and machine counts, patients, and derived site counts per group. The `value_type` column is `reported` or `derived`. |
 | `data/market/market_context.csv` | 122 | National aggregates: PhilHealth HD claims 2017 to H1 2026, claims paid to FDCs, accredited-FDC counts, PD and kidney-transplant Z-benefits, package-rate history 2015 to 2024, Frost & Sullivan market estimates, and derived session and patient-year estimates. `value_type` is one of `reported`, `derived`, `estimate`, `third_party_estimate`. |
-| `data/corporate/fda_lto_lookups.csv` | ~60 | FDA establishment-licence hits for 38 operator-name queries. Built by `scripts/fda_verification_lookup.py` from `scripts/fda_queries.txt`. |
+| `data/corporate/fda_lto_lookups.csv` | 79 | FDA establishment-licence hits for 38 operator-name queries. Built by `scripts/fda_verification_lookup.py` from `scripts/fda_queries.txt`. |
 | `notes/registrations_map.md` | | The permits a dialysis center needs, and whether each has a public lookup (tested). |
 
 ### Entity typing result (`entities.csv`)
@@ -84,7 +84,7 @@ Access date for everything: **2026-11-14**. The base list is `data/philhealth_fd
 3. **PhilHealth**: an eFOI request for claims paid per accredited FDC (amount and count per year, 2019 to 2026). PhilHealth publishes only national and facility-type totals. Per-facility numbers have surfaced only in Senate hearings (e.g. the B. Braun figures from 2020).
 4. **COA**: the PhilHealth annual audit reports (2019 to 2025) for dialysis-related audit observations. The site is blocked here, so retry from another network or ask COA.
 5. **DTI BNRS** "Request Certification" (paid) for owners of the 304 business-name FDCs. Alternatively, LGU BPLO records via local FOI (these also hold declared gross receipts).
-6. **NSE**: download the full NephroPlus announcement list from a browser to capture every Reg. 30 PH acquisition filing. 13 are captured here.
+6. **NSE**: download the full NephroPlus announcement list from a browser to capture every Reg. 30 PH acquisition filing. Thirteen are captured here (5 direct PDFs, the rest via secondary summaries).
 
 ## Caveats
 * Group links based only on a shared name ("same name, multi-site", "name family") are **not** evidence of common ownership. Use `group_link_confidence`.

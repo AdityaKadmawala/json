@@ -29,7 +29,7 @@ ents = list(csv.DictReader(open(ENT, encoding='utf-8')))
 def seqs_group(g):
     return ' '.join(e['seq'] for e in ents if e['operator_group'] == g)
 def seqs_legal(sub):
-    return ' '.join(e['seq'] for e in ents if sub.lower() in e['legal_entity_name_guess'].lower())
+    return ' '.join(e['seq'] for e in ents if sub.lower() in (e['legal_entity_name_guess'] + ' | ' + e.get('operator_entity', '')).lower())
 def seqs_name(sub):
     return ' '.join(e['seq'] for e in ents if sub.lower() in e['name'].lower())
 
@@ -196,6 +196,27 @@ for nm, reg, addr, status, sq, conf, nt in [
 ]:
     own('Cooperative', nm, 'cooperative operator', reg='CDA ' + reg if reg else '', office=addr, ult='member-owned cooperative',
         seqs=sq, conf=conf, notes=('CDA status 2024: ' + status + '. ' + nt).strip(), src=CDA)
+
+# FDA establishment licences (public FDA verification search; scripts/fda_verification_lookup.py)
+GROUP_OF_QUERY = {'B. Braun Avitum Philippines': 'B. Braun Avitum', 'Fresenius Medical Care Philippines': 'Fresenius Kidney Care',
+                  'Nephrocare Health Care Services': 'NephroPlus', 'Hemotek Renal Center': 'Hemotek', 'Avitus Kidney Care': 'Avitus',
+                  'Clearbridge Medical': 'Clearbridge Health', 'EG Healthcare': 'EG Healthcare (KidneyCare)',
+                  'JL Dialmed': 'Jl Dialmed Dialysis Center (same name, multi-site)', 'Premier 101 Healthcare': 'Premier 101 Healthcare Management (same name, multi-site)',
+                  'Euro-Med Laboratories': 'Hemotek', 'Jortiz Dialysis': 'JOrtiz Dialysis'}
+if os.path.exists('data/corporate/fda_lto_lookups.csv'):
+    hits = collections.defaultdict(list)
+    for r in csv.DictReader(open('data/corporate/fda_lto_lookups.csv', encoding='utf-8')):
+        if r['lto_number'] and r['query'] != 'Euro-Med Laboratories':  # pharma manufacturer LTOs, not dialysis
+            hits[(r['query'], r['establishment_owner'].strip().upper().rstrip('.'))].append(r)
+    for (q, ownr), rs in hits.items():
+        g = GROUP_OF_QUERY.get(q, '')
+        conf = 'low' if q == 'JL Dialmed' else 'high'  # JL DIALMED TRADING CO. is only a name match to the dialysis brand
+        own(g or q, rs[0]['establishment_owner'], 'FDA-licensed establishment (drug/device distributor-importer etc.)',
+            reg='FDA LTO ' + '; '.join(sorted({x['lto_number'] + ' (' + x['register'].replace('lto_', '') + ', valid ' + x['lto_validity'] + ')' for x in rs})),
+            office=rs[0]['address'], seqs=seqs_group(g) if g else '', conf=conf,
+            notes=('Name match to dialysis brand only - relationship to the accredited centers NOT verified. ' if conf == 'low' else '') +
+                  'Head-office address and owner name as registered with FDA; activity: ' + rs[0]['primary_activity'] + ' / ' + rs[0]['additional_activities'],
+            src=rs[0]['source_url'])
 
 os.makedirs('data/corporate', exist_ok=True)
 with open('data/corporate/ownership.csv', 'w', newline='', encoding='utf-8') as f:

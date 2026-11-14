@@ -3,6 +3,9 @@ link it to an operator group / ultimate owner where public evidence exists.
 
 Input : data/philhealth_fdc_2026-09-30.csv
 Output: data/corporate/entities.csv
+  legal_entity_name_guess = accredited juridical name as printed (cleaned), or for a business name the
+  operator entity when known; operator_entity = entity that (per disclosures) operates/owns the site when
+  it differs from the accredited name (e.g. NephroPlus asset purchases, group subsidiaries).
 
 Rules (applied to the accredited name exactly as PhilHealth printed it):
   government            sector == Government (LGU / DOH / provincial facility)
@@ -137,6 +140,7 @@ def main():
         else:
             et, basis = 'business_name', 'no juridical suffix (sole-prop business name or corporate trade name)'
         legal = clean_legal(name) if et in ('stock_corporation', 'one_person_corp', 'cooperative', 'corp_or_partnership', 'non_stock_non_profit') else ''
+        acc_legal = legal  # entity as printed on the accreditation (juridical names only)
         # ---- group links
         grp, ult, gbasis, conf, notes, src = '', '', '', '', [], PH_URL
         if re.search(r'B\.? ?BRAUN', up) or 'bbraun.com' in email:
@@ -194,13 +198,15 @@ def main():
             grp = 'Nursia Dialysis (name family)'; gbasis = 'name pattern'; conf = 'low'
         elif core_count[norm(name)] >= 2:
             grp = norm(name).title() + ' (same name, multi-site)'; gbasis = 'identical accredited name at >=2 sites'; conf = 'medium'
+        operator_entity = legal if legal != acc_legal else ''
+        legal = acc_legal or legal
         if et == 'business_name' and not legal:
             notes.append('legal entity unknown; check DOH LTO / SEC / DTI BNRS certification')
         same = [s for s in addr[akey(r)] if s != seq]
         if same and norm(r['street']):
             notes.append('same street address as seq ' + '/'.join(same))
         out.append(dict(seq=seq, name=name, municipality=r['municipality'], province=r['province'], sector=r['sector'],
-                        entity_type=et, entity_type_basis=basis, legal_entity_name_guess=legal,
+                        entity_type=et, entity_type_basis=basis, legal_entity_name_guess=legal, operator_entity=operator_entity,
                         operator_group=grp, ultimate_owner=ult, group_link_basis=gbasis, group_link_confidence=conf,
                         notes='; '.join(notes), source_url=src if grp else PH_URL, access_date=ACCESS))
     os.makedirs(os.path.dirname(DST), exist_ok=True)
