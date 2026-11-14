@@ -1,0 +1,746 @@
+STATUS OF IRM LIQUIDATION
+As of July 12, 2023
+       PRO                                                               HCI NAME   RELEASED         LIQUIDATION        BALANCE       % LIQ
+[01 ]: PRO I       AGOO MEDICAL CLINIC                                                1,868,702.50       1,868,702.50             ‐   100.00%
+[01 ]: PRO I       ALAMINOS DOCTORS HOSPITAL, INC.                                    6,071,669.50       6,071,669.50             ‐   100.00%
+[01 ]: PRO I       BACNOTAN DISTRICT HOSPITAL                                        12,994,370.00      12,994,370.00             ‐   100.00%
+[01 ]: PRO I       BALAOAN DISTRICT HOSPITAL                                          8,422,540.50       8,422,540.50             ‐   100.00%
+[01 ]: PRO I       BLESSED FAMILY DOCTORS GENERAL HOSPITAL                           22,393,081.00      22,393,081.00             ‐   100.00%
+[01 ]: PRO I       CABA DISTRICT HOSPITAL                                             4,156,053.00       4,156,053.00             ‐   100.00%
+[01 ]: PRO I       CANDON ST. MARTIN DE PORRES HOSPITAL                              12,570,180.50      12,570,180.50             ‐   100.00%
+[01 ]: PRO I       CITY OF CANDON HOSPITAL                                           22,369,151.50      22,369,151.50             ‐   100.00%
+[01 ]: PRO I       CORPUZ CLINIC AND HOSPITAL                                        11,497,041.50      11,497,041.50             ‐   100.00%
+[01 ]: PRO I       DAGUPAN DOCTORS VILLAFLOR MEMORIAL HOSPITAL, INC.                 44,679,067.00      44,679,067.00             ‐   100.00%
+[01 ]: PRO I       DEL CARMEN MEDICAL CLINIC & HOSPITAL, INC.                         6,145,397.00       6,145,397.00             ‐   100.00%
+[01 ]: PRO I       DIVINE MERCY FOUNDATION OF URDANETA HOSPITAL                       1,638,757.00       1,638,757.00             ‐   100.00%
+[01 ]: PRO I       DR. BONIFACIA V. ALBANO MEMORIAL HOSPITAL                          3,274,249.00       3,274,249.00             ‐   100.00%
+[01 ]: PRO I       EL CORAZON DE JESUS MEDICAL & DIAGNOSTIC CLINIC                    1,978,585.00       1,978,585.00             ‐   100.00%
+[01 ]: PRO I       ELGUIRA GENERAL HOSPITAL                                           8,050,932.00       8,050,932.00             ‐   100.00%
+[01 ]: PRO I       GAOAT GENERAL HOSPITAL                                             3,221,008.50       3,221,008.50             ‐   100.00%
+[01 ]: PRO I       GOV. ROQUE B. ABLAN, SR. MEMORIAL HOSPITAL                        27,470,285.80      27,470,285.80             ‐   100.00%
+[01 ]: PRO I       ILOCOS SUR DISTRICT HOSPITAL ‐ SINAIT                              6,821,857.50       6,821,857.50             ‐   100.00%
+[01 ]: PRO I       ILOCOS SUR DISTRICT HOSPITAL‐MAGSINGAL                             6,349,832.50       6,349,832.50             ‐   100.00%
+[01 ]: PRO I       ILOCOS SUR DISTRICT HOSPITAL‐NARVACAN                             21,766,137.00      21,766,137.00             ‐   100.00%
+[01 ]: PRO I       ILOCOS SUR DISTRICT HOSPITAL‐SALCEDO                               3,192,085.00       3,192,085.00             ‐   100.00%
+[01 ]: PRO I       ILOCOS SUR DISTRICT HOSPITAL‐STA. LUCIA                            8,164,741.00       8,164,741.00             ‐   100.00%
+[01 ]: PRO I       ILOCOS TRAINING AND REGIONAL MEDICAL CENTER                      100,455,751.40     100,455,751.40             ‐   100.00%
+[01 ]: PRO I       JESUS NAZARENE GENERAL HOSPITAL                                   14,533,855.00      14,533,855.00             ‐   100.00%
+[01 ]: PRO I       JESUS' HEALING HANDS INFIRMARY, INC.                               1,199,537.50       1,199,537.50             ‐   100.00%
+[01 ]: PRO I       JUDGE CELESTINO GUERRERO MEMORIAL HOSPITAL                           367,818.50         367,818.50             ‐   100.00%
+[01 ]: PRO I       LA UNION MEDICAL CENTER                                           37,043,595.75      37,043,595.75             ‐   100.00%
+[01 ]: PRO I       LA UNION MEDICAL DIAGNOSTIC CENTER AND HOSPITAL, INC.              7,916,171.50       7,916,171.50             ‐   100.00%
+[01 ]: PRO I       LORMA MEDICAL CENTER, INC.                                        68,379,344.00      68,379,344.00             ‐   100.00%
+[01 ]: PRO I       MARIANO MARCOS MEMORIAL HOSPITAL AND MEDICAL CENTER               90,714,541.00      90,714,541.00             ‐   100.00%
+[01 ]: PRO I       MEDICAL CENTRUM DAGUPAN                                            3,698,138.96       3,698,138.96             ‐   100.00%
+[01 ]: PRO I       NORTHERN LUZON ADVENTIST HOSPITAL, INC.                            9,686,051.50       9,686,051.50             ‐   100.00%
+[01 ]: PRO I       NUESTRO SEÑOR SANTO NIÑO HOSPITAL, INC.                            3,268,805.00       3,268,805.00             ‐   100.00%
+[01 ]: PRO I       PANGASINAN DOCTORS HOSPITAL                                       11,361,427.50      11,361,427.50             ‐   100.00%
+[01 ]: PRO I       PIRA HOSPITAL, INC.                                                7,085,004.00       7,085,004.00             ‐   100.00%
+[01 ]: PRO I       REGION I MEDICAL CENTER                                          122,181,701.50     122,181,701.50             ‐   100.00%
+[01 ]: PRO I       RESONABLE HOSPITAL                                                 8,004,385.00       8,004,385.00             ‐   100.00%
+[01 ]: PRO I       RILLERA MEDICAL HOSPITAL                                           1,976,552.00       1,976,552.00             ‐   100.00%
+[01 ]: PRO I       ROSARIO DISTRICT HOSPITAL                                          4,966,620.50       4,966,620.50             ‐   100.00%
+[01 ]: PRO I       SAINT CAMILLUS DE LELLIS GENERAL HOSPITAL                          3,162,075.00       3,162,075.00             ‐   100.00%
+[01 ]: PRO I       SOCONY MEDICAL GROUP INC.                                          1,559,350.00       1,559,350.00             ‐   100.00%
+[01 ]: PRO I       STA. TERESITA HOSPITAL, INC.                                       5,220,385.00       5,220,385.00             ‐   100.00%
+[01 ]: PRO I       STO. CRISTO MILAGROSO HOSPITAL                                     7,695,015.00       7,695,015.00             ‐   100.00%
+[01 ]: PRO I       STO. NIÑO DE CASIPIT GENERAL HOSPITAL                              1,589,910.00       1,589,910.00             ‐   100.00%
+[01 ]: PRO I       STO. NIÑO HOSPITAL                                                 4,411,067.50       4,411,067.50             ‐   100.00%
+[01 ]: PRO I       TAYUG FAMILY HOSPITAL                                              9,352,221.50       9,352,221.50             ‐   100.00%
+[01 ]: PRO I       THE BLACK NAZARENE HOSPITAL, INC.                                  6,136,269.50       6,136,269.50             ‐   100.00%
+[01 ]: PRO I       VILLASIS POLYMEDIC HOSPITAL & TRAUMA CENTER, INC.                     96,585.50          96,585.50             ‐   100.00%
+[01 ]: PRO I       VQR FOUNDATION FOR MEDICAL AND COMMUNITY DEVELOPMENT, INC.         5,319,013.50       5,319,013.50             ‐   100.00%
+[02 ]: PRO II      APAYAO CAGAYAN MEDICAL CENTER INC.                                 3,850,973.00       3,850,973.00             ‐   100.00%
+[02 ]: PRO II      CAGAYAN VALLEY MEDICAL CENTER                                    120,170,472.90     120,170,472.90             ‐   100.00%
+[02 ]: PRO II      CHARLES W. SELBY MEMORIAL HOSPITAL, INC.                           5,000,000.00       5,000,000.00             ‐   100.00%
+[02 ]: PRO II      DE VERA MEDICAL CENTER, INC.                                      30,533,994.50      30,533,994.50             ‐   100.00%
+[02 ]: PRO II      DIVINE MERCY WELLNESS CENTER, INC.                                17,537,153.92      17,537,153.92             ‐   100.00%
+[02 ]: PRO II      DR. RONALD P. GUZMAN MEDICAL CENTER, INC.                         12,920,370.00      12,920,370.00             ‐   100.00%
+[02 ]: PRO II      HOLY INFANT HOSPITAL OF TUGUEGARAO INC.                            3,644,866.36       3,644,866.36             ‐   100.00%
+[02 ]: PRO II      JAVONILLO HOSPITAL, INC.                                           5,080,283.01       5,080,283.01             ‐   100.00%
+[02 ]: PRO II      PROVIDERS MULTI‐PURPOSE COOPERATIVE MEDICAL CENTER                 3,684,740.05       3,684,740.05             ‐   100.00%
+[02 ]: PRO II      REGION II TRAUMA AND MEDICAL CENTER                               42,320,725.15      42,320,725.15             ‐   100.00%
+[02 ]: PRO II      SOLLER GENERAL HOSPITAL, INC.                                      9,313,244.00       9,313,244.00             ‐   100.00%
+[02 ]: PRO II      SOUTHERN ISABELA MEDICAL CENTER                                   51,766,015.07      51,766,015.07             ‐   100.00%
+[02 ]: PRO II      ST. PAUL HOSPITAL OF TUGUEGARAO, INC.                             32,742,028.60      32,742,028.60             ‐   100.00%
+[03A]: PRO III‐A   AC SACRED HEART MEDICAL CENTER                                    62,787,686.25      62,787,686.25             ‐   100.00%
+[03A]: PRO III‐A   ALLIED CARE EXPERTS (ACE) MEDICAL CENTER‐BAYPOINTE INC.           16,426,475.30      16,426,475.30             ‐   100.00%
+[03A]: PRO III‐A   ANGELES MEDICAL CENTER, INC.                                      24,062,821.51      24,062,821.51             ‐   100.00%
+[03A]: PRO III‐A   BAGAC COMMUNITY & MEDICARE HOSPITAL                                1,571,818.90       1,571,818.90             ‐   100.00%
+[03A]: PRO III‐A   BATAAN GENERAL HOSPITAL AND MEDICAL CENTER                        99,585,630.56      99,585,630.56             ‐   100.00%
+[03A]: PRO III‐A   BATAAN ST. JOSEPH HOSPITAL & MEDICAL CENTER CORP.                 21,492,836.32      21,492,836.32             ‐   100.00%
+[03A]: PRO III‐A   BATAAN WOMEN'S HOSPITAL, INC.                                      4,239,246.50       4,239,246.50             ‐   100.00%
+[03A]: PRO III‐A   CENTRAL LUZON DOCTORS' HOSPITAL, INC.                             40,500,000.00      40,500,000.00             ‐   100.00%
+[03A]: PRO III‐A   CENTRO MEDICO DE SANTISIMO ROSARIO, INC.                           7,657,034.50       7,657,034.50             ‐   100.00%
+[03A]: PRO III‐A   DIVINE MERCY HOSPITAL                                              2,871,200.00       2,871,200.00             ‐   100.00%
+[03A]: PRO III‐A   DR. EUTIQUIO LL. ATANACIO JR. MEMORIAL HOSPITAL INC.               5,288,217.50       5,288,217.50             ‐   100.00%
+[03A]: PRO III‐A   DR. WILFREDO G. CORTEZ HOSPITAL, INC.                              1,374,292.50       1,374,292.50             ‐   100.00%
+[03A]: PRO III‐A   HOLY TRINITY HOSPITAL                                              1,229,060.00       1,229,060.00             ‐   100.00%
+[03A]: PRO III‐A   ISAAC & CATALINA MEDICAL CENTER                                   13,626,266.00      13,626,266.00             ‐   100.00%
+[03A]: PRO III‐A   JAMES L. GORDON MEMORIAL HOSPITAL                                 46,094,238.93      46,094,238.93             ‐   100.00%
+[03A]: PRO III‐A   JECSONS MEDICAL CENTER                                            34,632,780.50      34,632,780.50             ‐   100.00%
+[03A]: PRO III‐A   JOSE B. LINGAD MEMORIAL GENERAL HOSPITAL                         201,068,344.74     201,068,344.74             ‐   100.00%
+[03A]: PRO III‐A   JOSE C. PAYUMO JR. MEMORIAL HOSPITAL                              16,623,560.00      16,623,560.00             ‐   100.00%
+[03A]: PRO III‐A   LA PAZ MEDICARE & COMMUNITY HOSPITAL                               2,674,216.60       2,674,216.60             ‐   100.00%
+[03A]: PRO III‐A   LOVING MOTHER GENERAL HOSPITAL AND DIAGNOSTIC CENTER INC.         13,879,510.50      13,879,510.50             ‐   100.00%
+[03A]: PRO III‐A   M. NAPEÑAS MULTI SPECIALTY HOSPITAL                                4,388,005.00       4,388,005.00             ‐   100.00%
+[03A]: PRO III‐A   MEXICO COMMUNITY HOSPITAL                                         30,199,621.00      30,199,621.00             ‐   100.00%
+[03A]: PRO III‐A   MOTHER & CHILD GENERAL HOSPITAL                                    3,380,600.00       3,380,600.00             ‐   100.00%
+[03A]: PRO III‐A   MOTHER TERESA OF CALCUTTA MEDICAL CENTER                          56,233,660.90      56,233,660.90             ‐   100.00%
+[03A]: PRO III‐A   MULTISPECIALTY VENTURE OF TARLAC CORPORATION                       5,816,200.00       5,816,200.00             ‐   100.00%
+STATUS OF IRM LIQUIDATION
+As of July 12, 2023
+      PRO                                                                 HCI NAME                  RELEASED         LIQUIDATION        BALANCE       % LIQ
+[03A]: PRO III‐A   ORION ST. MICHAEL HOSPITAL INC.                                                    6,852,813.00       6,852,813.00             ‐   100.00%
+[03A]: PRO III‐A   OSPITAL NG STA. CRUZ                                                               6,212,678.50       6,212,678.50             ‐   100.00%
+[03A]: PRO III‐A   OUR LADY OF LOURDES INTERNATIONAL MEDICAL CENTER, INC.                             9,763,791.35       9,763,791.35             ‐   100.00%
+[03A]: PRO III‐A   OUR LADY OF MT. CARMEL MEDICAL CENTER‐CLARK, INC.                                  5,330,110.00       5,330,110.00             ‐   100.00%
+[03A]: PRO III‐A   OUR LADY OF MT. CARMEL MEDICAL CENTER, INC.                                       52,707,928.00      52,707,928.00             ‐   100.00%
+[03A]: PRO III‐A   PAMPANGA EENT AND GENERAL HOSPITAL                                                 1,996,149.50       1,996,149.50             ‐   100.00%
+[03A]: PRO III‐A   PAMPANGA PREMIER MEDICAL CENTER, INC.                                             23,002,947.50      23,002,947.50             ‐   100.00%
+[03A]: PRO III‐A   PANIQUI GENERAL HOSPITAL                                                           6,959,525.00       6,959,525.00             ‐   100.00%
+[03A]: PRO III‐A   PRES. RAMON MAGSAYSAY MEMORIAL HOSPITAL                                           46,906,638.50      46,906,638.50             ‐   100.00%
+[03A]: PRO III‐A   PRI MEDICAL CENTER                                                                 3,316,596.50       3,316,596.50             ‐   100.00%
+[03A]: PRO III‐A   RAFAEL LAZATIN MEMORIAL MEDICAL CENTER                                            23,370,932.00      23,370,932.00             ‐   100.00%
+[03A]: PRO III‐A   SAINT ANDREA MATERNITY AND GENERAL HOSPITAL                                        2,090,882.50       2,090,882.50             ‐   100.00%
+[03A]: PRO III‐A   SEÑOR STO. NIÑO HOSPITAL, INC.                                                    13,614,432.50      13,614,432.50             ‐   100.00%
+[03A]: PRO III‐A   ST. CATHERINE OF ALEXANDRIA FOUNDATION & MEDICAL CENTER INC.                       3,672,885.80       3,672,885.80             ‐   100.00%
+[03A]: PRO III‐A   ST. RAPHAEL FOUNDATION AND MEDICAL CENTER, INC.                                   23,417,969.50      23,417,969.50             ‐   100.00%
+[03A]: PRO III‐A   STA. CECILIA MEDICAL CENTER                                                        7,616,095.00       7,616,095.00             ‐   100.00%
+[03A]: PRO III‐A   TARLAC PROVINCIAL HOSPITAL                                                       124,852,425.29     124,852,425.29             ‐   100.00%
+[03B]: PRO III‐B   ALLIED CARE EXPERTS (ACE) MEDICAL CENTER ‐ BALIWAG, INC.                          14,961,543.00      14,961,543.00             ‐   100.00%
+[03B]: PRO III‐B   BALIUAG DISTRICT HOSPITAL                                                         15,664,971.64      15,664,971.64             ‐   100.00%
+[03B]: PRO III‐B   BONGABON DISTRICT HOSPITAL                                                         3,732,809.25       3,732,809.25             ‐   100.00%
+[03B]: PRO III‐B   BRIGINO GENERAL HOSPITAL, INC.                                                     3,471,156.50       3,471,156.50             ‐   100.00%
+[03B]: PRO III‐B   BULACAN MEDICAL CENTER                                                            85,280,119.48      85,280,119.48             ‐   100.00%
+[03B]: PRO III‐B   BULACAN MEDICAL MISSION GROUP HEALTH SERVICES COOPERATIVE                         18,974,175.75      18,974,175.75             ‐   100.00%
+[03B]: PRO III‐B   CABIAO GENERAL HOSPITAL, INC.                                                     10,775,000.00      10,775,000.00             ‐   100.00%
+[03B]: PRO III‐B   CALUMPIT DISTRICT HOSPITAL                                                         4,621,765.00       4,621,765.00             ‐   100.00%
+[03B]: PRO III‐B   CARRANGLAN MEDICARE & COMMUNITY HOSPITAL                                              29,987.50          29,987.50             ‐   100.00%
+[03B]: PRO III‐B   CASTRO MATERNITY HOSPITAL & MEDICAL CENTER, INC.                                  22,602,729.45      22,602,729.45             ‐   100.00%
+[03B]: PRO III‐B   DE JESUS GENERAL HOSPITAL                                                            787,265.00         787,265.00             ‐   100.00%
+[03B]: PRO III‐B   DR. CABUCO HOSPITAL                                                                8,923,605.00       8,923,605.00             ‐   100.00%
+[03B]: PRO III‐B   DR. GLORIA D. LACSON GENERAL HOSPITAL                                             21,000,187.00      21,000,187.00             ‐   100.00%
+[03B]: PRO III‐B   DR. PAULINO J. GARCIA MEMORIAL RESEARCH & MEDICAL CENTER                         121,194,084.71     121,194,084.71             ‐   100.00%
+[03B]: PRO III‐B   DR. YANGA'S HOSPITAL, INC.                                                        11,071,655.45      11,071,655.45             ‐   100.00%
+[03B]: PRO III‐B   EDUARDO L. JOSON MEMORIAL HOSPITAL                                                16,343,656.00      16,343,656.00             ‐   100.00%
+[03B]: PRO III‐B   GABALDON MEDICARE & COMMUNITY HOSPITAL                                             1,359,411.25       1,359,411.25             ‐   100.00%
+[03B]: PRO III‐B   GAPAN DISTRICT HOSPITAL                                                            5,845,632.75       5,845,632.75             ‐   100.00%
+[03B]: PRO III‐B   GENERAL TINIO MEDICARE & COMMUNITY HOSPITAL                                          804,247.50         804,247.50             ‐   100.00%
+[03B]: PRO III‐B   GRACE GENERAL HOSPITAL, INC.                                                      14,207,999.00      14,207,999.00             ‐   100.00%
+[03B]: PRO III‐B   GRAMAN MEDICAL & MATERNITY HOSPITAL INC.                                          11,820,611.00      11,820,611.00             ‐   100.00%
+[03B]: PRO III‐B   GREGORIO DEL PILAR DISTRICT HOSPITAL                                               2,389,980.00       2,389,980.00             ‐   100.00%
+[03B]: PRO III‐B   GUIGUINTO POLYMEDIC HOSPITAL, INC. (FORMERLY BULACAN POLYMEDIC HOSPITAL, INC.)     7,142,650.81       7,142,650.81             ‐   100.00%
+[03B]: PRO III‐B   GUIMBA DISTRICT HOSPITAL                                                           3,596,050.00       3,596,050.00             ‐   100.00%
+[03B]: PRO III‐B   HEART OF JESUS HOSPITAL                                                           15,765,557.90      15,765,557.90             ‐   100.00%
+[03B]: PRO III‐B   IMMACULATE CONCEPTION MEDICAL CENTER OF CENTRAL LUZON, INC.                       23,516,262.00      23,516,262.00             ‐   100.00%
+[03B]: PRO III‐B   KAIROS MATERNITY & GENERAL HOSPITAL                                                5,390,016.50       5,390,016.50             ‐   100.00%
+[03B]: PRO III‐B   LA CONSOLACION UNIVERSITY GENERAL HOSPITAL                                         9,152,230.31       9,152,230.31             ‐   100.00%
+[03B]: PRO III‐B   M.S. MAGBITANG OSPITAL NG SAN ILDEFONSO                                            1,916,157.50       1,916,157.50             ‐   100.00%
+[03B]: PRO III‐B   MALOLOS SAN VICENTE HOSPITAL                                                       5,858,261.50       5,858,261.50             ‐   100.00%
+[03B]: PRO III‐B   MARCELO HOSPITAL OF BALIWAG INC.                                                   5,714,178.25       5,714,178.25             ‐   100.00%
+[03B]: PRO III‐B   MARCELO‐PADILLA CHILDREN'S AND MEDICAL HOSPITAL CORPORATION                        9,745,169.63       9,745,169.63             ‐   100.00%
+[03B]: PRO III‐B   MARY IMMACULATE MATERNITY & GENERAL HOSPITAL INC.                                  8,866,214.25       8,866,214.25             ‐   100.00%
+[03B]: PRO III‐B   MARYMOUNT HOSPITAL INC.                                                            6,061,773.50       6,061,773.50             ‐   100.00%
+[03B]: PRO III‐B   MATEO'S DIAGNOSTIC CLINIC & GENERAL HOSPITAL, INC.                                 9,301,642.15       9,301,642.15             ‐   100.00%
+[03B]: PRO III‐B   MENDOZA GENERAL HOSPITAL, INC.                                                     3,047,026.25       3,047,026.25             ‐   100.00%
+[03B]: PRO III‐B   MEYCAUAYAN DOCTORS HOSPITAL AND MEDICAL CENTER, INC.                              25,539,813.98      25,539,813.98             ‐   100.00%
+[03B]: PRO III‐B   MT. CARMEL MEDICAL CENTER OF BULACAN INC.                                            987,047.50         987,047.50             ‐   100.00%
+[03B]: PRO III‐B   NAZARENUS COLLEGE AND HOSPITAL FOUNDATION, INC.                                    5,543,974.50       5,543,974.50             ‐   100.00%
+[03B]: PRO III‐B   NEPHROLOGY CENTER OF MALOLOS BULACAN                                               2,455,050.00       2,455,050.00             ‐   100.00%
+[03B]: PRO III‐B   NUEVA ECIJA DOCTORS' HOSPITAL, INC.                                               40,000,000.00      40,000,000.00             ‐   100.00%
+[03B]: PRO III‐B   NUEVA ECIJA GOOD SAMARITAN HEALTH SYSTEM, INC.                                    50,142,251.18      50,142,251.18             ‐   100.00%
+[03B]: PRO III‐B   NUEVA ECIJA GOOD SAMARITAN HEALTH SYSTEM, INC. (EXT.)                             17,957,014.25      17,957,014.25             ‐   100.00%
+[03B]: PRO III‐B   OFELIA L. MENDOZA MATERNITY & GENERAL HOSPITAL                                     2,886,857.50       2,886,857.50             ‐   100.00%
+[03B]: PRO III‐B   OSPITAL NG GUIGUINTO                                                               4,882,905.00       4,882,905.00             ‐   100.00%
+[03B]: PRO III‐B   OUR LADY OF MERCY GENERAL HOSPITAL INC                                            10,789,502.98      10,789,502.98             ‐   100.00%
+[03B]: PRO III‐B   PREMIERE GENERAL HOSPITAL OF NUEVA ECIJA, BALER, AURORA, INC.                     11,644,645.00      11,644,645.00             ‐   100.00%
+[03B]: PRO III‐B   PREMIERE MEDICAL CENTER                                                           48,040,195.27      48,040,195.27             ‐   100.00%
+[03B]: PRO III‐B   ROMEL CRUZ HOSPITAL                                                               11,143,970.00      11,143,970.00             ‐   100.00%
+[03B]: PRO III‐B   RUGAY GENERAL HOSPITAL, INC.                                                      12,220,406.89      12,220,406.89             ‐   100.00%
+[03B]: PRO III‐B   SACRED HEART HOSPITAL OF MALOLOS, INC.                                            24,877,341.44      24,877,341.44             ‐   100.00%
+[03B]: PRO III‐B   SAN ANTONIO DISTRICT HOSPITAL                                                      5,289,910.00       5,289,910.00             ‐   100.00%
+[03B]: PRO III‐B   SAN JOSE CITY GENERAL HOSPITAL                                                    12,287,951.00      12,287,951.00             ‐   100.00%
+[03B]: PRO III‐B   SAN MIGUEL DISTRICT HOSPITAL                                                       8,504,483.12       8,504,483.12             ‐   100.00%
+[03B]: PRO III‐B   SAN PASCUAL BAYLON MATERNITY & GENERAL HOSPITAL                                    5,170,514.00       5,170,514.00             ‐   100.00%
+[03B]: PRO III‐B   SANTOS GENERAL HOSPITAL MALOLOS, INC.                                              2,759,200.99       2,759,200.99             ‐   100.00%
+[03B]: PRO III‐B   SKYLINE HOSPITAL AND MEDICAL CENTER                                               12,474,041.50      12,474,041.50             ‐   100.00%
+[03B]: PRO III‐B   STA. CLARA DE MONTEFALCO MEDICAL CENTER INC.                                       1,837,099.20       1,837,099.20             ‐   100.00%
+[03B]: PRO III‐B   STA. CRUZ MULTISPECIALTY HOSPITAL, INC                                             2,757,643.00       2,757,643.00             ‐   100.00%
+[03B]: PRO III‐B   STO. DOMINGO DISTRICT HOSPITAL                                                     3,298,475.00       3,298,475.00             ‐   100.00%
+[03B]: PRO III‐B   TALAVERA GENERAL HOSPITAL                                                         13,172,514.00      13,172,514.00             ‐   100.00%
+[03B]: PRO III‐B   THE LORD'S HOSPITAL                                                               13,621,483.56      13,621,483.56             ‐   100.00%
+[03B]: PRO III‐B   WESLEYAN UNIVERSITY ‐ PHILIPPINES                                                 15,780,648.14      15,780,648.14             ‐   100.00%
+[04A]: PRO IV‐A    ALABAT ISLAND DISTRICT HOSPITAL                                                    9,888,252.50       9,888,252.50             ‐   100.00%
+[04A]: PRO IV‐A    ASIA MEDIC FAMILY HOSPITAL AND MEDICAL CENTER                                     15,995,398.75      15,995,398.75             ‐   100.00%
+[04A]: PRO IV‐A    BACOOR DOCTORS MEDICAL CENTER                                                      2,814,642.50       2,814,642.50             ‐   100.00%
+[04A]: PRO IV‐A    BINAKAYAN HOSPITAL AND MEDICAL CENTER, INC.                                        7,730,227.50       7,730,227.50             ‐   100.00%
+[04A]: PRO IV‐A    BIÑAN DOCTORS' HOSPITAL INCORPORATED                                              18,846,395.96      18,846,395.96             ‐   100.00%
+[04A]: PRO IV‐A    BONDOC PENINSULA DISTRICT HOSPITAL                                                10,884,355.00      10,884,355.00             ‐   100.00%
+[04A]: PRO IV‐A    CALAMBA DOCTORS' HOSPITAL                                                         32,019,890.08      32,019,890.08             ‐   100.00%
+STATUS OF IRM LIQUIDATION
+As of July 12, 2023
+      PRO                                                              HCI NAME   RELEASED         LIQUIDATION        BALANCE       % LIQ
+[04A]: PRO IV‐A   CALAMBA MEDICAL CENTER, INC.                                     36,133,293.16      36,133,293.16             ‐   100.00%
+[04A]: PRO IV‐A   CANDELARIA MUNICIPAL HOSPITAL                                     2,894,235.00       2,894,235.00             ‐   100.00%
+[04A]: PRO IV‐A   CARMONA HOSPITAL AND MEDICAL CENTER, INC                         16,003,949.50      16,003,949.50             ‐   100.00%
+[04A]: PRO IV‐A   CAVITE MEDICAL CENTER, INC.                                       9,516,890.50       9,516,890.50             ‐   100.00%
+[04A]: PRO IV‐A   CHRISTIAN GENERAL HOSPITAL                                          279,685.00         279,685.00             ‐   100.00%
+[04A]: PRO IV‐A   CLARO M. RECTO MEMORIAL DISTRICT HOSPITAL                         6,558,871.50       6,558,871.50             ‐   100.00%
+[04A]: PRO IV‐A   CRISOSTOMO HEALTH CARE SYSTEMS, INC.                              4,417,057.50       4,417,057.50             ‐   100.00%
+[04A]: PRO IV‐A   DE LA SALLE UNIVERSITY MEDICAL CENTER                            79,499,958.45      79,499,958.45             ‐   100.00%
+[04A]: PRO IV‐A   DIVINE GRACE MEDICAL CENTER                                      25,444,497.50      25,444,497.50             ‐   100.00%
+[04A]: PRO IV‐A   DIVINE MERCY HOSPITAL, INC.                                       6,408,982.95       6,408,982.95             ‐   100.00%
+[04A]: PRO IV‐A   DR. ERLINDA P. TOLENTINO MEDICAL CLINIC AND HOSPITAL                761,198.90         761,198.90             ‐   100.00%
+[04A]: PRO IV‐A   EMILIO AGUINALDO COLLEGE MEDICAL CENTER CAVITE                   16,220,902.89      16,220,902.89             ‐   100.00%
+[04A]: PRO IV‐A   EVANGELISTA MEDICAL SPECIALTY HOSPITAL, INC.                      9,436,831.52       9,436,831.52             ‐   100.00%
+[04A]: PRO IV‐A   FAMILY CARE HOSPITAL, INC.                                        1,359,389.13       1,359,389.13             ‐   100.00%
+[04A]: PRO IV‐A   FIRST CABUYAO HOSPITAL AND MEDICAL CENTER, INC.                   4,324,514.50       4,324,514.50             ‐   100.00%
+[04A]: PRO IV‐A   GAMEZ HOSPITAL                                                      644,225.00         644,225.00             ‐   100.00%
+[04A]: PRO IV‐A   GENERAL TRIAS MATERNITY AND PEDIATRIC HOSPITAL                    9,541,952.00       9,541,952.00             ‐   100.00%
+[04A]: PRO IV‐A   GENTRI MEDICAL CENTER AND HOSPITAL, INC.                         16,551,854.00      16,551,854.00             ‐   100.00%
+[04A]: PRO IV‐A   GLOBAL CARE MEDICAL CENTER OF BAY, INC.                           3,473,847.50       3,473,847.50             ‐   100.00%
+[04A]: PRO IV‐A   GLOBAL CARE MEDICAL CENTER OF CANLUBANG,INC.                     12,225,377.00      12,225,377.00             ‐   100.00%
+[04A]: PRO IV‐A   GLOBAL MEDICAL CENTER OF LAGUNA, INC.                            17,195,108.50      17,195,108.50             ‐   100.00%
+[04A]: PRO IV‐A   GMF HOSPITAL                                                      3,999,898.50       3,999,898.50             ‐   100.00%
+[04A]: PRO IV‐A   GUINAYANGAN MEDICARE COMMUNITY HOSPITAL                          11,633,573.50      11,633,573.50             ‐   100.00%
+[04A]: PRO IV‐A   HOLY ROSARY HOSPITAL                                              6,224,099.00       6,224,099.00             ‐   100.00%
+[04A]: PRO IV‐A   IMUS FAMILY HOSPITAL INC.                                         2,397,637.00       2,397,637.00             ‐   100.00%
+[04A]: PRO IV‐A   JNRAL FAMILY CORPORATION                                          3,443,264.00       3,443,264.00             ‐   100.00%
+[04A]: PRO IV‐A   K‐MATTERS TAGUIG DIALYSIS AND DIAGNOSTIC CENTER CO.               2,287,203.70       2,287,203.70             ‐   100.00%
+[04A]: PRO IV‐A   LAGUNA DOCTORS HOSPITAL, INC.                                    16,610,463.99      16,610,463.99             ‐   100.00%
+[04A]: PRO IV‐A   LAGUNA HOLY FAMILY HOSPITAL, INC.                                22,721,894.00      22,721,894.00             ‐   100.00%
+[04A]: PRO IV‐A   LOPEZ SAINT JUDE GENERAL HOSPITAL, CORP.                         11,857,015.00      11,857,015.00             ‐   100.00%
+[04A]: PRO IV‐A   LOS BAÑOS DOCTORS HOSPITAL AND MEDICAL CENTER, INCORPORATED      14,598,263.28      14,598,263.28             ‐   100.00%
+[04A]: PRO IV‐A   LUCENA MMG GENERAL HOSPITAL                                      37,973,122.07      37,973,122.07             ‐   100.00%
+[04A]: PRO IV‐A   LUCENA UNITED DOCTORS HOSPITAL AND MEDICAL CENTER                48,646,619.34      48,646,619.34             ‐   100.00%
+[04A]: PRO IV‐A   M.V. SANTIAGO MEDICAL CENTER                                      9,973,503.00       9,973,503.00             ‐   100.00%
+[04A]: PRO IV‐A   MAGSAYSAY MEMORIAL DISTRICT HOSPITAL                             16,218,422.00      16,218,422.00             ‐   100.00%
+[04A]: PRO IV‐A   MARIAN HOSPITAL OF STA. ROSA, INC.                                8,039,723.03       8,039,723.03             ‐   100.00%
+[04A]: PRO IV‐A   MAUBAN DISTRICT HOSPITAL                                          7,049,597.50       7,049,597.50             ‐   100.00%
+[04A]: PRO IV‐A   METRO SOUTH MEDICAL CENTER                                        5,279,203.50       5,279,203.50             ‐   100.00%
+[04A]: PRO IV‐A   MOLINO DOCTORS HOSPITAL                                           5,672,034.50       5,672,034.50             ‐   100.00%
+[04A]: PRO IV‐A   MOUNT CARMEL DIOCESAN GENERAL HOSPITAL                           47,511,342.40      47,511,342.40             ‐   100.00%
+[04A]: PRO IV‐A   NAIC DOCTORS HOSPITAL, INC.                                       4,125,787.00       4,125,787.00             ‐   100.00%
+[04A]: PRO IV‐A   NEPHRO SYNERGIES, INC.                                            3,129,100.00       3,129,100.00             ‐   100.00%
+[04A]: PRO IV‐A   NEPHROLOGY CENTER OF BACOOR CAVITE, INC.                          3,090,100.00       3,090,100.00             ‐   100.00%
+[04A]: PRO IV‐A   NEPHROLOGY CENTER OF CALAMBA, LAGUNA INC.                         2,524,386.00       2,524,386.00             ‐   100.00%
+[04A]: PRO IV‐A   NEPHROLOGY CENTER OF CAVITE CITY DIALYSIS, INC.                   4,631,900.00       4,631,900.00             ‐   100.00%
+[04A]: PRO IV‐A   NEPHROLOGY CENTER OF CAVITE CT‐R HEMODIALYSIS, INC.               2,632,500.00       2,632,500.00             ‐   100.00%
+[04A]: PRO IV‐A   NEW SINAI MDI HOSPITAL                                           16,903,481.18      16,903,481.18             ‐   100.00%
+[04A]: PRO IV‐A   OSPITAL NG IMUS                                                   2,162,523.50       2,162,523.50             ‐   100.00%
+[04A]: PRO IV‐A   OUR LADY OF THE PILLAR MEDICAL CENTER                            24,094,131.00      24,094,131.00             ‐   100.00%
+[04A]: PRO IV‐A   PAETE GENERAL HOSPITAL, INC.                                      3,379,767.50       3,379,767.50             ‐   100.00%
+[04A]: PRO IV‐A   PAGSANJAN MEDICAL CLINIC, INC.                                    4,725,909.50       4,725,909.50             ‐   100.00%
+[04A]: PRO IV‐A   PAREDES MEDICAL CENTER AND HOSPITAL                               1,832,227.50       1,832,227.50             ‐   100.00%
+[04A]: PRO IV‐A   PETER PAUL MEDICAL CENTER OF CANDELARIA INC.                     19,310,007.50      19,310,007.50             ‐   100.00%
+[04A]: PRO IV‐A   QUALIMED HEALTH NETWORK STA. ROSA                                 4,099,887.50       4,099,887.50             ‐   100.00%
+[04A]: PRO IV‐A   QUEZON MEDICAL CENTER                                           131,058,606.25     131,058,606.25             ‐   100.00%
+[04A]: PRO IV‐A   RAKKK PROPHET MEDICAL CENTER, INC.                               12,063,723.00      12,063,723.00             ‐   100.00%
+[04A]: PRO IV‐A   SAN DIEGO DE ALCALA GENERAL HOSPITAL                              4,762,068.50       4,762,068.50             ‐   100.00%
+[04A]: PRO IV‐A   SAN FRANCISCO MUNICIPAL HOSPITAL                                  3,263,013.50       3,263,013.50             ‐   100.00%
+[04A]: PRO IV‐A   SAN NARCISO MUNICIPAL HOSPITAL                                    3,657,010.00       3,657,010.00             ‐   100.00%
+[04A]: PRO IV‐A   SAN PABLO COLLEGES MEDICAL CENTER                                27,875,228.15      27,875,228.15             ‐   100.00%
+[04A]: PRO IV‐A   SAN PABLO DOCTORS HOSPITAL, INC.                                 12,278,197.00      12,278,197.00             ‐   100.00%
+[04A]: PRO IV‐A   SAN PEDRO CALUNGSOD MEDICAL CENTER, INC.                          5,367,002.50       5,367,002.50             ‐   100.00%
+[04A]: PRO IV‐A   SAN PEDRO DOCTORS HOSPITAL, INC.                                  5,788,268.50       5,788,268.50             ‐   100.00%
+[04A]: PRO IV‐A   SILANG SPECIALISTS MEDICAL CENTER, INC.                          14,587,063.00      14,587,063.00             ‐   100.00%
+[04A]: PRO IV‐A   SOUTHEAST ASIAN MEDICAL CENTER, INC.                             10,901,870.00      10,901,870.00             ‐   100.00%
+[04A]: PRO IV‐A   ST. ANNE GENERAL HOSPITAL, INC.                                  21,110,075.83      21,110,075.83             ‐   100.00%
+[04A]: PRO IV‐A   ST. DOMINIC MEDICAL CENTER, INC.                                 10,094,557.50      10,094,557.50             ‐   100.00%
+[04A]: PRO IV‐A   ST. JAMES HOSPITAL, INC.                                         13,777,733.84      13,777,733.84             ‐   100.00%
+[04A]: PRO IV‐A   ST. JOHN THE BAPTIST MEDICAL CENTER, INC.                         8,901,106.23       8,901,106.23             ‐   100.00%
+[04A]: PRO IV‐A   ST. JUDE FAMILY HOSPITAL                                         14,953,649.50      14,953,649.50             ‐   100.00%
+[04A]: PRO IV‐A   ST. PAUL HOSPITAL CAVITE, INC.                                   15,078,659.25      15,078,659.25             ‐   100.00%
+[04A]: PRO IV‐A   STA. ROSA HOSPITAL AND MEDICAL CENTER                            22,482,649.98      22,482,649.98             ‐   100.00%
+[04A]: PRO IV‐A   STS. FRANCIS & PAUL GENERAL HOSPITAL                              3,148,435.00       3,148,435.00             ‐   100.00%
+[04A]: PRO IV‐A   TAGAYTAY MEDICAL CENTER, INC.                                    20,025,988.33      20,025,988.33             ‐   100.00%
+[04A]: PRO IV‐A   TAYABAS COMMUNITY HOSPITAL, INC.                                 38,094,561.00      38,094,561.00             ‐   100.00%
+[04A]: PRO IV‐A   THE MEDICAL CITY SOUTH LUZON                                     12,823,198.94      12,823,198.94             ‐   100.00%
+[04A]: PRO IV‐A   TMS DIALYSIS CENTER ‐ SAN PEDRO                                   8,426,950.00       8,426,950.00             ‐   100.00%
+[04A]: PRO IV‐A   UNIHEALTH‐SOUTHWOODS HOSPITAL AND MEDICAL CENTER, INC.           18,387,164.00      18,387,164.00             ‐   100.00%
+[04A]: PRO IV‐A   UPH‐DR. JOSE G. TAMAYO MEDICAL CENTER                            30,147,057.75      30,147,057.75             ‐   100.00%
+[04A]: PRO IV‐A   VELAZCO HOSPITAL                                                  5,141,520.00       5,141,520.00             ‐   100.00%
+[04A]: PRO IV‐A   WESTLAKE MEDICAL CENTER                                          13,466,986.00      13,466,986.00             ‐   100.00%
+[04A]: PRO IV‐A   YR ‐ ST. MICHAEL MEDICAL HOSPITAL,INC.                            4,535,790.00       4,535,790.00             ‐   100.00%
+[04B]: PRO IV‐B   ABORLAN MEDICARE HOSPITAL                                        10,579,193.50      10,579,193.50             ‐   100.00%
+[04B]: PRO IV‐B   ADVENTIST HOSPITAL‐PALAWAN INC.                                  24,610,995.00      24,610,995.00             ‐   100.00%
+[04B]: PRO IV‐B   BATANGAS MEDICAL CENTER                                          50,952,865.50      50,952,865.50             ‐   100.00%
+[04B]: PRO IV‐B   BAUAN DOCTORS GENERAL HOSPITAL                                   24,854,354.98      24,854,354.98             ‐   100.00%
+[04B]: PRO IV‐B   C.P. REYES HOSPITAL                                              30,115,836.90      30,115,836.90             ‐   100.00%
+STATUS OF IRM LIQUIDATION
+As of July 12, 2023
+       PRO                                                            HCI NAME                    RELEASED         LIQUIDATION        BALANCE       % LIQ
+[04B]: PRO IV‐B   CHRIST THE SAVIOUR GENERAL HOSPITAL, INC.                                         5,812,273.50       5,812,273.50             ‐   100.00%
+[04B]: PRO IV‐B   CULION SANITARIUM AND GENERAL HOSPITAL                                           18,097,091.50      18,097,091.50             ‐   100.00%
+[04B]: PRO IV‐B   DANIEL O. MERCADO MEDICAL CENTER                                                 24,036,543.26      24,036,543.26             ‐   100.00%
+[04B]: PRO IV‐B   DIVINE LOVE GENERAL HOSPITAL, INC.                                                7,587,287.10       7,587,287.10             ‐   100.00%
+[04B]: PRO IV‐B   DR. R. ROSALES MEMORIAL MEDICAL HOSPITAL, INC.                                    1,031,104.00       1,031,104.00             ‐   100.00%
+[04B]: PRO IV‐B   FERNANDO AIR BASE HOSPITAL                                                          273,752.00         273,752.00             ‐   100.00%
+[04B]: PRO IV‐B   GONZALES MEDICAL & CHILDREN'S HOSPITAL, INC.                                     11,845,812.40      11,845,812.40             ‐   100.00%
+[04B]: PRO IV‐B   GRACE MISSION HOSPITAL, INC.                                                      4,448,284.00       4,448,284.00             ‐   100.00%
+[04B]: PRO IV‐B   HOSPITAL OF THE HOLY CROSS                                                        4,886,663.00       4,886,663.00             ‐   100.00%
+[04B]: PRO IV‐B   ISIAH HOSPITAL & MEDICAL CENTER                                                   8,410,615.00       8,410,615.00             ‐   100.00%
+[04B]: PRO IV‐B   LEONCIO GENERAL HOSPITAL                                                          5,991,780.50       5,991,780.50             ‐   100.00%
+[04B]: PRO IV‐B   LIPA MEDIX MEDICAL CENTER                                                        47,941,081.34      47,941,081.34             ‐   100.00%
+[04B]: PRO IV‐B   LUNA GOCO MEDICAL CENTER                                                          2,538,313.00       2,538,313.00             ‐   100.00%
+[04B]: PRO IV‐B   MARIA ESTRELLA GENERAL HOSPITAL, INC.                                            39,812,370.50      39,812,370.50             ‐   100.00%
+[04B]: PRO IV‐B   MARY MEDIATRIX MEDICAL CENTER, INC.                                              53,641,074.22      53,641,074.22             ‐   100.00%
+[04B]: PRO IV‐B   MEDICAL MISSION GROUP HOSPITAL MULTIPURPOSE COOPERATIVE OF ORIENTAL MINDORO      18,519,918.00      18,519,918.00             ‐   100.00%
+[04B]: PRO IV‐B   METRO BALAYAN MEDICAL CENTER                                                      6,110,048.60       6,110,048.60             ‐   100.00%
+[04B]: PRO IV‐B   METRO SAN JOSE MEDICAL CENTER                                                    11,166,672.50      11,166,672.50             ‐   100.00%
+[04B]: PRO IV‐B   N.L. VILLA MEMORIAL MEDICAL CENTER                                               16,316,942.30      16,316,942.30             ‐   100.00%
+[04B]: PRO IV‐B   NEPHROLOGY CENTER OF BATANGAS CITY, INC.                                          4,085,900.00       4,085,900.00             ‐   100.00%
+[04B]: PRO IV‐B   NORTHERN PALAWAN PROVINCIAL HOSPITAL                                             11,646,975.00      11,646,975.00             ‐   100.00%
+[04B]: PRO IV‐B   ORIENTAL MINDORO PROVINCIAL HOSPITAL                                             60,795,109.00      60,795,109.00             ‐   100.00%
+[04B]: PRO IV‐B   OSPITAL NG PALAWAN                                                               43,582,991.00      43,582,991.00             ‐   100.00%
+[04B]: PRO IV‐B   OUR LADY OF CAYSASAY MEDICAL CENTER, INC.                                        19,946,556.60      19,946,556.60             ‐   100.00%
+[04B]: PRO IV‐B   PALAWAN MEDICAL MISSION GROUP MULTIPURPOSE COOPERATIVE (PMMGMPC)                 23,675,158.00      23,675,158.00             ‐   100.00%
+[04B]: PRO IV‐B   PINAMALAYAN DOCTOR'S HOSPITAL                                                     6,738,690.00       6,738,690.00             ‐   100.00%
+[04B]: PRO IV‐B   QUEEN MARY HOSPITAL, INC.                                                         1,450,017.00       1,450,017.00             ‐   100.00%
+[04B]: PRO IV‐B   ROXAS MEDICARE HOSPITAL                                                           5,193,187.70       5,193,187.70             ‐   100.00%
+[04B]: PRO IV‐B   RTN FOUNDATION INC. HOSPITAL                                                      1,694,555.00       1,694,555.00             ‐   100.00%
+[04B]: PRO IV‐B   SAGRADO HOSPITAL,INC.                                                             8,854,564.00       8,854,564.00             ‐   100.00%
+[04B]: PRO IV‐B   SAINT PATRICK'S HOSPITAL MEDICAL CENTER                                          15,707,418.50      15,707,418.50             ‐   100.00%
+[04B]: PRO IV‐B   SAINT VINCENT DE PAUL HOSPITAL                                                    1,424,745.00       1,424,745.00             ‐   100.00%
+[04B]: PRO IV‐B   SAN ANTONIO MEDICAL CENTER OF LIPA, INC.                                          6,707,317.00       6,707,317.00             ‐   100.00%
+[04B]: PRO IV‐B   SOUTHERN PALAWAN PROVINCIAL HOSPITAL                                             10,922,093.50      10,922,093.50             ‐   100.00%
+[04B]: PRO IV‐B   ST. FRANCES CABRINI MEDICAL CENTER, INC.                                         33,903,872.10      33,903,872.10             ‐   100.00%
+[04B]: PRO IV‐B   STA. MARIA VILLAGE HOSPITAL, INC.                                                 4,165,477.50       4,165,477.50             ‐   100.00%
+[05 ]: PRO V      AGO GENERAL HOSPITAL                                                              5,393,140.50       5,393,140.50             ‐   100.00%
+[05 ]: PRO V      ALBAY DOCTORS' HOSPITAL, INC.                                                     9,946,347.50       9,946,347.50             ‐   100.00%
+[05 ]: PRO V      BARRIOS‐BUSIÑOS MEDICAL CLINIC AND HOSPITAL                                       2,177,185.00       2,177,185.00             ‐   100.00%
+[05 ]: PRO V      BATO MATERNITY & CHILDREN'S HOSPITAL                                              1,904,594.00       1,904,594.00             ‐   100.00%
+[05 ]: PRO V      BICOL ACCESS HEALTH CENTRUM                                                      11,774,246.00      11,774,246.00             ‐   100.00%
+[05 ]: PRO V      BICOL MEDICAL CENTER                                                            119,323,480.76     119,323,480.76             ‐   100.00%
+[05 ]: PRO V      BICOL REGION GENERAL HOSPITAL AND GERIATRIC MEDICAL CENTER                       10,073,823.00      10,073,823.00             ‐   100.00%
+[05 ]: PRO V      BICOL REGIONAL TRAINING AND TEACHING HOSPITAL                                   101,986,381.04     101,986,381.04             ‐   100.00%
+[05 ]: PRO V      BULAN MEDICARE HOSPITAL (PANTALEON G. GOTLADERA MEMORIAL HOSPITAL)                2,073,362.50       2,073,362.50             ‐   100.00%
+[05 ]: PRO V      CABREDO GENERAL HOSPITAL                                                          4,392,300.00       4,392,300.00             ‐   100.00%
+[05 ]: PRO V      CAMARINES NORTE PROVINCIAL HOSPITAL                                              56,333,999.55      56,333,999.55             ‐   100.00%
+[05 ]: PRO V      CARAMORAN MUNICIPAL HOSPITAL                                                        424,893.50         424,893.50             ‐   100.00%
+[05 ]: PRO V      CATAINGAN DISTRICT HOSPITAL                                                         278,612.50         278,612.50             ‐   100.00%
+[05 ]: PRO V      CATANDUANES DOCTORS HOSPITAL, INC.                                                2,988,086.00       2,988,086.00             ‐   100.00%
+[05 ]: PRO V      DARAGA DOCTORS' HOSPITAL INC.                                                     3,088,918.00       3,088,918.00             ‐   100.00%
+[05 ]: PRO V      DONSOL DISTRICT HOSPITAL                                                          3,819,207.00       3,819,207.00             ‐   100.00%
+[05 ]: PRO V      DR. BERNARDO B. CORRAL MEMORIAL HOSPITAL                                          1,126,496.00       1,126,496.00             ‐   100.00%
+[05 ]: PRO V      DR. MIGUEL V. ALEGRE HOSPITAL                                                     1,722,245.00       1,722,245.00             ‐   100.00%
+[05 ]: PRO V      DR. NILO O. ROA MEMORIAL FOUNDATION HOSPITAL INC.                                 2,685,416.00       2,685,416.00             ‐   100.00%
+[05 ]: PRO V      DR. ROBOSA HOSPITAL                                                               1,403,422.70       1,403,422.70             ‐   100.00%
+[05 ]: PRO V      DR. SOFRONIO B. GARCIA MEMORIAL HOSPITAL                                          1,921,465.00       1,921,465.00             ‐   100.00%
+[05 ]: PRO V      EASTERN BICOL MEDICAL CENTER                                                     26,857,979.81      26,857,979.81             ‐   100.00%
+[05 ]: PRO V      ESTEVEZ MEMORIAL HOSPITAL, INC.                                                  10,133,123.00      10,133,123.00             ‐   100.00%
+[05 ]: PRO V      GENEROSA I. GONZALEZ MEMORIAL HOSPITAL                                            1,561,157.50       1,561,157.50             ‐   100.00%
+[05 ]: PRO V      IROSIN DISTRICT HOSPITAL                                                          8,080,203.63       8,080,203.63             ‐   100.00%
+[05 ]: PRO V      IROSIN GENERAL HOSPITAL, INC.                                                       849,107.50         849,107.50             ‐   100.00%
+[05 ]: PRO V      JOSEFINA BELMONTE DURAN ALBAY PROVINCIAL HOSPITAL                                21,668,228.50      21,668,228.50             ‐   100.00%
+[05 ]: PRO V      LABO DISTRICT HOSPITAL                                                            6,320,705.00       6,320,705.00             ‐   100.00%
+[05 ]: PRO V      LB CRUEL MEDICAL CLINIC                                                           2,458,510.00       2,458,510.00             ‐   100.00%
+[05 ]: PRO V      LEGAZPI CITY HOSPITAL                                                             4,107,704.50       4,107,704.50             ‐   100.00%
+[05 ]: PRO V      LEON D. HERNANDEZ MEMORIAL HOSPITAL                                              30,671,274.50      30,671,274.50             ‐   100.00%
+[05 ]: PRO V      LIZASO HOSPITAL                                                                   1,797,072.50       1,797,072.50             ‐   100.00%
+[05 ]: PRO V      LUMBIS RANCES GENERAL HOSPITAL                                                    1,786,675.00       1,786,675.00             ‐   100.00%
+[05 ]: PRO V      MAGALLANES MEDICARE HOSPITAL                                                      1,268,820.00       1,268,820.00             ‐   100.00%
+[05 ]: PRO V      MASBATE MEDICAL MISSION GROUP HOSPITAL SERVICE COOPERATIVE                        8,739,267.00       8,739,267.00             ‐   100.00%
+[05 ]: PRO V      MASBATE PROVINCIAL HOSPITAL                                                      36,336,057.50      36,336,057.50             ‐   100.00%
+[05 ]: PRO V      MATNOG MEDICARE HOSPITAL                                                            977,160.00         977,160.00             ‐   100.00%
+[05 ]: PRO V      MEDICAL MISSION GROUP HOSPITAL & HEALTH SERVICES COOPERATIVE OF CAMARINES SUR     5,012,840.00       5,012,840.00             ‐   100.00%
+[05 ]: PRO V      NEPHRO SYNERGIES INC.                                                             6,487,650.00       6,487,650.00             ‐   100.00%
+[05 ]: PRO V      NEPHROLOGY CENTER OF BICOL, INC.                                                  2,181,400.00       2,181,400.00             ‐   100.00%
+[05 ]: PRO V      NICC DOCTORS' HOSPITAL                                                           26,653,914.50      26,653,914.50             ‐   100.00%
+[05 ]: PRO V      PANDAN DISTRICT HOSPITAL                                                          1,305,360.50       1,305,360.50             ‐   100.00%
+[05 ]: PRO V      PRIETO DIAZ MUNICIPAL HOSPITAL                                                      635,985.00         635,985.00             ‐   100.00%
+[05 ]: PRO V      RETUERMA GENERAL HOSPITAL                                                         1,390,362.50       1,390,362.50             ‐   100.00%
+[05 ]: PRO V      RICO'S HOSPITAL                                                                     785,435.00         785,435.00             ‐   100.00%
+[05 ]: PRO V      SALVADOR R. ENCINAS DISTRICT HOSPITAL                                             3,722,320.00       3,722,320.00             ‐   100.00%
+[05 ]: PRO V      SANTISSIMA TRINIDAD HOSPITAL OF DAET                                              1,885,887.50       1,885,887.50             ‐   100.00%
+[05 ]: PRO V      SORSOGON MEDICAL MISSION GROUP HOSPITAL AND HEALTH SERVICES COOPERATIVE           1,687,400.00       1,687,400.00             ‐   100.00%
+[05 ]: PRO V      SORSOGON MEDICAL MISSION GROUP HOSPITAL AND HEALTH SERVICES COOPERATIVE          32,401,864.00      32,401,864.00             ‐   100.00%
+[05 ]: PRO V      SORSOGON PROV. HOSP. (DR. FERNANDO B. DURAN, SR. MEMORIAL HOSPITAL)              36,693,901.50      36,693,901.50             ‐   100.00%
+[05 ]: PRO V      ST. JOHN HOSPITAL, INC.                                                           4,162,655.00       4,162,655.00             ‐   100.00%
+STATUS OF IRM LIQUIDATION
+As of July 12, 2023
+       PRO                                                               HCI NAME     RELEASED         LIQUIDATION        BALANCE       % LIQ
+[05 ]: PRO V      ST. JOHN HOSPITAL, INC. (GOA‐NAGA CITY)                               2,730,972.50       2,730,972.50             ‐   100.00%
+[05 ]: PRO V      STA. MARIA JOSEFA HOSPITAL FOUNDATION, INC                           13,966,861.50      13,966,861.50             ‐   100.00%
+[05 ]: PRO V      STS. PETER AND PAUL HOSPITAL OF SORSOGON, INC.                        3,666,278.00       3,666,278.00             ‐   100.00%
+[05 ]: PRO V      TANCHULING GENERAL HOSPITAL, INC                                     15,262,416.00      15,262,416.00             ‐   100.00%
+[05 ]: PRO V      UNIVERSIDAD DE STA. ISABEL DE NAGA INC.                              26,159,461.29      26,159,461.29             ‐   100.00%
+[05 ]: PRO V      UNIVERSITY OF SANTO TOMAS ( UST ) ‐ LEGAZPI, INC.                    14,152,302.00      14,152,302.00             ‐   100.00%
+[05 ]: PRO V      VICENTE L. PERALTA MEMORIAL DISTRICT HOSPITAL                         4,238,770.00       4,238,770.00             ‐   100.00%
+[05 ]: PRO V      VILLANUEVA‐TANCHULING MATERNITY AND GENERAL HOSPITAL INCORPORATED     3,485,449.50       3,485,449.50             ‐   100.00%
+[05 ]: PRO V      ZANTUA MEMORIAL HOSPITAL, INC.                                        1,094,537.50       1,094,537.50             ‐   100.00%
+[05 ]: PRO V      ZONE MEDICAL AND INTERVENTION HOSPITAL, INC.                          6,401,835.00       6,401,835.00             ‐   100.00%
+[06 ]: PRO VI     WESTERN VISAYAS MEDICAL CENTER                                      121,372,688.00     121,372,688.00             ‐   100.00%
+[07 ]: PRO VII    ALLIED CARE EXPERTS (ACE) DUMAGUETE DOCTORS, INC.                     1,434,630.00       1,434,630.00             ‐   100.00%
+[07 ]: PRO VII    BADIAN DISTRICT HOSPITAL                                              1,031,485.00       1,031,485.00             ‐   100.00%
+[07 ]: PRO VII    BANTAYAN DISTRICT HOSPITAL                                            6,614,050.00       6,614,050.00             ‐   100.00%
+[07 ]: PRO VII    BARILI DISTRICT HOSPITAL                                              4,897,101.00       4,897,101.00             ‐   100.00%
+[07 ]: PRO VII    CALAPE MOTHER AND CHILD HOSPITAL                                      3,344,640.70       3,344,640.70             ‐   100.00%
+[07 ]: PRO VII    CANDIJAY COMMUNITY HOSPITAL                                           4,005,742.50       4,005,742.50             ‐   100.00%
+[07 ]: PRO VII    CATIGBIAN DISTRICT HOSPITAL                                           5,680,868.00       5,680,868.00             ‐   100.00%
+[07 ]: PRO VII    CEBU (VELEZ) GENERAL HOSPITAL, INC.                                  15,468,883.50      15,468,883.50             ‐   100.00%
+[07 ]: PRO VII    CEBU DOCTORS' UNIVERSITY HOSPITAL, INC.                              89,594,719.22      89,594,719.22             ‐   100.00%
+[07 ]: PRO VII    CEBU PROVINCIAL HOSPITAL ‐ BALAMBAN                                  23,641,736.50      23,641,736.50             ‐   100.00%
+[07 ]: PRO VII    CEBU PROVINCIAL HOSPITAL ‐ CARCAR CITY                               26,697,659.45      26,697,659.45             ‐   100.00%
+[07 ]: PRO VII    CEBU PROVINCIAL HOSPITAL ‐ DANAO CITY                                18,390,509.50      18,390,509.50             ‐   100.00%
+[07 ]: PRO VII    CEBU PROVINCIAL HOSPITAL (BOGO CITY)                                 21,129,454.50      21,129,454.50             ‐   100.00%
+[07 ]: PRO VII    CEBU SOUTH GENERAL HOSPITAL, INC.                                    19,276,921.50      19,276,921.50             ‐   100.00%
+[07 ]: PRO VII    CHONG HUA HOSPITAL                                                  105,292,316.43     105,292,316.43             ‐   100.00%
+[07 ]: PRO VII    CHONG HUA HOSPITAL MANDAUE                                           56,532,850.50      56,532,850.50             ‐   100.00%
+[07 ]: PRO VII    CLARIN COMMUNITY HOSPITAL                                             3,364,695.00       3,364,695.00             ‐   100.00%
+[07 ]: PRO VII    CONG. NATALIO P. CASTILLO, SR. MEMORIAL HOSPITAL                      2,646,091.00       2,646,091.00             ‐   100.00%
+[07 ]: PRO VII    CONG. SIMEON G. TORIBIO MEMORIAL HOSPITAL                             3,914,386.00       3,914,386.00             ‐   100.00%
+[07 ]: PRO VII    DAANBANTAYAN DISTRICT HOSPITAL                                        1,414,830.00       1,414,830.00             ‐   100.00%
+[07 ]: PRO VII    DON EMILIO DEL VALLE MEMORIAL HOSPITAL                               35,471,647.50      35,471,647.50             ‐   100.00%
+[07 ]: PRO VII    DR. IGNACIO M. CORTES GENERAL HOSPITAL, INC.                          8,313,744.00       8,313,744.00             ‐   100.00%
+[07 ]: PRO VII    DR. JOSE MA. V. BORROMEO MEMORIAL HOSPITAL                            1,572,550.00       1,572,550.00             ‐   100.00%
+[07 ]: PRO VII    DR. LIM'S CLINIC AND HOSPITAL                                         8,229,218.50       8,229,218.50             ‐   100.00%
+[07 ]: PRO VII    EVERSLEY CHILDS SANITARIUM AND GENERAL HOSPITAL                      20,674,567.50      20,674,567.50             ‐   100.00%
+[07 ]: PRO VII    FRANCISCO DAGOHOY MUNICIPAL HOSPITAL                                  3,628,667.00       3,628,667.00             ‐   100.00%
+[07 ]: PRO VII    GARCIA MEMORIAL PROVINCIAL HOSPITAL                                  18,956,570.00      18,956,570.00             ‐   100.00%
+[07 ]: PRO VII    GOVERNOR CELESTINO GALLARES MEMORIAL HOSPITAL                        87,983,600.33      87,983,600.33             ‐   100.00%
+[07 ]: PRO VII    HOLY NAME UNIVERSITY MEDICAL CENTER, INC.                            17,948,122.50      17,948,122.50             ‐   100.00%
+[07 ]: PRO VII    ISIDRO C. KINTANAR MEMORIAL HOSPITAL                                  5,517,920.50       5,517,920.50             ‐   100.00%
+[07 ]: PRO VII    JUAN B. DOSADO MEMORIAL HOSPITAL                                      2,921,327.50       2,921,327.50             ‐   100.00%
+[07 ]: PRO VII    LIM COMMUNITY HOSPITAL                                                5,910,535.00       5,910,535.00             ‐   100.00%
+[07 ]: PRO VII    MACTAN DOCTORS' HOSPITAL, INC.                                       26,221,818.50      26,221,818.50             ‐   100.00%
+[07 ]: PRO VII    MARIANO JESUS CUENCO MEMORIAL HOSPITAL                                1,394,620.00       1,394,620.00             ‐   100.00%
+[07 ]: PRO VII    MARIBOJOC COMMUNITY HOSPITAL                                          1,398,180.00       1,398,180.00             ‐   100.00%
+[07 ]: PRO VII    MINGLANILLA DISTRICT HOSPITAL                                         4,903,416.90       4,903,416.90             ‐   100.00%
+[07 ]: PRO VII    NEPHRO SYNERGIES, INC.                                                1,153,100.00       1,153,100.00             ‐   100.00%
+[07 ]: PRO VII    NEPHROLOGY CENTER OF MANDAUE CITY DIALYSIS INC                        4,853,550.00       4,853,550.00             ‐   100.00%
+[07 ]: PRO VII    OSLOB DISTRICT HOSPITAL                                               1,663,544.00       1,663,544.00             ‐   100.00%
+[07 ]: PRO VII    PERPETUAL SUCCOUR HOSPITAL OF CEBU, INC.                             78,134,703.50      78,134,703.50             ‐   100.00%
+[07 ]: PRO VII    PRES. CARLOS P. GARCIA MUNICIPAL HOSPITAL                             2,750,235.50       2,750,235.50             ‐   100.00%
+[07 ]: PRO VII    RICARDO L. MANINGO MEMORIAL HOSPITAL                                  2,741,485.00       2,741,485.00             ‐   100.00%
+[07 ]: PRO VII    SAINT ANTHONY MOTHER AND CHILD HOSPITAL                              13,119,380.00      13,119,380.00             ‐   100.00%
+[07 ]: PRO VII    SOUTHWESTERN UNIVERSITY MEDICAL CENTER                                9,816,440.50       9,816,440.50             ‐   100.00%
+[07 ]: PRO VII    ST. VINCENT GENERAL HOSPITAL, CEBU, INC.                             20,645,787.50      20,645,787.50             ‐   100.00%
+[07 ]: PRO VII    SUMC FOUNDATION, INC.                                                70,559,696.06      70,559,696.06             ‐   100.00%
+[07 ]: PRO VII    TEODORO B. GALAGAR DISTRICT HOSPITAL                                 10,843,649.50      10,843,649.50             ‐   100.00%
+[07 ]: PRO VII    TUBURAN DISTRICT HOSPITAL                                             1,320,485.00       1,320,485.00             ‐   100.00%
+[07 ]: PRO VII    VICENTE SOTTO MEMORIAL MEDICAL CENTER                               203,538,037.00     203,538,037.00             ‐   100.00%
+[07 ]: PRO VII    VISAYAS COMMUNITY MEDICAL CENTER, INC.                               15,263,873.00      15,263,873.00             ‐   100.00%
+[08 ]: PRO VIII   ADVENTIST HOSPITAL ‐ CALBAYOG INC.                                    4,907,503.00       4,907,503.00             ‐   100.00%
+[08 ]: PRO VIII   ALLIED CARE EXPERTS (ACE) MEDICAL CENTER ‐ TACLOBAN, INC.             2,189,650.00       2,189,650.00             ‐   100.00%
+[08 ]: PRO VIII   ANAHAWAN DISTRICT HOSPITAL                                            6,662,283.50       6,662,283.50             ‐   100.00%
+[08 ]: PRO VIII   BASEY DISTRICT HOSPITAL                                               4,316,313.00       4,316,313.00             ‐   100.00%
+[08 ]: PRO VIII   BILIRAN PROVINCIAL HOSPITAL                                          20,735,103.50      20,735,103.50             ‐   100.00%
+[08 ]: PRO VIII   CALBAYOG DISTRICT HOSPITAL                                           27,440,420.50      27,440,420.50             ‐   100.00%
+[08 ]: PRO VIII   CATARMAN DOCTORS HOSPITAL, INC.                                       9,617,412.00       9,617,412.00             ‐   100.00%
+[08 ]: PRO VIII   CHRIST THE HEALER HOSPITAL                                           10,329,229.50      10,329,229.50             ‐   100.00%
+[08 ]: PRO VIII   CONSUELO K. TAN MEMORIAL MEDICAL CENTER                               5,681,900.00       5,681,900.00             ‐   100.00%
+[08 ]: PRO VIII   CORROMPIDO SPECIALTY HOSPITAL                                         4,191,207.50       4,191,207.50             ‐   100.00%
+[08 ]: PRO VIII   DIVINE WORD HOSPITAL                                                 45,831,233.50      45,831,233.50             ‐   100.00%
+[08 ]: PRO VIII   DOMINGO CASANO HOSPITAL                                              12,538,984.50      12,538,984.50             ‐   100.00%
+[08 ]: PRO VIII   DOÑA REMEDIOS TRINIDAD‐ROMUALDEZ MEDICAL FOUNDATION, INC.            19,674,029.50      19,674,029.50             ‐   100.00%
+[08 ]: PRO VIII   EASTERN VISAYAS REGIONAL MEDICAL CENTER                             146,248,683.00     146,248,683.00             ‐   100.00%
+[08 ]: PRO VIII   EASTERN VISAYAS REGIONAL MEDICAL CENTER                               4,426,564.50       4,426,564.50             ‐   100.00%
+[08 ]: PRO VIII   GANDARA DISTRICT HOSPITAL                                             7,091,102.30       7,091,102.30             ‐   100.00%
+[08 ]: PRO VIII   HAVILAH POLYMEDIC                                                     3,817,657.50       3,817,657.50             ‐   100.00%
+[08 ]: PRO VIII   HINUNANGAN COMMUNITY HOSPITAL                                           840,647.50         840,647.50             ‐   100.00%
+[08 ]: PRO VIII   IMMACULATE CONCEPTION CLINIC AND HOSPITAL                             3,090,642.50       3,090,642.50             ‐   100.00%
+[08 ]: PRO VIII   JAVIER MUNICIPAL INFIRMARY                                            3,432,930.00       3,432,930.00             ‐   100.00%
+[08 ]: PRO VIII   LEYTE BAPTIST HOSPITAL, INCORPORTED                                   7,162,356.00       7,162,356.00             ‐   100.00%
+[08 ]: PRO VIII   LIVINGHOPE HOSPITAL, INC.                                            14,974,163.00      14,974,163.00             ‐   100.00%
+[08 ]: PRO VIII   MOTHER OF MERCY HOSPITAL‐TACLOBAN INC                                14,784,004.50      14,784,004.50             ‐   100.00%
+[08 ]: PRO VIII   PADRE BURGOS COMMUNITY HOSPITAL                                       1,176,342.50       1,176,342.50             ‐   100.00%
+[08 ]: PRO VIII   PINTUYAN DISTRICT HOSPITAL                                            1,343,638.20       1,343,638.20             ‐   100.00%
+[08 ]: PRO VIII   PONFERRADA POLYMEDIC HOSPITAL                                         5,584,562.50       5,584,562.50             ‐   100.00%
+STATUS OF IRM LIQUIDATION
+As of July 12, 2023
+       PRO                                                                HCI NAME                                               RELEASED         LIQUIDATION        BALANCE       % LIQ
+[08 ]: PRO VIII   SALCEDO DOCTORS HOSPITAL, INC.                                                                                     290,375.00         290,375.00             ‐   100.00%
+[08 ]: PRO VIII   SALVACION OPPUS YÑIGUEZ MEMORIAL. PROVINCIAL HOSPITAL                                                           22,617,740.50      22,617,740.50             ‐   100.00%
+[08 ]: PRO VIII   SAMAR PROVINCIAL HOSPITAL                                                                                       41,175,193.00      41,175,193.00             ‐   100.00%
+[08 ]: PRO VIII   SCHISTOSOMIASIS HOSPITAL                                                                                        23,372,017.50      23,372,017.50             ‐   100.00%
+[08 ]: PRO VIII   SOGOD DISTRICT HOSPITAL                                                                                          6,426,655.00       6,426,655.00             ‐   100.00%
+[08 ]: PRO VIII   ST. CAMILLUS HOSPITAL                                                                                           12,292,749.00      12,292,749.00             ‐   100.00%
+[08 ]: PRO VIII   ST. SCHOLASTICA HOSPITAL                                                                                         1,109,200.00       1,109,200.00             ‐   100.00%
+[08 ]: PRO VIII   ST. SCHOLASTICA'S HOSPITAL INC. (FREE STANDING DIALYSIS CENTER)                                                     43,550.00          43,550.00             ‐   100.00%
+[08 ]: PRO VIII   TACLOBAN CITY HOSPITAL                                                                                           9,174,707.00       9,174,707.00             ‐   100.00%
+[08 ]: PRO VIII   TARANGNAN COMMUNITY HOSPITAL                                                                                       943,450.70         943,450.70             ‐   100.00%
+[09 ]: PRO IX     AISAH MEDICAL HOSPITAL                                                                                          19,360,557.50      19,360,557.50             ‐   100.00%
+[09 ]: PRO IX     BLANCIA HOSPITAL                                                                                                 7,738,703.60       7,738,703.60             ‐   100.00%
+[09 ]: PRO IX     CIUDAD MEDICAL ZAMBOANGA                                                                                        44,539,374.60      44,539,374.60             ‐   100.00%
+[09 ]: PRO IX     HOFILEÑA HOSPITAL                                                                                               10,744,289.10      10,744,289.10             ‐   100.00%
+[09 ]: PRO IX     J. CABAHUG GENERAL HOSPITAL, INC.                                                                                3,655,882.80       3,655,882.80             ‐   100.00%
+[09 ]: PRO IX     JAMELARIN HOSPITAL                                                                                               3,000,000.00       3,000,000.00             ‐   100.00%
+[09 ]: PRO IX     MARGOSATUBIG REGIONAL HOSPITAL                                                                                  42,856,139.84      42,856,139.84             ‐   100.00%
+[09 ]: PRO IX     MINDANAO CENTRAL SANITARIUM                                                                                      5,807,148.16       5,807,148.16             ‐   100.00%
+[09 ]: PRO IX     PAGADIAN CITY MEDICAL CENTER                                                                                    19,000,000.00      19,000,000.00             ‐   100.00%
+[09 ]: PRO IX     WEST METRO MEDICAL CENTER                                                                                       31,000,000.00      31,000,000.00             ‐   100.00%
+[09 ]: PRO IX     ZAMBOANGA CITY MEDICAL CENTER                                                                                  116,448,380.10     116,448,380.10             ‐   100.00%
+[09 ]: PRO IX     ZAMBOANGA DEL SUR MEDICAL CENTER                                                                                43,000,000.00      43,000,000.00             ‐   100.00%
+[09 ]: PRO IX     ZAMBOANGA DOCTORS' HOSPITAL, INC.                                                                               31,603,471.36      31,603,471.36             ‐   100.00%
+[10 ]: PRO X      ADVENTIST MEDICAL CENTER‐ILIGAN CITY, INC.                                                                      25,536,398.00      25,536,398.00             ‐   100.00%
+[10 ]: PRO X      BUKIDNON PROVINCIAL HOSPITAL ‐ MARAMAG                                                                          57,723,645.50      57,723,645.50             ‐   100.00%
+[10 ]: PRO X      BUKIDNON PROVINCIAL HOSPITAL‐ KIBAWE                                                                            33,917,102.00      33,917,102.00             ‐   100.00%
+[10 ]: PRO X      BUKIDNON PROVINCIAL MEDICAL CENTER‐ MALAYBALAY CITY                                                             46,811,597.50      46,811,597.50             ‐   100.00%
+[10 ]: PRO X      C.D.O. POLYMEDIC MEDICAL PLAZA, INC.                                                                            46,785,793.00      46,785,793.00             ‐   100.00%
+[10 ]: PRO X      CAGAYAN DE ORO MEDICAL CENTER, INC.                                                                             33,285,954.50      33,285,954.50             ‐   100.00%
+[10 ]: PRO X      CAGAYAN DE ORO POLYMEDIC GENERAL HOSPITAL, INC.                                                                 18,868,911.00      18,868,911.00             ‐   100.00%
+[10 ]: PRO X      CAPITOL UNIVERSITY MEDICAL CENTER FOUNDATION OF CAGAYAN, INC.                                                   37,872,907.50      37,872,907.50             ‐   100.00%
+[10 ]: PRO X      GREGORIO T. LLUCH MEMORIAL HOSPITAL                                                                             48,637,049.00      48,637,049.00             ‐   100.00%
+[10 ]: PRO X      J.R. BORJA GENERAL HOSPITAL                                                                                     40,746,266.00      40,746,266.00             ‐   100.00%
+[10 ]: PRO X      LANAO DEL NORTE PROVINCIAL HOSPITAL                                                                             27,322,326.00      27,322,326.00             ‐   100.00%
+[10 ]: PRO X      MADONNA AND CHILD HOSPITAL                                                                                      20,500,000.00      20,500,000.00             ‐   100.00%
+[10 ]: PRO X      MALAYBALAY POLYMEDIC GENERAL HOSPITAL, INC.                                                                     23,394,273.00      23,394,273.00             ‐   100.00%
+[10 ]: PRO X      MARIA REYNA‐ XAVIER UNIVERSITY HOSPITAL, INC.                                                                   41,651,855.00      41,651,855.00             ‐   100.00%
+[10 ]: PRO X      MAYOR HILARION A. RAMIRO SR. MEDICAL CENTER                                                                     67,351,525.00      67,351,525.00             ‐   100.00%
+[10 ]: PRO X      NORTHERN MINDANAO MEDICAL CENTER                                                                               150,251,273.00     150,251,273.00             ‐   100.00%
+[10 ]: PRO X      SABAL HOSPITAL, INC.                                                                                             9,631,351.00       9,631,351.00             ‐   100.00%
+[10 ]: PRO X      TAGOLOAN POLYMEDIC GENERAL HOSPITAL, INC.                                                                        7,536,416.50       7,536,416.50             ‐   100.00%
+[11 ]: PRO XI     BISHOP JOSEPH REGAN MEMORIAL HOSPITAL                                                                           39,928,587.88      39,928,587.88             ‐   100.00%
+[11 ]: PRO XI     BUNGABONG‐SANICO MEDICAL CLINIC & MATERNITY HOSPITAL                                                             2,700,000.00       2,700,000.00             ‐   100.00%
+[11 ]: PRO XI     CAINGLET MEDICAL HOSPITAL, INC.                                                                                  4,590,000.00       4,590,000.00             ‐   100.00%
+[11 ]: PRO XI     CARMEN MEDICAL CLINIC & HOSPITAL                                                                                 4,536,532.74       4,536,532.74             ‐   100.00%
+[11 ]: PRO XI     CURE PHILIPPINES, INC.                                                                                           3,504,438.50       3,504,438.50             ‐   100.00%
+[11 ]: PRO XI     DAVAO DE ORO PROVINCIAL HOSPITAL ‐ MONTEVISTA (FORMERLY: COMPOSTELA VALLEY PROVINCIAL HOSPITAL ‐ MONTEVISTA)    38,741,482.50      38,741,482.50             ‐   100.00%
+[11 ]: PRO XI     DAVAO DE ORO PROVINCIAL HOSPITAL ‐ PANTUKAN (FORMERLY: COMPOSTELA VALLEY PROVINCIAL HOSPITAL‐PANTUKAN)          17,086,327.63      17,086,327.63             ‐   100.00%
+[11 ]: PRO XI     DAVAO DOCTORS HOSPITAL (CLINICA HILARIO), INC.                                                                  63,633,719.93      63,633,719.93             ‐   100.00%
+[11 ]: PRO XI     DAVAO ORIENTAL PROVINCIAL MEDICAL CENTER                                                                        24,837,022.80      24,837,022.80             ‐   100.00%
+[11 ]: PRO XI     DAVAO REGIONAL MEDICAL CENTER                                                                                  208,635,959.00     208,635,959.00             ‐   100.00%
+[11 ]: PRO XI     DOCTORS COMMUNITY HOSPITAL                                                                                       6,490,935.00       6,490,935.00             ‐   100.00%
+[11 ]: PRO XI     FLORDELIZ MEDICAL CLINIC AND HOSPITAL                                                                            1,768,559.50       1,768,559.50             ‐   100.00%
+[11 ]: PRO XI     JOSE J. GOLINGAY GENERAL HOSPITAL, INC.                                                                          7,187,953.00       7,187,953.00             ‐   100.00%
+[11 ]: PRO XI     MEDCORE HOSPITAL, INC.                                                                                           5,596,740.50       5,596,740.50             ‐   100.00%
+[11 ]: PRO XI     MEDICAL MISSION GROUP HOSPITAL AND HEALTH SERVICES COOPERATIVE OF TAGUM                                         32,062,606.50      32,062,606.50             ‐   100.00%
+[11 ]: PRO XI     MIGUEL O. CABRERA SR. MEMORIAL HOSPITAL CORPORATION                                                              5,466,062.00       5,466,062.00             ‐   100.00%
+[11 ]: PRO XI     NEPHROLOGY CENTER OF BUHANGIN DAVAO, INC                                                                         3,742,700.00       3,742,700.00             ‐   100.00%
+[11 ]: PRO XI     NEPHROLOGY CENTER OF DAVAO, INC.                                                                                 4,546,010.96       4,546,010.96             ‐   100.00%
+[11 ]: PRO XI     NEPHROLOGY CENTER OF PANABO CITY, INC.                                                                           3,716,050.00       3,716,050.00             ‐   100.00%
+[11 ]: PRO XI     NEPHROLOGY CENTER OF ST. ALEXIUS, INC.                                                                           8,949,698.00       8,949,698.00             ‐   100.00%
+[11 ]: PRO XI     NEPHROLOGY CENTER OF TAGUM CITY, INC.                                                                            2,825,951.00       2,825,951.00             ‐   100.00%
+[11 ]: PRO XI     RICARDO LIMSO MEDICAL CENTER, INC.                                                                              11,470,232.15      11,470,232.15             ‐   100.00%
+[11 ]: PRO XI     RIVERA MEDICAL CENTER, INC.                                                                                     22,422,249.50      22,422,249.50             ‐   100.00%
+[11 ]: PRO XI     RMCI SATELLITE PRIMARY CLINIC                                                                                    2,152,752.00       2,152,752.00             ‐   100.00%
+[11 ]: PRO XI     SOUTHERN PHILIPPINES MEDICAL CENTER                                                                            325,755,074.69     325,755,074.69             ‐   100.00%
+[11 ]: PRO XI     ST. BENEDICT HOSPITAL OF DAVAO DEL SUR INC.                                                                     11,728,961.00      11,728,961.00             ‐   100.00%
+[11 ]: PRO XI     TAGUM DOCTORS' HOSPITAL, INC.                                                                                   15,078,251.50      15,078,251.50             ‐   100.00%
+[11 ]: PRO XI     VIACRUCIS MEDICAL HOSPITAL                                                                                      11,086,000.00      11,086,000.00             ‐   100.00%
+[12 ]: PRO XII    CEM MEDICAL SPECIALIST HOSPITAL                                                                                 14,962,430.00      14,962,430.00             ‐   100.00%
+[12 ]: PRO XII    COTABATO REGIONAL AND MEDICAL CENTER                                                                           115,685,011.00     115,685,011.00             ‐   100.00%
+[12 ]: PRO XII    DR. ARTURO P. PINGOY MEDICAL CENTER                                                                             33,955,768.00      33,955,768.00             ‐   100.00%
+[12 ]: PRO XII    DR. FRANCISCO C. PARCON CLINIC AND HOSPITAL                                                                      2,445,080.50       2,445,080.50             ‐   100.00%
+[12 ]: PRO XII    DR. JORGE P. ROYECA CITY HOSPITAL                                                                               44,017,216.00      44,017,216.00             ‐   100.00%
+[12 ]: PRO XII    EVANGELISTA MEDICAL CLINIC AND HOSPITAL                                                                          6,017,693.50       6,017,693.50             ‐   100.00%
+[12 ]: PRO XII    HOWARD HUBBARD MEMORIAL HOSPITAL                                                                                21,324,440.00      21,324,440.00             ‐   100.00%
+[12 ]: PRO XII    ISULAN DOCTORS' SPECIALIST CENTER, INC.                                                                          6,416,274.00       6,416,274.00             ‐   100.00%
+[12 ]: PRO XII    KABACAN POLYMEDIC COOPERATIVE HOSPITAL                                                                          14,067,550.00      14,067,550.00             ‐   100.00%
+[12 ]: PRO XII    MADONNA MEDICAL CENTER, INC.                                                                                    24,277,043.50      24,277,043.50             ‐   100.00%
+[12 ]: PRO XII    MINDANAO DOCTORS HOSPITAL AND CANCER CENTER, INC.                                                               18,868,945.50      18,868,945.50             ‐   100.00%
+[12 ]: PRO XII    NORALA DISTRICT HOSPITAL                                                                                        26,527,923.00      26,527,923.00             ‐   100.00%
+[12 ]: PRO XII    QUIJANO CLINIC AND HOSPITAL INCORPORATED                                                                        19,928,115.50      19,928,115.50             ‐   100.00%
+[12 ]: PRO XII    SOCOMEDICS MEDICAL CENTER, INC.                                                                                 19,058,007.00      19,058,007.00             ‐   100.00%
+[12 ]: PRO XII    ST. ELIZABETH HOSPITAL, INC.                                                                                    51,952,503.00      51,952,503.00             ‐   100.00%
+[12 ]: PRO XII    ST. LOUIS HOSPITAL                                                                                              62,087,981.00      62,087,981.00             ‐   100.00%
+[12 ]: PRO XII    UNITED DOCTORS' HOSPITAL OF KIDAPAWAN, INC.                                                                      1,975,852.50       1,975,852.50             ‐   100.00%
+[13 ]: PRO CAR    ABRA PROVINCIAL HOSPITAL                                                                                        14,979,273.50      14,979,273.50             ‐   100.00%
+STATUS OF IRM LIQUIDATION
+As of July 12, 2023
+       PRO                                                              HCI NAME              RELEASED         LIQUIDATION        BALANCE       % LIQ
+[13 ]: PRO CAR ALMORA GENERAL HOSPITAL                                                         18,027,864.50      18,027,864.50             ‐   100.00%
+[13 ]: PRO CAR B. BRAUN AVITUM PHILIPPINES, INC. ‐ BAGUIO                                      11,375,650.00      11,375,650.00             ‐   100.00%
+[13 ]: PRO CAR BAGUIO GENERAL HOSPITAL AND MEDICAL CENTER                                     164,941,028.50     164,941,028.50             ‐   100.00%
+[13 ]: PRO CAR BAGUIO MEDICAL CENTER                                                            6,034,593.00       6,034,593.00             ‐   100.00%
+[13 ]: PRO CAR BENGUET GENERAL HOSPITAL                                                        43,842,217.00      43,842,217.00             ‐   100.00%
+[13 ]: PRO CAR CONNER DISTRICT HOSPITAL                                                         5,346,157.50       5,346,157.50             ‐   100.00%
+[13 ]: PRO CAR CORDILLERA HOSPITAL OF THE DIVINE GRACE INC.                                    16,224,741.00      16,224,741.00             ‐   100.00%
+[13 ]: PRO CAR FAR NORTH LUZON GENERAL HOSPITAL AND TRAINING CENTER                            32,996,385.50      32,996,385.50             ‐   100.00%
+[13 ]: PRO CAR HOLY TRINITY MEDICAL CLINIC                                                     11,116,330.00      11,116,330.00             ‐   100.00%
+[13 ]: PRO CAR LUIS HORA MEMORIAL REGIONAL HOSPITAL                                            36,949,330.00      36,949,330.00             ‐   100.00%
+[13 ]: PRO CAR LUTHERAN HOSPITAL INC.                                                           7,688,877.50       7,688,877.50             ‐   100.00%
+[13 ]: PRO CAR NOTRE DAME DE CHARTRES HOSPITAL                                                 33,445,729.00      33,445,729.00             ‐   100.00%
+[13 ]: PRO CAR PINES CITY DOCTORS' HOSPITAL                                                    36,407,489.50      36,407,489.50             ‐   100.00%
+[13 ]: PRO CAR SAN JUAN GENERAL HOSPITAL                                                        2,145,769.40       2,145,769.40             ‐   100.00%
+[13 ]: PRO CAR SLU‐HOSPITAL OF THE SACRED HEART                                                34,041,346.00      34,041,346.00             ‐   100.00%
+[13 ]: PRO CAR ST. JUDE'S MULTISPECIALTY HOSPITAL INC.                                          2,600,530.00       2,600,530.00             ‐   100.00%
+[13 ]: PRO CAR ST. PETER CLAVER HOSPITAL                                                        4,239,657.50       4,239,657.50             ‐   100.00%
+[13 ]: PRO CAR VALERA MEDICAL HOSPITAL                                                          1,734,900.00       1,734,900.00             ‐   100.00%
+[14 ]: PRO CARAGANDRES SORIANO MEMORIAL HOSPITAL COOPERATIVE                                   20,070,000.00      20,070,000.00             ‐   100.00%
+[14 ]: PRO CARAGBUTUAN MEDICAL CENTER                                                          25,000,000.00      25,000,000.00             ‐   100.00%
+[14 ]: PRO CARAGFRANCO CLINIC & HOSPITAL                                                        1,626,854.40       1,626,854.40             ‐   100.00%
+[14 ]: PRO CARAGLINGIG COMMUNITY HOSPITAL                                                       2,690,551.48       2,690,551.48             ‐   100.00%
+[14 ]: PRO CARAGMANUEL J. SANTOS HOSPITAL                                                      27,898,727.95      27,898,727.95             ‐   100.00%
+[14 ]: PRO CARAGMARIHATAG DISTRICT HOSPITAL                                                     4,165,977.40       4,165,977.40             ‐   100.00%
+[14 ]: PRO CARAGSURIGAO MEDICAL CENTER                                                          8,035,337.70       8,035,337.70             ‐   100.00%
+[15 ]: PRO ARMMAMAI PAKPAK MEDICAL CENTER                                                      62,024,850.00      62,024,850.00             ‐   100.00%
+[15 ]: PRO ARMMMAGUINDANAO PROVINCIAL HOSPITAL                                                 22,500,000.00      22,500,000.00             ‐   100.00%
+[91 ]: PRO NCR‐N ALLIED CARE EXPERTS (ACE) MEDICAL CENTER VALENZUELA, INC.                     24,567,166.50      24,567,166.50             ‐   100.00%
+[91 ]: PRO NCR‐N B. BRAUN AVITUM PHILIPPINES, INC.                                              4,169,750.00       4,169,750.00             ‐   100.00%
+[91 ]: PRO NCR‐N B. BRAUN AVITUM PHILIPPINES, INC.                                             15,382,900.00      15,382,900.00             ‐   100.00%
+[91 ]: PRO NCR‐N C.S.V. MATERNITY & LYING‐IN CLINIC                                             1,740,375.00       1,740,375.00             ‐   100.00%
+[91 ]: PRO NCR‐N CALALANG GENERAL HOSPITAL                                                      2,707,220.00       2,707,220.00             ‐   100.00%
+[91 ]: PRO NCR‐N CALOOCAN CITY MEDICAL CENTER                                                  17,642,413.00      17,642,413.00             ‐   100.00%
+[91 ]: PRO NCR‐N CHINESE GENERAL HOSPITAL & MEDICAL CENTER                                    110,201,224.78     110,201,224.78             ‐   100.00%
+[91 ]: PRO NCR‐N DE OCAMPO MEMORIAL MEDICAL CENTER                                              2,212,503.00       2,212,503.00             ‐   100.00%
+[91 ]: PRO NCR‐N DR. JOSE FABELLA MEMORIAL HOSPITAL                                            81,276,327.50      81,276,327.50             ‐   100.00%
+[91 ]: PRO NCR‐N DR. JOSE N. RODRIGUEZ MEMORIAL HOSPITAL AND SANITARIUM                        75,922,131.50      75,922,131.50             ‐   100.00%
+[91 ]: PRO NCR‐N DR. VICTOR R. POTENCIANO MEDICAL CENTER                                       27,328,030.50      27,328,030.50             ‐   100.00%
+[91 ]: PRO NCR‐N FATIMA UNIVERSITY MEDICAL CENTER CORPORATION                                  27,409,485.00      27,409,485.00             ‐   100.00%
+[91 ]: PRO NCR‐N HOSPITAL OF THE INFANT JESUS MEDICAL CENTER                                   13,778,390.00      13,778,390.00             ‐   100.00%
+[91 ]: PRO NCR‐N I.M. HEALTH MEDICAL SERVICES AND WELLNESS CENTER, INC.                         5,092,100.00       5,092,100.00             ‐   100.00%
+[91 ]: PRO NCR‐N JOSE R. REYES MEMORIAL MEDICAL CENTER                                        106,580,538.95     106,580,538.95             ‐   100.00%
+[91 ]: PRO NCR‐N MANILA DOCTORS HOSPITAL                                                       97,038,303.18      97,038,303.18             ‐   100.00%
+[91 ]: PRO NCR‐N MARY CHILES GENERAL HOSPITAL, INC.                                            12,498,934.50      12,498,934.50             ‐   100.00%
+[91 ]: PRO NCR‐N MARY JOHNSTON HOSPITAL, INC.                                                  16,594,351.50      16,594,351.50             ‐   100.00%
+[91 ]: PRO NCR‐N MCU‐FDT MEDICAL FOUNDATION HOSPITAL                                           28,143,415.88      28,143,415.88             ‐   100.00%
+[91 ]: PRO NCR‐N MED LINE DIALYSIS AND DIAGNOSTICS INC.                                         3,927,950.00       3,927,950.00             ‐   100.00%
+[91 ]: PRO NCR‐N MEDICAL CENTER MANILA, INC.                                                   40,024,191.50      40,024,191.50             ‐   100.00%
+[91 ]: PRO NCR‐N METROPOLITAN MEDICAL CENTER                                                   38,807,302.50      38,807,302.50             ‐   100.00%
+[91 ]: PRO NCR‐N NATIONAL CENTER FOR MENTAL HEALTH                                             20,426,532.00      20,426,532.00             ‐   100.00%
+[91 ]: PRO NCR‐N NAVOTAS CITY HOSPITAL                                                         21,960,839.50      21,960,839.50             ‐   100.00%
+[91 ]: PRO NCR‐N NEPHRO SYSTEMS PHILS., INC.                                                    4,167,800.00       4,167,800.00             ‐   100.00%
+[91 ]: PRO NCR‐N NEPHROLOGY CENTER OF CALOOCAN DIALYSIS CENTER INC.                             4,252,300.00       4,252,300.00             ‐   100.00%
+[91 ]: PRO NCR‐N NEPHROLOGY CENTER OF CALOOCAN DIALYSIS CENTER, INC.                            5,068,400.00       5,068,400.00             ‐   100.00%
+[91 ]: PRO NCR‐N NEPHROLOGY CENTER OF MANILA, INC.                                              2,978,950.00       2,978,950.00             ‐   100.00%
+[91 ]: PRO NCR‐N NEPHROLOGY CENTER OF MANILA, INC.                                              2,439,450.00       2,439,450.00             ‐   100.00%
+[91 ]: PRO NCR‐N NORTH CALOOCAN DOCTORS HOSPITAL, INC.                                          2,679,164.00       2,679,164.00             ‐   100.00%
+[91 ]: PRO NCR‐N OSPITAL NG MAYNILA MEDICAL CENTER                                             19,382,108.00      19,382,108.00             ‐   100.00%
+[91 ]: PRO NCR‐N OSPITAL NG TONDO                                                               6,950,805.00       6,950,805.00             ‐   100.00%
+[91 ]: PRO NCR‐N OUR LADY OF GRACE HOSPITAL, INC.                                               3,414,386.50       3,414,386.50             ‐   100.00%
+[91 ]: PRO NCR‐N OUR LADY OF LOURDES HOSPITAL                                                  34,704,227.00      34,704,227.00             ‐   100.00%
+[91 ]: PRO NCR‐N PERPETUAL SUCCOR HOSPITAL & MATERNITY, INC.                                   12,427,692.00      12,427,692.00             ‐   100.00%
+[91 ]: PRO NCR‐N PREMIER 101 HEALTHCARE MANAGEMENT INC.                                         3,328,000.00       3,328,000.00             ‐   100.00%
+[91 ]: PRO NCR‐N SAN LAZARO HOSPITAL                                                           49,679,052.50      49,679,052.50             ‐   100.00%
+[91 ]: PRO NCR‐N ST. JUDE GENERAL HOSPITAL & MEDICAL CENTER, INC.                              16,420,961.50      16,420,961.50             ‐   100.00%
+[91 ]: PRO NCR‐N TONDO MEDICAL CENTER                                                          55,693,165.00      55,693,165.00             ‐   100.00%
+[91 ]: PRO NCR‐N UNIVERSITY OF SANTO TOMAS HOSPITAL                                            85,979,832.38      85,979,832.38             ‐   100.00%
+[91 ]: PRO NCR‐N UP‐PHILIPPINE GENERAL HOSPITAL                                               263,379,931.50     263,379,931.50             ‐   100.00%
+[91 ]: PRO NCR‐N VALENZUELA CITICARE MEDICAL CENTER ‐ TIMOG HILAGA PROVIDENCE GROUP, INC.      12,606,895.35      12,606,895.35             ‐   100.00%
+[92 ]: PRO NCR‐S ADVENTIST MEDICAL CENTER MANILA                                               23,759,914.00      23,759,914.00             ‐   100.00%
+[92 ]: PRO NCR‐S ALLIED CARE EXPERTS (ACE) MEDICAL CENTER‐PATEROS, INC.                        15,126,146.50      15,126,146.50             ‐   100.00%
+[92 ]: PRO NCR‐S ASIAN HOSPITAL, INC.                                                          69,692,147.50      69,692,147.50             ‐   100.00%
+[92 ]: PRO NCR‐S FOUNDATION OF OUR LADY OF PEACE MISSION, INC. (OUR LADY OF PEACE HOSPITAL)     8,389,897.50       8,389,897.50             ‐   100.00%
+[92 ]: PRO NCR‐S K‐MATTERS TAGUIG DIALYSIS AND DIAGNOSTIC CENTER CO.                            2,995,296.89       2,995,296.89             ‐   100.00%
+[92 ]: PRO NCR‐S KIDNEY FOUNDATION OF THE PHILIPPINES, INC.                                     5,506,057.60       5,506,057.60             ‐   100.00%
+[92 ]: PRO NCR‐S LAS PIÑAS CITY MEDICAL CENTER, INC.                                           10,915,284.00      10,915,284.00             ‐   100.00%
+[92 ]: PRO NCR‐S LAS PIÑAS DOCTORS HOSPITAL, INC.                                              33,048,621.50      33,048,621.50             ‐   100.00%
+[92 ]: PRO NCR‐S LAS PIÑAS GENERAL HOSPITAL & SATELLITE TRAUMA CENTER                          41,609,473.00      41,609,473.00             ‐   100.00%
+[92 ]: PRO NCR‐S MAKATI MEDICAL CENTER                                                        104,675,713.59     104,675,713.59             ‐   100.00%
+[92 ]: PRO NCR‐S MARIKINA DOCTORS HOSPITAL AND MEDICAL CENTER, INC.                             7,221,063.50       7,221,063.50             ‐   100.00%
+[92 ]: PRO NCR‐S MARILOU LADAGA LYING‐IN CLINIC                                                   170,012.50         170,012.50             ‐   100.00%
+[92 ]: PRO NCR‐S MEDICAL CENTER MUNTINLUPA, INC.                                               21,817,286.50      21,817,286.50             ‐   100.00%
+[92 ]: PRO NCR‐S MEDICAL CENTER OF TAGUIG CITY, INC.                                           21,920,517.00      21,920,517.00             ‐   100.00%
+[92 ]: PRO NCR‐S MEDICAL CENTER PARAÑAQUE, INC.                                                 6,954,016.00       6,954,016.00             ‐   100.00%
+[92 ]: PRO NCR‐S NEPHROLOGY CENTER OF LAS PIÑAS DIALYSIS INC.                                   3,078,400.00       3,078,400.00             ‐   100.00%
+[92 ]: PRO NCR‐S NEPHROLOGY CENTER OF PASAY CITY DIALYSIS INC.                                  1,970,150.00       1,970,150.00             ‐   100.00%
+[92 ]: PRO NCR‐S NEPHROLOGY CENTER OF PASIG CITY, INC.                                          3,037,450.00       3,037,450.00             ‐   100.00%
+STATUS OF IRM LIQUIDATION
+As of July 12, 2023
+       PRO                                                             HCI NAME   RELEASED         LIQUIDATION        BALANCE       % LIQ
+[92 ]: PRO NCR‐S NEPHROLOGY SERVICES PHILS., INC.                                   1,470,300.00       1,470,300.00             ‐   100.00%
+[92 ]: PRO NCR‐S OSPITAL NG MAKATI                                                 26,250,424.50      26,250,424.50             ‐   100.00%
+[92 ]: PRO NCR‐S OSPITAL NG MUNTINLUPA                                             66,195,503.50      66,195,503.50             ‐   100.00%
+[92 ]: PRO NCR‐S PASAY CITY GENERAL HOSPITAL                                        6,764,181.00       6,764,181.00             ‐   100.00%
+[92 ]: PRO NCR‐S PASIG CITY CHILDREN'S HOSPITAL ‐ CHILD'S HOPE                      7,459,053.00       7,459,053.00             ‐   100.00%
+[92 ]: PRO NCR‐S PASIG CITY GENERAL HOSPITAL                                       33,460,165.56      33,460,165.56             ‐   100.00%
+[92 ]: PRO NCR‐S PASIG DOCTORS MEDICAL CENTER INC.                                 12,111,386.50      12,111,386.50             ‐   100.00%
+[92 ]: PRO NCR‐S PROTACIO HOSPITAL                                                  2,712,355.00       2,712,355.00             ‐   100.00%
+[92 ]: PRO NCR‐S RIZAL MEDICAL CENTER                                              73,992,787.69      73,992,787.69             ‐   100.00%
+[92 ]: PRO NCR‐S SAN JUAN DE DIOS EDUCATIONAL FOUNDATION, INC.                     35,258,172.00      35,258,172.00             ‐   100.00%
+[92 ]: PRO NCR‐S SOUTH SUPERHIGHWAY MEDICAL CENTER                                  1,797,492.50       1,797,492.50             ‐   100.00%
+[92 ]: PRO NCR‐S ST. CAMILLUS MEDICAL CENTER                                        2,003,456.00       2,003,456.00             ‐   100.00%
+[92 ]: PRO NCR‐S ST. CLARE'S MEDICAL CENTER, INC.                                   7,822,069.70       7,822,069.70             ‐   100.00%
+[92 ]: PRO NCR‐S ST. LUKE'S MEDICAL CENTER ‐ GLOBAL CITY                          117,566,937.87     117,566,937.87             ‐   100.00%
+[92 ]: PRO NCR‐S ST. MARGARETH DIALYSIS AND BIOCARE CENTER INC.                     1,800,500.00       1,800,500.00             ‐   100.00%
+[92 ]: PRO NCR‐S THE MEDICAL CITY                                                 141,124,509.40     141,124,509.40             ‐   100.00%
+[92 ]: PRO NCR‐S TRICITY MEDICAL CENTER, INC.                                      19,349,017.50      19,349,017.50             ‐   100.00%
+[92 ]: PRO NCR‐S UHBI ‐ PARAÑAQUE DOCTORS HOSPITAL, INC.                           21,789,421.50      21,789,421.50             ‐   100.00%
+[92 ]: PRO NCR‐S UNIHEALTH PARAÑAQUE HOSPITAL AND MEDICAL CENTER, INC.             23,307,943.00      23,307,943.00             ‐   100.00%
+[92 ]: PRO NCR‐S UNIVERSITY OF PERPETUAL HELP DALTA MEDICAL CENTER, INC.           51,839,386.00      51,839,386.00             ‐   100.00%
+[92 ]: PRO NCR‐S VIDA DIALYSIS CENTER, PHILS.                                       6,210,100.00       6,210,100.00             ‐   100.00%
+[93 ]: PRO NCR‐C A+ DIALYSIS CENTER                                                 9,973,600.00       9,973,600.00             ‐   100.00%
+[93 ]: PRO NCR‐C ALLIED CARE EXPERTS (ACE) MEDICAL CENTER ‐ QUEZON CITY, INC.      10,588,567.50      10,588,567.50             ‐   100.00%
+[93 ]: PRO NCR‐C AMANG RODRIGUEZ MEMORIAL MEDICAL CENTER                           77,487,958.65      77,487,958.65             ‐   100.00%
+[93 ]: PRO NCR‐C ANGONO MEDICS HOSPITAL                                             9,999,512.50       9,999,512.50             ‐   100.00%
+[93 ]: PRO NCR‐C ANTIPOLO CITY MEDICAL HOSPITAL                                     7,668,996.00       7,668,996.00             ‐   100.00%
+[93 ]: PRO NCR‐C ANTIPOLO DOCTORS HOSPITAL                                         13,484,534.00      13,484,534.00             ‐   100.00%
+[93 ]: PRO NCR‐C ASIA KIDNEY CARE CENTER                                            1,241,500.00       1,241,500.00             ‐   100.00%
+[93 ]: PRO NCR‐C ASSUMPTION SPECIALTY HOSPITAL AND MEDICAL CENTER, INC.             3,345,732.00       3,345,732.00             ‐   100.00%
+[93 ]: PRO NCR‐C B. BRAUN AVITUM PHILIPPINES, INC.                                  8,946,168.00       8,946,168.00             ‐   100.00%
+[93 ]: PRO NCR‐C B. BRAUN AVITUM PHILIPPINES, INC.                                  5,302,050.00       5,302,050.00             ‐   100.00%
+[93 ]: PRO NCR‐C BERNARDINO GENERAL HOSPITAL I                                     29,189,441.00      29,189,441.00             ‐   100.00%
+[93 ]: PRO NCR‐C BERNARDINO GENERAL HOSPITAL II                                    10,154,013.25      10,154,013.25             ‐   100.00%
+[93 ]: PRO NCR‐C BINANGONAN LAKEVIEW HOSPITAL, INC.                                16,803,467.00      16,803,467.00             ‐   100.00%
+[93 ]: PRO NCR‐C BLESSED HOME OF MOTHER & CHILD MATERNITY CLINIC                    1,810,425.00       1,810,425.00             ‐   100.00%
+[93 ]: PRO NCR‐C BLESSED HOME OF MOTHER & CHILD MATERNITY CLINIC                    1,051,350.00       1,051,350.00             ‐   100.00%
+[93 ]: PRO NCR‐C CAPITOL MEDICAL CENTER, INC.                                      42,470,600.50      42,470,600.50             ‐   100.00%
+[93 ]: PRO NCR‐C CARDINAL SANTOS MEDICAL CENTER                                    89,872,263.00      89,872,263.00             ‐   100.00%
+[93 ]: PRO NCR‐C CASIMIRO A. YNARES SR. MEMORIAL HOSPITAL                          23,064,849.50      23,064,849.50             ‐   100.00%
+[93 ]: PRO NCR‐C COMMONWEALTH HOSPITAL AND MEDICAL CENTER                          29,831,654.12      29,831,654.12             ‐   100.00%
+[93 ]: PRO NCR‐C DE LOS SANTOS MEDICAL CENTER                                      38,063,648.67      38,063,648.67             ‐   100.00%
+[93 ]: PRO NCR‐C DILIMAN DOCTORS HOSPITAL, INC.                                    13,599,451.50      13,599,451.50             ‐   100.00%
+[93 ]: PRO NCR‐C DIONISIO M. CORNEL MEDICAL CENTER, INC.                           13,838,019.00      13,838,019.00             ‐   100.00%
+[93 ]: PRO NCR‐C DR. FE DEL MUNDO MEDICAL CENTER                                   11,125,424.00      11,125,424.00             ‐   100.00%
+[93 ]: PRO NCR‐C DR. JESUS C. DELGADO MEMORIAL HOSPITAL                             9,791,858.00       9,791,858.00             ‐   100.00%
+[93 ]: PRO NCR‐C EAGLE ROCK DIALYSIS & WELLNESS CENTER, INC.                        3,565,900.00       3,565,900.00             ‐   100.00%
+[93 ]: PRO NCR‐C EAGLE ROCK DIALYSIS AND WELLNESS CENTER, INC                       3,077,100.00       3,077,100.00             ‐   100.00%
+[93 ]: PRO NCR‐C EASE DIALYSIS AND WELLNESS CENTER CORP.                            2,436,200.00       2,436,200.00             ‐   100.00%
+[93 ]: PRO NCR‐C EAST AVENUE MEDICAL CENTER                                       133,922,696.71     133,922,696.71             ‐   100.00%
+[93 ]: PRO NCR‐C EASTERN MARIKINA DIALYSIS CENTER                                   8,274,500.00       8,274,500.00             ‐   100.00%
+[93 ]: PRO NCR‐C F.Y. MANALO MEDICAL FOUNDATION, INC.                               8,724,358.00       8,724,358.00             ‐   100.00%
+[93 ]: PRO NCR‐C FAIRVIEW GENERAL HOSPITAL, INC.                                    3,205,273.50       3,205,273.50             ‐   100.00%
+[93 ]: PRO NCR‐C FEU‐DR. NICANOR REYES MEDICAL FOUNDATION, INC.                    46,629,217.50      46,629,217.50             ‐   100.00%
+[93 ]: PRO NCR‐C FRESENIUS KIDNEY CARE                                              4,260,750.00       4,260,750.00             ‐   100.00%
+[93 ]: PRO NCR‐C FRESENIUS KIDNEY CARE                                              4,096,950.00       4,096,950.00             ‐   100.00%
+[93 ]: PRO NCR‐C FRESENIUS KIDNEY CARE                                              5,553,600.00       5,553,600.00             ‐   100.00%
+[93 ]: PRO NCR‐C J.P. SIOSON GENERAL HOSPITAL AND COLLEGES, INC.                    4,841,693.27       4,841,693.27             ‐   100.00%
+[93 ]: PRO NCR‐C JCTM KIDNEY CARE DIALYSIS CENTER                                   3,439,150.00       3,439,150.00             ‐   100.00%
+[93 ]: PRO NCR‐C LUNG CENTER OF THE PHILIPPINES                                    49,561,533.00      49,561,533.00             ‐   100.00%
+[93 ]: PRO NCR‐C MANILA EAST MEDICAL CENTER                                        25,088,439.00      25,088,439.00             ‐   100.00%
+[93 ]: PRO NCR‐C MARIKINA ST. VINCENT GENERAL HOSPITAL, INC.                        7,306,961.25       7,306,961.25             ‐   100.00%
+[93 ]: PRO NCR‐C MARIKINA VALLEY MEDICAL CENTER                                    37,374,241.90      37,374,241.90             ‐   100.00%
+[93 ]: PRO NCR‐C METRO ANTIPOLO HOSPITAL AND MEDICAL CENTER, INC.                  22,446,992.50      22,446,992.50             ‐   100.00%
+[93 ]: PRO NCR‐C METRO NORTH MEDICAL CENTER AND HOSPITAL, INC.                     21,526,988.50      21,526,988.50             ‐   100.00%
+[93 ]: PRO NCR‐C NATIONAL CHILDREN'S HOSPITAL                                      28,401,187.10      28,401,187.10             ‐   100.00%
+[93 ]: PRO NCR‐C NATIONAL KIDNEY AND TRANSPLANT INSTITUTE                         178,751,448.09     178,751,448.09             ‐   100.00%
+[93 ]: PRO NCR‐C NEPHROLOGY CENTER OF FAIRVIEW DIALYSIS, INC.                       6,344,000.00       6,344,000.00             ‐   100.00%
+[93 ]: PRO NCR‐C NEPHROLOGY CENTER OF FAIRVIEW DIALYSIS, INC.                       2,822,950.00       2,822,950.00             ‐   100.00%
+[93 ]: PRO NCR‐C NEPHROLOGY CENTER OF PASIG CITY, INC.                                975,000.00         975,000.00             ‐   100.00%
+[93 ]: PRO NCR‐C NEPHROLOGY SERVICES PHILS., INC.                                   3,099,850.00       3,099,850.00             ‐   100.00%
+[93 ]: PRO NCR‐C NOVALICHES DISTRICT HOSPITAL                                      15,324,593.00      15,324,593.00             ‐   100.00%
+[93 ]: PRO NCR‐C PACIFIC GLOBAL MEDICAL CENTER, INC.                               22,382,585.50      22,382,585.50             ‐   100.00%
+[93 ]: PRO NCR‐C PADRE PIO MATERNITY AND MEDICAL HOSPITAL, INC.                     6,221,759.00       6,221,759.00             ‐   100.00%
+[93 ]: PRO NCR‐C PAG‐ASA HOSPITAL                                                   1,973,533.50       1,973,533.50             ‐   100.00%
+[93 ]: PRO NCR‐C PEOPLE'S CENTER FOR HEMODIALYSIS CARE, INC.                        4,985,500.00       4,985,500.00             ‐   100.00%
+[93 ]: PRO NCR‐C PHIL. KIDNEY DIALYSIS FOUNDATION, INC.                             6,374,550.00       6,374,550.00             ‐   100.00%
+[93 ]: PRO NCR‐C PHIL. KIDNEY DIALYSIS FOUNDATION, INC.                             9,128,600.00       9,128,600.00             ‐   100.00%
+[93 ]: PRO NCR‐C PHILIPPINE CHILDREN'S MEDICAL CENTER                              31,039,151.50      31,039,151.50             ‐   100.00%
+[93 ]: PRO NCR‐C PHILIPPINE HEART CENTER                                          133,521,343.38     133,521,343.38             ‐   100.00%
+[93 ]: PRO NCR‐C PHILIPPINE ORTHOPEDIC CENTER                                      45,675,099.50      45,675,099.50             ‐   100.00%
+[93 ]: PRO NCR‐C PNP GENERAL HOSPITAL                                               8,551,376.00       8,551,376.00             ‐   100.00%
+[93 ]: PRO NCR‐C PROVIDENCE HOSPITAL, INC.                                         34,388,938.00      34,388,938.00             ‐   100.00%
+[93 ]: PRO NCR‐C QUIRINO MEMORIAL MEDICAL CENTER                                  150,176,798.00     150,176,798.00             ‐   100.00%
+[93 ]: PRO NCR‐C RIZAL PROVINCIAL HOSPITAL SYSTEM (BINANGONAN ANNEX)               26,239,291.50      26,239,291.50             ‐   100.00%
+[93 ]: PRO NCR‐C RIZAL PROVINCIAL HOSPITAL SYSTEM ‐ ANGONO ANNEX                   14,530,892.50      14,530,892.50             ‐   100.00%
+[93 ]: PRO NCR‐C RIZAL PROVINCIAL HOSPITAL SYSTEM ‐ MORONG MAIN                    25,480,716.00      25,480,716.00             ‐   100.00%
+[93 ]: PRO NCR‐C SAN JUAN MEDICAL CENTER                                            7,619,157.17       7,619,157.17             ‐   100.00%
+STATUS OF IRM LIQUIDATION
+As of July 12, 2023
+       PRO                                                        HCI NAME                RELEASED           LIQUIDATION        BALANCE       % LIQ
+[93 ]: PRO NCR‐C ST. BENEDICT DIALYSIS CENTER, INC.                                         5,645,250.00         5,645,250.00             ‐   100.00%
+[93 ]: PRO NCR‐C ST. LUKE'S MEDICAL CENTER                                                146,031,577.42       146,031,577.42             ‐   100.00%
+[93 ]: PRO NCR‐C ST. MATTHEUS MEDICAL HOSPITAL, INC.                                       15,777,933.83        15,777,933.83             ‐   100.00%
+[93 ]: PRO NCR‐C ST. THERESA DIALYSIS CENTER, INC.                                          8,340,800.00         8,340,800.00             ‐   100.00%
+[93 ]: PRO NCR‐C STA. TERESITA GENERAL HOSPITAL                                             6,845,754.00         6,845,754.00             ‐   100.00%
+[93 ]: PRO NCR‐C TANAY GENERAL HOSPITAL, INC.                                               6,073,552.50         6,073,552.50             ‐   100.00%
+[93 ]: PRO NCR‐C TAYTAY DOCTORS MULTISPECIALTY HOSPITAL                                    24,582,675.00        24,582,675.00             ‐   100.00%
+[93 ]: PRO NCR‐C THERAPY MANAGEMENT SERVICES                                                4,531,150.00         4,531,150.00             ‐   100.00%
+[93 ]: PRO NCR‐C THERAPY MANAGEMENT SERVICES PHILS., INC.                                   7,694,700.00         7,694,700.00             ‐   100.00%
+[93 ]: PRO NCR‐C THERAPY MANAGEMENT SERVICES PHILS., INC.                                   3,742,050.00         3,742,050.00             ‐   100.00%
+[93 ]: PRO NCR‐C UNITED DOCTORS MEDICAL CENTER                                              6,743,738.50         6,743,738.50             ‐   100.00%
+[93 ]: PRO NCR‐C UNIVERSITY OF THE EAST RAMON MAGSAYSAY MEMORIAL MEDICAL CENTER, INC.      36,462,257.50        36,462,257.50             ‐   100.00%
+[93 ]: PRO NCR‐C VILLAROSA HOSPITAL, INC.                                                   1,726,737.50         1,726,737.50             ‐   100.00%
+[93 ]: PRO NCR‐C WORLD CITI MEDICAL CENTER, INC.                                           16,389,399.43        16,389,399.43             ‐   100.00%
+[93 ]: PRO NCR‐C YNARES MUNICIPAL HOSPITAL                                                  1,618,918.25         1,618,918.25             ‐   100.00%
+
+Grand Total                                                                             14,970,850,093.58   14,970,850,093.58             ‐   100.00%
+
+
+
+
+Source: Liquidation Reports from PROs
+

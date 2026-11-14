@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Business Name Search - BNRS Portal</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="icon" href="https://bnrs.dti.gov.ph/favicon.ico" type="image/x-icon" />
+    <meta name="csrf-token" content="NLhnSdxiTx2Lkp9ZzWMc2RwyKdFyEUi6G9omhavp">
+    <!-- Bootstrap 3.3.7 -->
+    <link rel="stylesheet"
+        href="https://bnrs.dti.gov.ph/frontend/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://bnrs.dti.gov.ph/frontend/bower_components/font-awesome/css/font-awesome.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet"
+        href="https://bnrs.dti.gov.ph/frontend/bower_components/Ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://bnrs.dti.gov.ph/frontend/dist/css/AdminLTE.min.css">
+    <link rel="stylesheet" href="https://bnrs.dti.gov.ph/frontend/dist/css/skins/_all-skins.min.css">
+    <style>
+        input.form-control,
+        #proposed_business_name_display,
+        #business_name_display {
+            text-transform: uppercase;
+        }
+
+        .select2-container {
+            height: 34px !important;
+            border-radius: 0px !important;
+            border: 1px solid #d2d6de !important
+        }
+
+        .select2-container .select2-selection--single {
+            height: 34px !important;
+            border-radius: 0px !important;
+            border: 1px solid #d2d6de !important
+        }
+
+        .select2-container--default {
+            border: none !important;
+            border: none !important;
+            border-radius: none !important;
+        }
+
+        .select2-container .select2-selection--single .select2-selection__rendered {
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+        }
+
+        h4.bg-primary {
+            padding: 10px 5px;
+        }
+
+        .radio-inline label {
+            font-weight: 400;
+        }
+
+        .popover {
+            max-width: 600px;
+        }
+
+        .alert ol {
+            padding: 0px !important;
+            margin: 0px !important;
+            padding-left: 20px !important;
+        }
+
+        .alert ol li {
+            padding: 0px !important;
+            margin: 0px !important;
+            padding-left: 10px !important;
+        }
+
+        .ovrflw {
+            overflow: auto;
+        }
+
+        .vtop {
+            vertical-align: top;
+        }
+
+        /* start add tooltip */
+        .tooltip {
+            display: inline;
+            position: relative;
+            text-decoration: none;
+            top: 0px;
+            left: 4px;
+        }
+
+        .tooltip:hover:after {
+            background: #333;
+            background: rgba(0, 0, 0, .8);
+            border-radius: 5px;
+            top: -5px;
+            color: #fff;
+            content: attr(alt);
+            left: 160px;
+            padding: 5px 15px;
+            position: absolute;
+            z-index: 98;
+            width: 150px;
+        }
+
+        .tooltip:hover:before {
+            border: solid;
+            border-color: transparent black;
+            border-width: 6px 6px 6px 0;
+            bottom: 20px;
+            content: "";
+            left: 155px;
+            position: absolute;
+            z-index: 99;
+            top: 3px;
+        }
+
+        /* end add tooltip */
+        /*spinner*/
+        .spin-holder {
+            z-index: 2000;
+            /*height: 150px;
+          width: 150px;
+          background-color: grey;
+          opacity: 0.8;
+          position: fixed;
+          left: 50%;
+          top: 50%;
+          margin: -76px 0 0 -76px;
+          border-radius: 5%;*/
+            height: 100%;
+            width: 100%;
+            top: 0%;
+            left: 0%;
+            background-color: black;
+            position: fixed;
+            opacity: 0.50;
+        }
+
+        .spin-loader {
+            z-index: 2001;
+            /*top: 10%;
+          left: 10%;
+          width: 80%;
+          height: 80%;*/
+            top: 50%;
+            left: 50%;
+            width: 120px;
+            height: 120px;
+            margin: -76px 0 0 -76px;
+            position: absolute;
+            border: 16px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 16px solid #3498db;
+            -webkit-animation: spin 2s linear infinite;
+            animation: spin 2s linear infinite;
+        }
+
+        @-webkit-keyframes spin {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+
+        @keyframes  spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .animate-bottom {
+            position: relative;
+            -webkit-animation-name: animatebottom;
+            -webkit-animation-duration: 1s;
+            animation-name: animatebottom;
+            animation-duration: 1s
+        }
+
+        @-webkit-keyframes animatebottom {
+            from {
+                bottom: -100px;
+                opacity: 0
+            }
+
+            to {
+                bottom: 0px;
+                opacity: 1
+            }
+        }
+
+        @keyframes  animatebottom {
+            from {
+                bottom: -100px;
+                opacity: 0
+            }
+
+            to {
+                bottom: 0;
+                opacity: 1
+            }
+        }
+
+        /*end of spinner*/
+
+        @media (max-width:900px) {
+            .box-body {
+                padding: 0 10px !important;
+            }
+
+            .content-wrapper .content {
+                padding: 5px !important;
+            }
+        }
+    </style>
+    <style type="text/css">
+  ol li{line-height: 25px; margin-bottom: 10px;}
+</style>
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+    <!-- Google Font -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+        
+</head>
+
+<body class="hold-transition skin-blue sidebar-mini">
+    <header class="main-header">
+  <nav class="navbar navbar-static-top">
+    <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+      <span class="sr-only">Toggle navigation</span>
+    </a>
+        
+  </nav>
+</header>
+
+    <!-- =============================================== -->
+
+    <aside class="main-sidebar" style="margin-top: 0px; padding-top: 0px;">
+  <!-- sidebar: style can be found in sidebar.less -->
+  <section class="sidebar">
+    <div class="user-panel" style="background: #e2e2e2;">
+      <p class="text-center">
+        <a href="https://bnrs.dti.gov.ph"><img src="https://bnrs.dti.gov.ph/frontend/logo.png" height="50" style="margin: 10px auto;" alt=""></a>
+      </p>
+    </div>
+    
+    <ul class="sidebar-menu" data-widget="tree">
+      <li class="header">NAVIGATION</li>
+      <li>
+        <a href="https://bnrs.dti.gov.ph">
+          <i class="fa fa-home"></i> <span>HOME</span>
+        </a>
+      </li>
+      <li class="treeview">
+        <a href="#">
+          <i class="fa fa-cogs"></i> <span>BUSINESS NAME SERVICES</span>
+          <span class="pull-right-container">
+            <i class="fa fa-angle-left pull-right"></i>
+          </span>
+        </a>
+        <ul class="treeview-menu">
+          <li><a href="https://bnrs.dti.gov.ph/search"><i class="fa fa-circle-o"></i> SEARCH</a></li>
+          <li><a href="https://bnrs.dti.gov.ph/registration"><i class="fa fa-circle-o"></i> NEW REGISTRATION</a></li>
+          <!--- Enable/Disable using DATABASE -->
+          
+
+          <!--- End of addtional code -->
+
+
+          <!-- <li><a href="https://bnrs.dti.gov.ph/update-information"><i class="fa fa-circle-o"></i> UPDATE INFORMATION</a></li>
+	   -->
+          <!--  -->
+
+
+
+
+          <li><a href="https://bnrs.dti.gov.ph/renewal"><i class="fa fa-circle-o"></i> RENEWAL</a></li>
+          <li><a href="https://bnrs.dti.gov.ph/cancellation"><i class="fa fa-circle-o"></i> CANCELLATION</a></li>
+          <li><a href="https://bnrs.dti.gov.ph/request-certification"><i class="fa fa-circle-o"></i> REQUEST CERTIFICATION</a></li>
+
+          <li><a href="https://bnrs.dti.gov.ph/inquiry"><i class="fa fa-circle-o"></i> TRANSACTION INQUIRY</a></li>
+        </ul>
+      </li>
+      
+            <!-- <li><a href="https://bnrs.dti.gov.ph/login"><i class="fa fa-sign-in"></i> <span>LOGIN</span></a></li> -->
+      
+
+    </ul>
+  </section>
+  <!-- /.sidebar -->
+</aside>
+    <!-- =============================================== -->
+
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+        <section class="content-header">
+  <h1><i class="fa fa-cogs"></i> SERVICES - BUSINESS NAME SEARCH</h1>
+  <ol class="breadcrumb">
+    <li><a href="https://bnrs.dti.gov.ph/services"><i class="fa fa-home"></i> Home</a></li>
+    <li class="active">Business Name Search</li>
+  </ol>
+</section>
+
+        <!-- Main content -->
+<section class="content">
+  <div class="box box-primary box-solid">
+    <div class="box-header with-border">
+      <h3 class="box-title"><i class="glyphicon glyphicon-list-alt"></i> BUSINESS NAME SEARCH</h3>
+    </div>
+    <input type="hidden" name="_token" value="NLhnSdxiTx2Lkp9ZzWMc2RwyKdFyEUi6G9omhavp">
+    
+    <div class="box-body" style="padding: 20px 40px;">
+      <form action="" method="GET">
+        <div class="row">
+          <div class="col-md-8">
+                        <div class="form-group">
+              <label for="input_keyword">Enter Keyword(s)</label>
+                <!--<input type="text" class="form-control" name="keyword2" id="input_bnn" value="">-->
+              <input type="text" class="form-control" name="keyword" id="input_keyword" value="JM SARI-SARI STORE" required="required">
+              <!--<input type="text" class="form-control" name="keyword" id="input_keyword" value="" required="required"> -->
+                          </div>
+            <div class="form-group">
+              <p><b>Criteria</b></p>
+                            <div class="radio-inline">
+                <label>
+                  <input type="radio" name="criteria" value="exact" checked=&quot;checked&quot;>
+                  Exact Match
+                </label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="input_sort_by">Sort By</label>
+                  <select name="sort_by" id="" class="form-control">
+                    <option value="business_name" selected=&quot;selected&quot;>Business Name</option>
+                    
+                    <option value="status" >Status</option>
+                    <option value="business_scope" >Business Scope</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <p><b>&nbsp;</b></p>
+                  <div class="radio-inline">
+                    <label>
+                      <input type="radio" name="sort_order" value="asc" checked=&quot;checked&quot;>
+                      Ascending
+                    </label>
+                  </div>
+                  <div class="radio-inline">
+                    <label>
+                      <input type="radio" name="sort_order" value="desc" >
+                      Descending
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <button type="submit" class="btn btn-primary btn-md"><i class="fa fa-search"></i> Search</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+                        
+
+          
+
+
+
+
+   
+        <h4><b>0</b> search results found.</h4>
+
+
+        <div class="row"  style="overflow-x: auto;">
+          <div class="col-md-12">
+            <table class="table table-bordered table-hovered">
+              <thead>
+                <tr>
+                  <th>BUSINESS NAME</th>
+                  <th class="text-center">BUSINESS TERRITORY</th>
+                  <th>OWNER'S NAME</th>
+                  <th class="text-center">CERTIFICATE NO. / BNN</th>
+                                    <th>TRANSACTION/ REGISTRATION DATE</th>
+
+                  <th class="text-left" width="10%">STATUS</th>
+                  <th>BUSINESS SCOPE</th>
+                </tr>
+              </thead>
+              <tbody>
+             
+                                  <!-- START of EDITED CODE -->  
+                                                  <!-- end of edited new code -->  
+                <!-- START of EDITED CODE -->  
+                <!-- ADDED   ($record->trans_status == "1" && $record->reg_status == "0") -->
+                                  
+              </tbody>
+            </table>
+            
+            <div class="pagination-container">
+
+                                                
+                
+                          </div>
+          </div>
+        </div>
+        
+      
+      <hr>
+      <p>
+        <b>Note:</b><br>
+        The verification of a specific <b>Business Name</b> is limited to exact name search only. Random searches are not allowed.
+      </p>
+
+    </div>
+    
+    <div class="box-footer">
+    </div>
+
+  </div>
+
+</section>
+            </div>
+    <!-- /.content-wrapper -->
+
+    <footer class="main-footer">
+        <div class="pull-right hidden-xs">
+            <b>Version</b> 4.30.10
+        </div>
+        <strong>Copyright &copy; 2019-2026.</strong> All rights
+        reserved.
+    </footer>
+    <div class="control-sidebar-bg"></div>
+    </div>
+            <div id="gwt-standard-footer"></div>
+        <script type="text/javascript">
+            (function(d, s, id) {
+                var js, gjs = d.getElementById('gwt-standard-footer');
+
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "//gwhs.i.gov.ph/gwt-footer/footer.js";
+                gjs.parentNode.insertBefore(js, gjs);
+            }(document, 'script', 'gwt-footer-jsdk'));
+        </script>
+        <!-- jQuery 3 -->
+    <script src="https://bnrs.dti.gov.ph/frontend/bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap 3.3.7 -->
+    <script src="https://bnrs.dti.gov.ph/frontend/bower_components/bootstrap/dist/js/bootstrap.min.js">
+    </script>
+    <!-- SlimScroll -->
+    <script
+        src="https://bnrs.dti.gov.ph/frontend/bower_components/jquery-slimscroll/jquery.slimscroll.min.js">
+    </script>
+    <!-- FastClick -->
+    <script src="https://bnrs.dti.gov.ph/frontend/bower_components/fastclick/lib/fastclick.js"></script>
+    <!-- AdminLTE App -->
+    <script src="https://bnrs.dti.gov.ph/frontend/dist/js/adminlte.min.js"></script>
+    <script type="text/javascript">
+  $(document).ready(function() {
+    window.history.pushState({}, document.title, "/" + "search");
+  });
+</script>
+    <script type="text/javascript">
+        $.fn.search_word = function(complete_string, word) {
+            return new RegExp('\\b' + word.replace("+", " ") + '\\b', 'i').test(complete_string.replace("+", " "));
+        };
+
+        $.fn.verify_word = function(complete_string, word, nput, psic, btn, addl) {
+            existing = false;
+            $.getJSON("https://bnrs.dti.gov.ph/psic/verify_word?dominant_name=" + word, function(data) {
+                $.each(data, function(index, value) {
+                    //console.log(data.is_exists)
+                    console.log(data)
+
+                    $('#domi_msg').remove();
+                    if (data.is_valid == false) {
+                        if (addl == "yes") {
+                            $(nput).parents(".form-group").append(
+                                '<p id="domi_msg" class="help-block"><b class="text-danger">Invalid Dominant Name. Please try again. <br> Sample Dominant Name: JUAN </b></p>'
+                            )
+                        } else {
+                            $(nput).parents(".form-group").append(
+                                '<p id="domi_msg" class="help-block"><b class="text-danger">Invalid Dominant Name. Please try again. </b></p>'
+                            )
+                        }
+                        $(btn).prop('disabled', true)
+                    } else {
+                        $(nput).parents(".form-group").append(
+                            '<p id="domi_msg" class="help-block"><b class="text-success">Valid Dominant Name</b></p>'
+                        )
+                        if (typeof psic != null) {
+                            $(btn).prop('disabled', false)
+                        }
+                    }
+                })
+            });
+        };
+
+        $.fn.get_group = function(div_code) {
+            $("#input_group").empty();
+            $("#input_subclass").empty().prop('disabled', true);
+            $("#input_descriptor").empty().prop('disabled', true);
+            $(".descriptor-btn").prop('disabled', true)
+            $("#input_group").append($('<option>', {
+                value: "",
+                text: "Loading Content..."
+            }));
+            $.getJSON("https://bnrs.dti.gov.ph/psic/group?division_code=" + div_code, function(data) {
+                $("#input_group").empty();
+                $.each(data, function(index, value) {
+                    // console.log(index+value)
+                    $('#input_group').append($('<option>', {
+                        value: index,
+                        text: value
+                    }));
+                })
+
+                $("#input_group").prop('disabled', false)
+                $("#input_group").prepend($('<option>', {
+                    value: "",
+                    text: "--SELECT GROUP/CLASS--"
+                }))
+                $("#input_group").val($("#input_group option:first").val());
+            });
+        }
+
+        $.fn.get_subclass = function(grp_code) {
+            $("#input_subclass").empty();
+            $("#input_descriptor").empty().prop('disabled', true);
+            $(".descriptor-btn").prop('disabled', true)
+            $("#input_subclass").append($('<option>', {
+                value: "",
+                text: "Loading Content..."
+            }));
+            $.getJSON("https://bnrs.dti.gov.ph/psic/sub-class?group_code=" + grp_code, function(data) {
+                $("#input_subclass").empty();
+
+                $.each(data, function(index, value) {
+                    // console.log(index+value)
+                    $('#input_subclass').append($('<option>', {
+                        value: index,
+                        text: value
+                    }));
+                })
+
+                $("#input_subclass").prop('disabled', false)
+                $("#input_subclass").prepend($('<option>', {
+                    value: "",
+                    text: "--SELECT SUB-CLASS--"
+                }))
+                $("#input_subclass").val($("#input_subclass option:first").val());
+            });
+        };
+
+        $.fn.get_descriptor = function(sc_code) {
+            $("#input_descriptor").empty();
+            $(".descriptor-btn").prop('disabled', true)
+            $("#input_descriptor").append($('<option>', {
+                value: "",
+                text: "Loading Content..."
+            }));
+            $.getJSON("https://bnrs.dti.gov.ph/psic/descriptor?subclass_code=" + sc_code, function(data) {
+                $("#input_descriptor").empty();
+                $.each(data, function(index, value) {
+                    console.log(index + value)
+                    $('#input_descriptor').append($('<option>', {
+                        value: index,
+                        text: value
+                    }));
+                })
+
+                $("#input_descriptor").prop('disabled', false)
+                $("#input_descriptor").prepend($('<option>', {
+                    value: "",
+                    text: "--SELECT DESCRIPTOR--"
+                }))
+                $("#input_descriptor").val($("#input_descriptor option:first").val());
+            });
+        }
+
+        $.fn.get_update_descriptor_affected_records = function(psic_code, descriptor, affected, display, proceed_btn,
+            descriptors) {
+            var codes = psic_code + ';' + descriptor + ';' + descriptors;
+            //var codes = psic_code + ';' + descriptor;
+            $(proceed_btn).prop('disabled', true);
+
+            $(display).text("Fetching total affected records...");
+            $.getJSON("https://bnrs.dti.gov.ph/cms/psic/code/descriptor?psic_code=" + codes, function(data) {
+                $.each(data, function(index, value) {
+                    console.log(value)
+                    $(affected).val(value);
+                    $(display).text(value);
+                })
+
+                $(proceed_btn).prop('disabled', false);
+            });
+        }
+
+        $.fn.retrieve_tellers = function(office_code, input_teller, selected) {
+            $(input_teller).empty().prop('disabled', true)
+            $(input_teller).empty().prop('disabled', true)
+            $(input_teller).append($('<option>', {
+                value: "",
+                text: "Loading Content..."
+            }));
+
+            $.getJSON("https://bnrs.dti.gov.ph/retrieve_tellers?office_code=" + office_code, function(data) {
+                console.log("Finished");
+                $(input_teller).empty().prop('disabled', true)
+                $.each(data, function(index, value) {
+                    $(input_teller).append($('<option>', {
+                        value: index,
+                        text: value
+                    }));
+                })
+
+                $(input_teller).prop('disabled', false)
+                $(input_teller).prepend($('<option>', {
+                    value: "",
+                    text: "--SELECT TELLER--"
+                }))
+                if (selected.length > 0) {
+                    $(input_teller).val($(input_teller + " option[value=" + selected + "]").val());
+
+                } else {
+                    $(input_teller).val($(input_teller + " option:first").val());
+                }
+            });
+        }
+
+        $.fn.get_brgy = function(munc_code, input_brgy, selected, disabled) {
+            disabled = disabled ?? false;
+            $(input_brgy).empty().prop('disabled', true);
+            $(input_brgy).append($('<option>', {
+                value: "",
+                text: "Loading Content..."
+            }));
+        
+            $.getJSON("https://bnrs.dti.gov.ph/location/brgy?city_code=" + munc_code, function(data) {
+                $(input_brgy).empty().prop('disabled', true);
+
+                $.each(data, function(index, value) {
+                    $(input_brgy).append($('<option>', {
+                        value: index,
+                        text: value.desc,
+                        "data-zip_code": (value.zip_code).trim()
+                    }));
+                })
+                $(input_brgy).prop('disabled', disabled)
+                $(input_brgy).prepend($('<option>', {
+                    value: "",
+                    text: "--SELECT BARANGAY--"
+                }))
+
+                if (selected.length > 0) {
+                    $(input_brgy).val($(input_brgy + " option[value=" + selected + "]").val());
+
+                    if (typeof $(input_brgy + " option[value=" + selected + "]").data('zip_code') ===
+                        undefined) {
+                        $(input_brgy.replace("brgy", "zip")).val("")
+                    } else {
+                        $(input_brgy.replace("brgy", "zip")).val($(input_brgy + " option[value=" + selected +
+                            "]").data('zip_code'))
+                    }
+
+                } else {
+                    $(input_brgy).val($(input_brgy + " option:first").val());
+
+                }
+            });
+        }
+
+        $.fn.get_all_brgy = function(munc_code, input_brgy, selected) {
+            $(input_brgy).empty().prop('disabled', true);
+            $(input_brgy).append($('<option>', {
+                value: "",
+                text: "Loading Content..."
+            }));
+            $.getJSON("https://bnrs.dti.gov.ph/location/brgy_all?city_code=" + munc_code, function(data) {
+                $(input_brgy).empty().prop('disabled', true);
+
+                $.each(data, function(index, value) {
+                    $(input_brgy).append($('<option>', {
+                        value: index,
+                        text: value.desc,
+                        "data-zip_code": (value.zip_code).trim()
+                    }));
+                })
+                $(input_brgy).prop('disabled', false)
+                $(input_brgy).prepend($('<option>', {
+                    value: "",
+                    text: "--SELECT BARANGAY--"
+                }))
+
+                if (selected.length > 0) {
+                    $(input_brgy).val($(input_brgy + " option[value=" + selected + "]").val());
+
+                    if (typeof $(input_brgy + " option[value=" + selected + "]").data('zip_code') ===
+                        undefined) {
+                        $(input_brgy.replace("brgy", "zip")).val("")
+                    } else {
+                        $(input_brgy.replace("brgy", "zip")).val($(input_brgy + " option[value=" + selected +
+                            "]").data('zip_code'))
+                    }
+
+                } else {
+                    $(input_brgy).val($(input_brgy + " option:first").val());
+
+                }
+            });
+        }
+
+        $.fn.get_city = function(reg_code, input_city, input_brgy, selected, disabled) {
+            disabled = disabled ?? false;
+            $(input_city).empty().prop('disabled', true)
+            $(input_brgy).empty().prop('disabled', true)
+            $(input_city).append($('<option>', {
+                value: "",
+                text: "Loading Content..."
+            }));
+
+            $.getJSON("https://bnrs.dti.gov.ph/location/city?region_code=" + reg_code, function(data) {
+                $(input_city).empty().prop('disabled', true)
+                $.each(data, function(index, value) {
+                    // console.log(index+value)
+                    $(input_city).append($('<option>', {
+                        value: index,
+                        text: value
+                    }));
+                })
+
+                $(input_city).prop('disabled', disabled)
+                $(input_city).prepend($('<option>', {
+                    value: "",
+                    text: "--SELECT MUNICIPALITY/CITY, PROVINCE--"
+                }))
+                if (selected.length > 0) {
+                    $(input_city).val($(input_city + " option[value=" + selected + "]").val());
+
+                } else {
+                    $(input_city).val($(input_city + " option:first").val());
+                }
+            });
+            // return result;
+        };
+
+        $.fn.get_all_city = function(reg_code, input_city, input_brgy, selected) {
+            $(input_city).empty().prop('disabled', true)
+            $(input_brgy).empty().prop('disabled', true)
+            $(input_city).append($('<option>', {
+                value: "",
+                text: "Loading Content..."
+            }));
+            $.getJSON("https://bnrs.dti.gov.ph/location/city_all?region_code=" + reg_code, function(data) {
+                $(input_city).empty().prop('disabled', true)
+                $.each(data, function(index, value) {
+                    // console.log(index+value)
+                    $(input_city).append($('<option>', {
+                        value: index,
+                        text: value
+                    }));
+                })
+
+                $(input_city).prop('disabled', false)
+                $(input_city).prepend($('<option>', {
+                    value: "",
+                    text: "--SELECT MUNICIPALITY/CITY, PROVINCE--"
+                }))
+                if (selected.length > 0) {
+                    $(input_city).val($(input_city + " option[value=" + selected + "]").val());
+                } else {
+                    $(input_city).val($(input_city + " option:first").val());
+                }
+            });
+            // return result;
+        };
+
+        $.fn.get_prov_only = function(reg_code, input_prov, input_city, input_brgy, selected) {
+            $(input_prov).empty().prop('disabled', true)
+            $(input_city).empty().prop('disabled', true)
+            $(input_brgy).empty().prop('disabled', true)
+            $(input_prov).append($('<option>', {
+                value: "",
+                text: "Loading Content..."
+            }));
+            $.getJSON("https://bnrs.dti.gov.ph/location/prov_only?region_code=" + reg_code, function(data) {
+                $(input_prov).empty().prop('disabled', true)
+                $.each(data, function(index, value) {
+                    console.log(index + value)
+                    $(input_prov).append($('<option>', {
+                        value: index,
+                        text: value
+                    }));
+                })
+
+                $(input_prov).prop('disabled', false)
+                $(input_prov).prepend($('<option>', {
+                    value: "",
+                    text: "--SELECT PROVINCE--"
+                }))
+                if (selected.length > 0) {
+                    $(input_prov).val($(input_prov + " option[value=" + selected + "]").val());
+
+                } else {
+                    $(input_prov).val($(input_prov + " option:first").val());
+                }
+            });
+            // return result;
+        };
+
+        $.fn.get_city_only = function(prov_code, input_city, input_brgy, selected) {
+            $(input_city).empty().prop('disabled', true)
+            $(input_brgy).empty().prop('disabled', true)
+            $(input_city).append($('<option>', {
+                value: "",
+                text: "Loading Content..."
+            }));
+            $.getJSON("https://bnrs.dti.gov.ph/location/city_only?province_code=" + prov_code, function(data) {
+                $(input_city).empty().prop('disabled', true)
+                $.each(data, function(index, value) {
+                    // console.log(index+value)
+                    $(input_city).append($('<option>', {
+                        value: index,
+                        text: value
+                    }));
+                })
+
+                $(input_city).prop('disabled', false)
+                $(input_city).prepend($('<option>', {
+                    value: "",
+                    text: "--SELECT MUNICIPALITY/CITY--"
+                }))
+                if (selected.length > 0) {
+                    $(input_city).val($(input_city + " option[value=" + selected + "]").val());
+
+                } else {
+                    $(input_city).val($(input_city + " option:first").val());
+                }
+            });
+            // return result;
+        };
+
+        $.fn.get_business_dx = function(psic_code, input_dx, selected) {
+            console.log(selected)
+            $(input_dx).empty().prop('disabled', false)
+            $(input_dx).append($('<option>', {
+                value: "",
+                text: "Loading Content..."
+            }));
+            $.getJSON("https://bnrs.dti.gov.ph/location/descs?psic_code=" + psic_code, function(data) {
+                $(input_dx).empty().prop('disabled', true)
+                var descFound = false;
+                $.each(data, function(index, value) {
+                    // console.log(index+value)
+                    var opt = $('<option>', {
+                        value: index,
+                        text: value
+                    })
+                    if (selected == value) {
+                        opt.prop('selected', true);
+                        descFound = true;
+                    }
+
+                    $(input_dx).append(opt);
+                })
+
+                $(input_dx).prop('disabled', false)
+                var firstOpt = $('<option>', {
+                    value: "",
+                    text: "--SELECT BUSINESS DESCRIPTOR--"
+                })
+                if (selected.length == 0 || !descFound) {
+                    firstOpt.prop('selected', true);
+                }
+                $(input_dx).prepend(firstOpt)
+            });
+            // return result;
+        };
+
+        $.fn.get_new_selected_psgc = function(psgc, input_show) {
+            $.getJSON("https://bnrs.dti.gov.ph/location/show_selected?psgc=" + psgc, function(data) {
+                //$(input_show).val("")
+                $.each(data, function(index, value) {
+                    console.log(index + value);
+                    // $(input_dx).append($('<option>', {
+                    //     value: index,
+                    //     text: value
+                    // }));
+                    $(input_show).val(value);
+                })
+            });
+            // return result;
+        };
+
+        $(function() {
+
+
+            $("form").find('select').addClass('form-control');
+            $('[data-toggle="popover"]').popover({
+                trigger: "hover",
+                html: true
+            })
+
+            $(".input-number").on('keydown keyup keypress change blur focus focusin focusout paste input propertychange', function(e) {
+                // if (String.fromCharCode(e.keyCode).match(/[^0-9]/g)) return false;
+                const value = e.target.value;
+
+                // Remove non-numeric characters from the input
+                e.target.value = value.replace(/[^0-9]/g, "");
+
+                // Prevent letters during `keydown`, `keypress`, and `input`
+                if (e.type === "keydown" || e.type === "keypress") {
+                    const allowedKeys = ["Backspace", "ArrowLeft", "ArrowRight", "Tab"];
+                    if (!/^[0-9]$/.test(e.key) && !allowedKeys.includes(e.key)) {
+                    e.preventDefault();
+                    }
+                }
+            });
+
+
+        })
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148338504-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-148338504-1');
+    </script>
+    <script>
+        $(function (){
+            let smode = "";
+            let apimode = ""
+            if (smode == 'bnrsapp' || apimode == 'bnrsapi') {
+                sessionStorage.setItem('mode', smode);
+                $(".main-header").hide();
+                $(".main-sidebar").hide();
+                $(".breadcrumb").hide();
+                $(".content-wrapper").css('margin-left', '0');
+                $(".main-footer").hide();
+                $("#gwt-standard-footer").hide();
+                $(".back-btn").hide();
+                setInterval(function () {
+                    $.get('/ping?s=&d=');
+                },15000);
+            } 
+            else {
+                // let sessionMode = sessionStorage.getItem('mode');
+                // if (sessionMode == 'bnrsapp') {
+                //     $(".main-header").hide();
+                //     $(".main-sidebar").hide();
+                //     $(".breadcrumb").hide();
+                //     $(".content-wrapper").css('margin-left', '0');
+                //     $(".main-footer").hide();
+                //     $("#gwt-standard-footer").hide();
+                //     $(".back-btn").hide();
+                // }
+            }
+        });
+    </script>
+        </body>
+
+</html>

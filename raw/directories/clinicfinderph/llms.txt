@@ -1,0 +1,86 @@
+# ClinicFinderPH
+
+> ClinicFinderPH is a directory of healthcare clinics in the Philippines. Browse and compare dental, pediatric, dermatology, OB-GYN, animal bite, and other clinics by location, services, prices, and PhilHealth accreditation.
+
+Clinics are organized by type and by location (province and city). Each clinic page lists services, operating hours, contact details, ratings, and address. Patients can find PhilHealth-accredited clinics near them and send inquiries to participating clinics.
+
+## Key pages
+
+- [Home](https://www.clinicfinderph.com): Search and browse clinics across the Philippines
+- [Locations](https://www.clinicfinderph.com/locations): Browse clinics by province and city
+- [Animal Bite Centers](https://www.clinicfinderph.com/animal-bite-center): Find animal bite treatment centers and rabies vaccination
+- [Blog](https://www.clinicfinderph.com/blog): Guides and articles on healthcare, costs, and clinics in the Philippines
+- [For Clinics](https://www.clinicfinderph.com/for-clinics): Information for clinics that want to claim or list their profile
+- [About](https://www.clinicfinderph.com/about): About ClinicFinderPH
+
+## Clinic types
+
+- [Dental Clinics](https://www.clinicfinderph.com/dental): Comprehensive dental care including general dentistry, orthodontics, cosmetic procedures, and oral surgery across the Philippines.
+- [Pediatric Clinics](https://www.clinicfinderph.com/pediatric): Specialized healthcare for infants, children, and adolescents including vaccinations, developmental monitoring, and child wellness.
+- [General Practice](https://www.clinicfinderph.com/general): Primary healthcare services for adults including consultations, preventive care, chronic disease management, and routine checkups.
+- [Dermatology Clinics](https://www.clinicfinderph.com/dermatology): Expert skin care including acne treatment, cosmetic procedures, skin cancer screening, and medical dermatology services.
+- [OB-GYN Clinics](https://www.clinicfinderph.com/obgyn): Women's health specialists providing prenatal care, gynecology services, family planning, and obstetric care.
+- [Eye Clinics](https://www.clinicfinderph.com/ophthalmology): Comprehensive eye care including eye exams, vision correction, cataract surgery, LASIK, and treatment of eye conditions.
+- [ENT Clinics](https://www.clinicfinderph.com/ent): Ear, nose, and throat specialists treating sinus conditions, hearing problems, throat disorders, and related conditions.
+- [Physical Therapy Clinics](https://www.clinicfinderph.com/physical-therapy): Rehabilitation services including sports injury recovery, post-surgery rehab, mobility treatment, and pain management.
+- [Psychology & Psychiatry](https://www.clinicfinderph.com/psychology): Mental health services including counseling, psychiatric care, therapy sessions, and mental wellness support.
+- [Orthopedic Clinics](https://www.clinicfinderph.com/orthopedic): Orthopedic clinics specializing in musculoskeletal conditions, bone and joint care, sports injuries, and physical rehabilitation across the Philippines.
+- [Rural Health Units](https://www.clinicfinderph.com/rural-health-unit): Government-operated primary care facilities serving rural communities with basic health services, maternal care, immunizations, and PhilHealth-accredited programs.
+- [Health Centers](https://www.clinicfinderph.com/health-center): Barangay and community health centers providing preventive care, basic consultations, family planning, and public health programs.
+- [Diagnostic Centers](https://www.clinicfinderph.com/diagnostic): Diagnostic centers offering laboratory tests, imaging services, X-ray, ultrasound, and comprehensive health screenings across the Philippines.
+- [Veterinary Clinics](https://www.clinicfinderph.com/veterinary): Veterinary clinics and animal hospitals providing pet care, vaccinations, surgery, and wellness services across the Philippines.
+- [Government Hospitals](https://www.clinicfinderph.com/government-hospital): Public hospitals including district, provincial, and regional medical centers offering inpatient care, emergency services, and specialized treatments.
+- [Municipal Health Offices](https://www.clinicfinderph.com/municipal-health-office): City and municipal health offices coordinating public health programs, providing primary care consultations, and managing community health initiatives.
+- [Birthing & Lying-In Clinics](https://www.clinicfinderph.com/birthing-clinic): Government birthing facilities and lying-in clinics providing prenatal care, safe delivery services, postnatal care, and newborn screening.
+- [Child Development & Therapy Centers](https://www.clinicfinderph.com/child-development): Centers providing therapy and developmental support for children — ABA therapy, occupational therapy, speech therapy, SPED support, and developmental assessment for autism, ADHD, and developmental delays.
+
+## Top locations
+
+- [Metro Manila](https://www.clinicfinderph.com/locations/metro-manila): 5578 clinics
+- [Cavite](https://www.clinicfinderph.com/locations/cavite): 1804 clinics
+- [Laguna](https://www.clinicfinderph.com/locations/laguna): 1694 clinics
+- [Bulacan](https://www.clinicfinderph.com/locations/bulacan): 1612 clinics
+- [Cebu](https://www.clinicfinderph.com/locations/cebu): 1469 clinics
+- [Rizal](https://www.clinicfinderph.com/locations/rizal): 1211 clinics
+- [Pampanga](https://www.clinicfinderph.com/locations/pampanga): 1104 clinics
+- [Batangas](https://www.clinicfinderph.com/locations/batangas): 1017 clinics
+- [Pangasinan](https://www.clinicfinderph.com/locations/pangasinan): 934 clinics
+- [Davao del Sur](https://www.clinicfinderph.com/locations/davao-del-sur): 888 clinics
+- [Iloilo](https://www.clinicfinderph.com/locations/iloilo): 659 clinics
+- [Negros Occidental](https://www.clinicfinderph.com/locations/negros-occidental): 602 clinics
+- [Zamboanga del Sur](https://www.clinicfinderph.com/locations/zamboanga-del-sur): 411 clinics
+- [Nueva Ecija](https://www.clinicfinderph.com/locations/nueva-ecija): 161 clinics
+- [Quezon](https://www.clinicfinderph.com/locations/quezon): 124 clinics
+- [Benguet](https://www.clinicfinderph.com/locations/benguet): 117 clinics
+- [Isabela](https://www.clinicfinderph.com/locations/isabela): 108 clinics
+- [Cagayan](https://www.clinicfinderph.com/locations/cagayan): 90 clinics
+- [Tarlac](https://www.clinicfinderph.com/locations/tarlac): 87 clinics
+- [Leyte](https://www.clinicfinderph.com/locations/leyte): 80 clinics
+- [Misamis Oriental](https://www.clinicfinderph.com/locations/misamis-oriental): 75 clinics
+- [Zamboanga Sibugay](https://www.clinicfinderph.com/locations/zamboanga-sibugay): 70 clinics
+- [Bohol](https://www.clinicfinderph.com/locations/bohol): 67 clinics
+- [Ilocos Sur](https://www.clinicfinderph.com/locations/ilocos-sur): 67 clinics
+- [South Cotabato](https://www.clinicfinderph.com/locations/south-cotabato): 64 clinics
+
+## Latest from the blog
+
+- [ACE Medical Center Guide 2026: Allied Care Experts Branches, Beds and Contacts](https://www.clinicfinderph.com/blog/ace-medical-center-guide): ACE (Allied Care Experts) is a network of separate doctor-owned hospitals. See 19 PhilHealth-accredited branches with beds, level, city and phone, and how to choose.
+- [Fairview General Hospital Guide 2026: 30-Bed Level 1 Private Hospital in Quezon City](https://www.clinicfinderph.com/blog/fairview-general-hospital-guide): Fairview General Hospital on Mercury St., Fairview, Quezon City: 30-bed Level 1 private hospital. Address, phone, PhilHealth status, how to ask about costs.
+- [Cebu Velez General Hospital Guide 2026: Healthway Rebrand, Services and Costs](https://www.clinicfinderph.com/blog/cebu-velez-general-hospital-guide): Cebu (Velez) General Hospital is a private 200-bed Level 3 hospital on F. Ramos St., Cebu City, now Healthway Cebu Velez. Contacts, PhilHealth, HMO and bill tips.
+- [Our Lady of Lourdes Hospital Guide 2026: Level 3 Private Hospital in Sta. Mesa, Manila](https://www.clinicfinderph.com/blog/our-lady-of-lourdes-hospital-guide): Our Lady of Lourdes Hospital in Sta. Mesa, Manila: Level 3 private hospital, 190 beds. Services, contacts, PhilHealth and HMO, how to book. No price list.
+- [The Premier Medical Center Guide 2026: Level 2 Hospital at Amvel Business Park, Parañaque](https://www.clinicfinderph.com/blog/the-premier-medical-center-guide): The Premier Medical Center in Amvel Business Park, Sucat, Parañaque: private Level 2, 40-bed hospital. Contacts, PhilHealth, HMO lists and how to get a quote.
+- [Adventist Medical Center Iligan Guide 2026: Level 2 Private Hospital on Andres Bonifacio Avenue](https://www.clinicfinderph.com/blog/adventist-medical-center-iligan-guide): Adventist Medical Center Iligan on Andres Bonifacio Ave: 120-bed Level 2 private hospital. Services, ER, PhilHealth, contacts, getting a quote. No price list.
+- [Fatima University Medical Center Rates & Fees 2026: Valenzuela vs Antipolo, Last Published Packages](https://www.clinicfinderph.com/blog/fatima-university-medical-center-rates-fees): FUMC Valenzuela (150 beds, Level 3) vs FUMC Antipolo (100 beds, Level 2): campus comparison, the last published package prices, contacts and PhilHealth.
+- [Providence Hospital Guide 2026: Level 2 Private Hospital on Quezon Avenue, QC](https://www.clinicfinderph.com/blog/providence-hospital-guide): Providence Hospital on Quezon Avenue, Quezon City: 75-bed Level 2 private hospital. Contacts, ER, specialty centers, 26 HMOs, PhilHealth. No published price list.
+- [Cebu North General Hospital Guide 2026: Services, Contacts and Costs](https://www.clinicfinderph.com/blog/cebu-north-general-hospital-guide): Cebu North General Hospital (North Gen) is a private Level 2 hospital in Talamban, Cebu City. Services, contact numbers, PhilHealth and HMO tips. No price list.
+- [Metro Davao Medical and Research Center Guide 2026: Level 2 Private Hospital on J.P. Laurel Ave](https://www.clinicfinderph.com/blog/metro-davao-medical-and-research-center-guide): Metro Davao Medical and Research Center (Metro Hospital) on J.P. Laurel Ave: 135-bed Level 2 private hospital. Services, HMO list, contacts. No published prices.
+- [Mount Grace Hospital Guide 2026: The 23-Hospital Network and Where to Find Each One](https://www.clinicfinderph.com/blog/mount-grace-hospital-guide): Mount Grace is not one hospital but a network of private hospitals. See the 23 member hospitals on its site, with city, level and phone, plus how to book and save.
+- [Brokenshire Medical Center Rates & Fees 2026: Health Packages from ₱830, Services and Contacts](https://www.clinicfinderph.com/blog/brokenshire-medical-center-rates-fees): Brokenshire Medical Center, Davao City: published package prices from ₱830, 200-bed Level 3 private hospital, services, HMO and PhilHealth, ER and contacts.
+- [St. Clare's Medical Center Rates & Fees 2026: Room Rates, ER Fee and HMO List](https://www.clinicfinderph.com/blog/st-clares-medical-center-rates-fees): St. Clare's Medical Center in Makati posts 2026 room rates: wards from ₱2,500, private rooms ₱3,300 to ₱4,800, ICU ₱6,000. Plus HMOs, ER and contacts.
+- [The Medical City Clark Rates & Fees 2026: Room Rates, Packages and Contacts](https://www.clinicfinderph.com/blog/the-medical-city-clark-rates-fees): The Medical City Clark in Clark Freeport, Pampanga posts room rates from ₱1,620.68 and some package prices. See rooms, packages, PhilHealth, HMO and contacts.
+- [Bacolod Adventist Medical Center Rates & Fees 2026: Birthing, Checkup and Package Prices](https://www.clinicfinderph.com/blog/bacolod-adventist-medical-center-rates-fees): Bacolod Adventist Medical Center (BAMC) posts birthing packages from ₱16,949, checkups from ₱500 and executive packages to ₱41,000. See prices, contacts, PhilHealth.
+- [Perpetual Help Medical Center Las Piñas Rates & Fees 2026: Delivery, Lap Chole and Scope Packages](https://www.clinicfinderph.com/blog/perpetual-help-medical-center-las-pinas-rates-fees): Perpetual Help Medical Center Las Piñas package prices: endoscopy from ₱27,000 (Aug 2026), lap chole, and a 2025 delivery package at ₱36,000. No room rates.
+- [San Pedro Hospital Davao Guide 2026: Level 3 Private Hospital on C. Guzman Street](https://www.clinicfinderph.com/blog/san-pedro-hospital-davao-guide): San Pedro Hospital of Davao City on C. Guzman St: Level 3 private hospital, 250 beds, PhilHealth-accredited. Contact details, history, how to cut your bill.
+- [Angeles University Foundation Medical Center (AUFMC) Guide 2026: Level 3 Hospital in Angeles City](https://www.clinicfinderph.com/blog/angeles-university-foundation-medical-center-guide): Angeles University Foundation Medical Center (AUFMC) on MacArthur Highway: 178-bed Level 3 private hospital. Departments, HMO list, contacts. No public price list.
+- [Hospital of the Infant Jesus Guide 2026: Level 3, 140-Bed Private Hospital in Sampaloc, Manila](https://www.clinicfinderph.com/blog/hospital-of-the-infant-jesus-guide): Hospital of the Infant Jesus Medical Center (HIJMC), Sampaloc, Manila: 140-bed Level 3 private hospital. Services, HMOs, ER, contacts and billing tips. No price list.
+- [Polymedic Medical Plaza Guide 2026: Level 2 Private Hospital in Cagayan de Oro](https://www.clinicfinderph.com/blog/polymedic-medical-plaza-guide): Polymedic Medical Plaza (CDO Polymedic Medical Plaza) on Kauswagan Highway: 200-bed Level 2 private hospital. Contacts, PhilHealth, HMO and how to get a quote.
