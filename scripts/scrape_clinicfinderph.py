@@ -19,7 +19,7 @@ for u in urls:
     for m in re.findall(r'<script type="application/ld\+json">(.*?)</script>', h, re.S):
         try: j = json.loads(m)
         except Exception: continue
-        if j.get('@type') in ('MedicalClinic','Hospital','MedicalOrganization','LocalBusiness'):
+        if isinstance(j.get('address'), dict) and j.get('@type') not in ('Organization','WebSite'):  # MedicalClinic, Optician, Dentist... (site mis-types many)
             a = j.get('address', {}); g = j.get('geo', {})
             rec.update(name=j.get('name',''), street=a.get('streetAddress',''), city=a.get('addressLocality',''),
                        province=a.get('addressRegion',''), phone=j.get('telephone',''), lat=g.get('latitude',''), lon=g.get('longitude',''),

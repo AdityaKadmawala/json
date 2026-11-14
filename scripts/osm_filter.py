@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Post-filter data/geo/osm_dialysis_all.csv -> data/geo/osm_dialysis.csv.
+"""Post-filter raw/geo/osm_dialysis_all_unfiltered.csv -> data/geo/osm_dialysis.csv.
 Drops regex false positives (e.g. 'Arenal', 'Renalyn' shops/streets) and classifies rows."""
 import pandas as pd, re
-d = pd.read_csv('data/geo/osm_dialysis_all.csv', dtype=str).fillna('')
+d = pd.read_csv('raw/geo/osm_dialysis_all_unfiltered.csv', dtype=str).fillna('')
 word = re.compile(r'\b(renal|kidneys?|nephro\w*|dialy\w*|dilaysis|hemodialysis|haemodialysis|hemodynamix|kidneyspace|kidneycare|nephrocare|hemo ?lab)\b', re.I)
 def cls(r):
     txt = ' '.join([r['name'], r['operator'], r['brand']])

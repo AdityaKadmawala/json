@@ -1,0 +1,39 @@
+# operator names queried on FDA verification (exact strings sent as q=)
+B. Braun Avitum Philippines
+Fresenius Medical Care Philippines
+FMC Renalcare
+FMC Renal Care
+Nephrocare Health Care Services
+Renal Therapy Solutions
+Hemotek Renal Center
+Avitus Kidney Care
+Avitus Pangasinan
+Avitus Davao
+Clearbridge Medical
+Healthway Philippines
+JL Dialmed
+Totalcare Dialysis
+Prime Dialysis Center
+Premier 101 Healthcare
+Pro Renal Specialist
+Nephro Synergies
+Saint Mary Kidney Care
+St. Theresa Dialysis
+MSR Health Care
+Global Reliance Renalcare
+The Best Renal Care
+Kidneywell Medical
+Nephromed Asia
+EG Healthcare
+Vida Dialysis
+Nursia Dialysis
+Nephrology Center of
+Nephro Specialist of
+One Dialysis Center
+Kidneycare Dialysis Center
+Best Option Medical Group
+North East Dialysis Center
+Jortiz Dialysis
+Royal Care Dialysis
+Medline Dialysis
+Euro-Med Laboratories

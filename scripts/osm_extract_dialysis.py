@@ -2,7 +2,7 @@
 """Extract dialysis-related OSM features from a Philippines .osm.pbf extract.
 Criteria: healthcare=dialysis, healthcare:speciality~dialysis|nephrology, amenity=dialysis,
 or any name/name:*/operator/brand/description matching dialysis|renal|kidney|nephro|hemodialysis.
-usage: osm_extract_dialysis.py PBF OUT_CSV"""
+usage: osm_extract_dialysis.py PBF raw/geo/osm_dialysis_all_unfiltered.csv ACCESS_DATE"""
 import sys, re, csv, osmium
 PAT = re.compile(r'dialys|renal|kidney|nephro|hemodial|haemodial|diálisis', re.I)
 KEYS_NAME = ('name','name:en','official_name','alt_name','old_name','operator','brand','description','short_name')
